@@ -15,7 +15,7 @@ const master = (slide, no, title) => {
 };
 const bullets = (slide, items, opts = {}) => {
   slide.addText(items.map(t => ({ text: t, options: { bullet: true, breakLine: true } })),
-    { x: 0.7, y: 1.45, w: opts.w || 7.4, h: 5.3, fontSize: opts.size || 17, color: INK, lineSpacingMultiple: 1.25 });
+    { x: 0.7, y: opts.y || 1.45, w: opts.w || 11.9, h: opts.h || 5.3, fontSize: opts.size || 17, color: INK, lineSpacingMultiple: 1.25 });
 };
 const statCard = (slide, x, num, lbl, color = TD) => {
   slide.addShape(p.ShapeType.roundRect, { x, y: 1.7, w: 2.9, h: 1.7, fill: { color: "ffffff" }, line: { color: T, width: 1.5 }, rectRadius: 0.1 });
@@ -24,27 +24,36 @@ const statCard = (slide, x, num, lbl, color = TD) => {
 };
 
 // ---- 01 Team ----
-let s = p.addSlide(); master(s, 1, "Team — [TEAM NAME]");
+let s = p.addSlide(); master(s, 1, "Team — Team ShasthoSathi");
 bullets(s, [
   "Rudra Sarker — BSc Industrial & Production Engineering, SUST (2027) · AI/ML builder",
-  "Built & shipped: MindWell (mental-health web app), RippleUp (Android+Desktop), SightlineAI, Team SignTalk — plus this project, already live",
+  "Built & shipped: MindWell (mental-health web app), RippleUp (Android + Desktop), SightlineAI, Team SignTalk — plus this project, already live",
   "Advisor slot: public-health / field-implementation mentor (to be confirmed in Ignition Chamber)",
-  "Contact: [team email] · Solo team (eligible: 1–3 members)",
-], { size: 18 });
-s.addText("Everything demonstrated today is deployed and clickable — not a concept drawing.", { x: 0.7, y: 5.9, w: 11.9, h: 0.6, fontSize: 16, italic: true, color: T });
+  "Team of one (eligible: 1–3 members) · Contact: via the FutureMakers portal",
+], { size: 18, w: 8.6 });
+s.addShape(p.ShapeType.roundRect, { x: 9.5, y: 1.7, w: 3.3, h: 4.6, fill: { color: TD }, rectRadius: 0.12 });
+s.addText("✚", { x: 9.5, y: 2.0, w: 3.3, h: 1.2, fontSize: 60, bold: true, color: "ffffff", align: "center" });
+s.addText("ShasthoSathi", { x: 9.5, y: 3.2, w: 3.3, h: 0.5, fontSize: 20, bold: true, color: "ffffff", align: "center" });
+s.addText("স্বাস্থ্যসাথী", { x: 9.5, y: 3.7, w: 3.3, h: 0.5, fontSize: 18, color: "a7f3d0", align: "center" });
+s.addText([
+  { text: "LIVE →", options: { breakLine: true } },
+  { text: "rudra496.github.io", options: { breakLine: true } },
+  { text: "/shasthosathi" },
+], { x: 9.6, y: 4.4, w: 3.1, h: 1.6, fontSize: 14, color: "ffffff", align: "center" });
+s.addText("Everything demonstrated today is deployed and clickable — not a concept drawing.", { x: 0.7, y: 6.35, w: 11.9, h: 0.6, fontSize: 16, italic: true, color: T });
 
 // ---- 02 Problem ----
 s = p.addSlide(); master(s, 2, "Problem — dengue outruns the first line of care");
 statCard(s, 0.7, "321,179", "hospitalized (2023 — worst ever, DGHS)", AMB);
 statCard(s, 3.8, "1,705", "deaths in 2023 (CFR 0.53%)", AMB);
-statCard(s, 6.9, "41,032", "cases already in 2026 (to 5 Sep, DGHS)", AMB);
+statCard(s, 6.9, "41,032 / 113", "2026 cases/deaths to 5 Sep (DGHS)", AMB);
 statCard(s, 10.0, "16,312", "of them in Dhaka division alone", AMB);
 bullets(s, [
   "Community health workers (CHWs) meet every patient first — with paper, memory, and no AI support",
   "Internet is unreliable where they work → any cloud-only app fails exactly when needed",
   "Outbreak detection lags weeks; resources (test kits, volunteers, beds) are allocated without current division-level evidence",
   "Feature-phone and low-literacy users are excluded by app-first solutions",
-], { y: 3.9, size: 17 });
+], { y: 3.8, size: 16, h: 3.0 });
 
 // ---- 03 Target group ----
 s = p.addSlide(); master(s, 3, "Target group — who we serve, first");
@@ -53,7 +62,7 @@ bullets(s, [
   "PRIMARY BENEFICIARIES — low-income families at first contact: low-literacy users, feature-phone users (SMS mode), elderly patients",
   "INSTITUTIONAL — city corporations, DGHS/IEDCR programme officers, NGOs needing early-warning + prioritization views",
   "Designed WITH the constraint, not against it: voice-first Bangla UX, offline-first architecture, no smartphone required for SMS mode",
-], { size: 19 });
+], { size: 20 });
 
 // ---- 04 Insights/evidence ----
 s = p.addSlide(); master(s, 4, "Evidence — 64 verified papers + live government data");
@@ -63,7 +72,7 @@ bullets(s, [
   "Data spine: DGHS dashboard (2023→2026 YTD, division-level), WHO, IEDCR, BBS Census 2022, Open-Meteo weather — every number traceable, zero synthetic data",
   "Model honesty, in public: R²(log)=0.93 on 2023; live 2026 check shows shape captured (Aug = actual peak), amplitude gap ~2.8× disclosed in-app + Model Card",
   "Automated data-integrity tests: build FAILS if any dataset stops matching its published totals",
-], { size: 17 });
+], { size: 18 });
 
 // ---- 05 Solution ----
 s = p.addSlide(); master(s, 5, "Solution — ShasthoSathi (live today)");
@@ -97,8 +106,8 @@ bullets(s, [
   "3️⃣ Engine answers: “hospital TODAY” + shows which WHO warning signs triggered",
   "4️⃣ One-tap call 999/16263 · follow-up auto-created for tomorrow · case saved on-device",
   "5️⃣ Supervisor dashboard: new ward cases appear in the division map → bulletin drafted → kits/volunteers prioritized",
-  "Feature-phone path: SMS “DENGUE FEVER PAIN” → same reply logic (simulated in-app; gateway-ready)",
-], { size: 17 });
+  "6️⃣ Feature-phone path: SMS “DENGUE FEVER PAIN” → same reply logic (simulated in-app; gateway-ready)",
+], { size: 18 });
 
 // ---- 08 Impact ----
 s = p.addSlide(); master(s, 8, "Expected impact — faster decisions, wider inclusion");
@@ -108,7 +117,7 @@ bullets(s, [
   "System: supervisors allocate from CURRENT division data (2026 live) instead of weeks-old reports",
   "Scalable public good: clinical content + language packs are data files — any dengue-endemic country adopts with two JSON edits",
   "Measurable pilot metrics: triage-to-referral time, warning-sign capture rate, follow-up compliance %, dashboard adoption by supervisors",
-], { size: 17 });
+], { size: 18 });
 
 // ---- 09 Feasibility ----
 s = p.addSlide(); master(s, 9, "Feasibility — it already runs; the hard part is done");
