@@ -85,17 +85,17 @@ bullets(s, [
 s = p.addSlide(); master(s, 6, "Role of AI — meaningful, explainable, responsible");
 const rows = [
   ["AI component", "Input → Output", "Why AI / guardrail"],
-  ["Trained on-device NLP (multinomial NB): free Bangla/Banglish/English text → symptom flags. Held-out micro-F1 0.969, negation rejection 91%, 94.5 KB, ~ms, offline — NegEx-style negation suppression (Chapman 2001)", "voice/text → symptom flags", "runs where ChatGPT cannot: offline, private, free, feature-phone-adjacent"],
+  ["Trained on-device NLP (multinomial NB): free Bangla/Banglish/English → symptom flags. Held-out micro-F1 0.969, negation rejection 91% (NegEx, Chapman 2001). 94.5 KB, ~ms, fully offline", "voice/text → flags", "works where ChatGPT cannot: offline, private, free"],
   ["Bangla speech recognition", "voice → symptom list", "removes literacy barrier"],
   ["Explainable triage engine", "flags → care level + reasons", "WHO rules as auditable code — not a black box"],
   ["SMS NLP", "coded text → same triage", "reaches feature phones"],
   ["Climate-lag ML model", "rain/humidity → risk index", "weather leads cases by weeks; limits disclosed"],
   ["On-device OCR + TTS", "medicine photo → read-aloud", "independent use by low-literacy patients"],
 ];
-s.addTable(rows.map((r, i) => r.map(c => ({ text: c, options: { fontSize: i ? 14 : 15, bold: i === 0, color: i === 0 ? "ffffff" : INK, fill: { color: i === 0 ? TD : "ffffff" } } }))),
-  { x: 0.7, y: 1.5, w: 11.9, colW: [3.2, 4.2, 4.5], border: { pt: 0.5, color: "cbd5e1" }, rowH: 0.55 });
+s.addTable(rows.map((r, i) => r.map(c => ({ text: c, options: { fontSize: i ? 12.5 : 14, bold: i === 0, color: i === 0 ? "ffffff" : INK, fill: { color: i === 0 ? TD : "ffffff" } } }))),
+  { x: 0.7, y: 1.45, w: 11.9, colW: [4.6, 3.4, 3.9], border: { pt: 0.5, color: "cbd5e1" }, rowH: 0.5, autoPage: false });
 s.addText("Responsible-AI position: AI is decision SUPPORT — every screen says “not a doctor” · personal data stays on-device · model limits published in-app (Model Card).",
-  { x: 0.7, y: 5.6, w: 11.9, h: 0.8, fontSize: 15, italic: true, color: TD });
+  { x: 0.7, y: 6.45, w: 11.9, h: 0.55, fontSize: 13, italic: true, color: TD });
 
 // ---- 07 User journey ----
 s = p.addSlide(); master(s, 7, "User journey — 90 seconds in a CHW's day");
