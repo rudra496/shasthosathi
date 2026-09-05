@@ -72,3 +72,28 @@ describe("v2 data integrity (zero-invention guards)", async () => {
     expect(cc.prevention.treatment_key_lines.join(" ")).toMatch(/aspirin|ibuprofen/i);
   });
 });
+
+describe("2026 live data integrity (DGHS dashboard, accessed 2026-09-06)", async () => {
+  const fs = await import("node:fs");
+  const read = (p) => JSON.parse(fs.readFileSync(new URL(p, import.meta.url), "utf-8"));
+  it("monthly 2026 sums EXACTLY to the dashboard YTD (41,032 / 113)", () => {
+    const d = read("../app/data/dengue_2026_ytd.json");
+    expect(d.monthly_cases.reduce((s, [, v]) => s + v, 0)).toBe(d.kpi.cases);
+    expect(d.monthly_deaths.reduce((s, [, v]) => s + v, 0)).toBe(d.kpi.deaths);
+    expect(d.kpi.cases).toBe(41032);
+    expect(d.kpi.deaths).toBe(113);
+  });
+  it("division rows sum to YTD and DNCC+DSCC+Dhaka-out aggregation is exact", () => {
+    const d = read("../app/data/dengue_2026_ytd.json");
+    const div = d.division_2026;
+    expect(Object.values(div.cases).reduce((a, b) => a + b, 0)).toBe(d.kpi.cases);
+    expect(Object.values(div.deaths).reduce((a, b) => a + b, 0)).toBe(d.kpi.deaths);
+    const raw = div.cases_raw;
+    expect(raw["DNCC"] + raw["DSCC"] + raw["Dhaka(Out of CC)"]).toBe(div.cases["Dhaka"]);
+  });
+  it("carries access-date provenance", () => {
+    const d = read("../app/data/dengue_2026_ytd.json");
+    expect(d.source).toContain("05-Sep-2026");
+    expect(d.kpi.as_of).toBe("05-Sep-2026");
+  });
+});

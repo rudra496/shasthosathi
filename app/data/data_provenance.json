@@ -49,6 +49,11 @@
    "source": "Venue-filtered OpenAlex harvest (11 target venues resolved via sources API); 274 Crossref-verified candidates; 15-paper curated spotlight",
    "quartiles": "SJR quartiles verified via SCImago pages/snippets 2026-09-06; TRSTMH honestly listed Q2",
    "revalidation": "64/64 dossier DOIs re-verified against Crossref 2026-09-06 (research/revalidation_report.json)"
+  },
+  "dengue_2026_ytd": {
+   "source": "DGHS HEOC Dengue Dashboard (dashboard.dghs.gov.bd), \"Last Updated: 05-Sep-2026\" — read from the JS-rendered page via browser on 2026-09-06 (curl cannot render it)",
+   "integrity": "monthly cases sum EXACTLY to 41,032; monthly deaths to 113; division rows (DNCC+DSCC aggregated into Dhaka) also sum exactly; all asserted in build script and tests",
+   "note": "September 2026 is PARTIAL (through 5 Sep): 5,186 cases / 16 deaths"
   }
  },
  "disclosed_gaps": [

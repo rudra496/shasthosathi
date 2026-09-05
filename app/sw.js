@@ -1,5 +1,5 @@
 // ShasthoSathi service worker — offline-first app shell + data.
-const CACHE = "shasthosathi-v3";
+const CACHE = "shasthosathi-v4";
 const ASSETS = [
   "./", "./index.html", "./triage.html", "./register.html", "./followups.html",
   "./maternal.html", "./reader.html", "./camp.html", "./sms.html", "./learn.html", "./dashboard/index.html",
@@ -12,7 +12,7 @@ const ASSETS = [
   "./data/dengue_monthly_2023.json", "./data/dengue_annual.json",
   "./data/weather_dhaka_monthly.json", "./data/forecast.json",
   "./data/division_population.json", "./data/clinical_content.json",
-  "./data/divisions.geojson", "./data/dengue_decade_2014_2023.json", "./data/hotlines.json",
+  "./data/divisions.geojson", "./data/dengue_decade_2014_2023.json", "./data/hotlines.json", "./data/dengue_2026_ytd.json",
 ];
 
 self.addEventListener("install", (e) => {

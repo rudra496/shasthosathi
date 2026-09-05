@@ -13,6 +13,7 @@ const annual = await (await fetch("../data/dengue_annual.json")).json();
 const fc = await (await fetch("../data/forecast.json")).json();
 const pops = await (await fetch("../data/division_population.json")).json();
 const decade = await (await fetch("../data/dengue_decade_2014_2023.json")).json();
+const y26 = await (await fetch("../data/dengue_2026_ytd.json")).json();
 const { riskIndex, toCSV } = await import("./risk.js");
 
 // ---------- KPIs ----------
@@ -21,7 +22,11 @@ el("kpis").innerHTML = [2023, 2024, 2025].map((y) => `
   <div class="card kpi">
     <div class="num">${fmt(yr[y].cases)}</div>
     <div class="lbl">${t("kpi_" + (y === 2023 ? "2023" : y), lang)} · ${fmt(yr[y].deaths)} ${lang === "bn" ? "মৃত্যু" : "deaths"}</div>
-  </div>`).join("");
+  </div>`).join("") + `
+  <div class="card kpi">
+    <div class="num">${fmt(y26.kpi.cases)}</div>
+    <div class="lbl">${lang === "bn" ? "২০২৬ (৫ সেপ্টেম্বর পর্যন্ত)" : "2026 YTD (to Sep 5)"} · ${fmt(y26.kpi.deaths)} ${lang === "bn" ? "মৃত্যু" : "deaths"}</div>
+  </div>`;
 
 // ---------- decade chart (peer-reviewed series 2014-2023) ----------
 {
@@ -113,11 +118,29 @@ el("outlookNote").innerHTML =
     ? `সূচি ০–১০০ (সর্বোচ্চ মাস = ১০০)। এটি জলবায়ু-ভিত্তিক <b>আপেক্ষিক ঝুঁকির আকৃতি</b>, পরম কেস-পূর্বাভাস নয় — কারণ মডেল মহামারি-বার্নআউট ধরতে পারে না (২০২৪: ${fmt(fc.out_of_sample_annual_checks[0].ratio_model_over_actual)}×, ২০২৫: ${fmt(fc.out_of_sample_annual_checks[1].ratio_model_over_actual)}× অতিরিক্ত অনুমান — সীমাবদ্ধতা দেখুন)।`
     : `Index 0–100 (peak month = 100). This is a climate-driven <b>relative risk shape</b>, not an absolute case forecast — the model cannot capture epidemic burn-out (annual overshoot 2024: ${fc.out_of_sample_annual_checks[0].ratio_model_over_actual}×, 2025: ${fc.out_of_sample_annual_checks[1].ratio_model_over_actual}× — see limitations).`);
 
+// ---------- 2026 season: model vs ACTUAL (live DGHS data) ----------
+{
+  const pred = Object.fromEntries(fc.projection_2026.months.map((m) => [m.month, m.predicted_cases]));
+  const act = Object.fromEntries(y26.monthly_cases.map(([m, v]) => [m, v]));
+  const completeMonths = Object.keys(act).filter((m) => m < "2026-09"); // Sep is partial (to Sep 5)
+  const rows = completeMonths.map((m) => ({ label: m.slice(5), a: act[m], b: pred[m] || 0 }));
+  const maxV = Math.max(...rows.flatMap((r) => [r.a, r.b])) * 1.05;
+  el("chart2026cmp").innerHTML = bars(rows, "bar-a", "bar-b", maxV);
+  // amplitude ratio over complete monsoon months (May-Aug), Sep excluded (partial)
+  const ratios = ["2026-05", "2026-06", "2026-07", "2026-08"]
+    .map((m) => pred[m] / act[m]).filter(Number.isFinite);
+  const med = ratios.sort((x, y) => x - y)[Math.floor(ratios.length / 2)];
+  el("cmpNote").innerHTML = (lang === "bn"
+    ? `নীল = বাস্তব (DGHS, ৫ সেপ্টেম্বর পর্যন্ত), হলুদ = মডেলের পূর্বাভাস। মডেল <b>মৌসুমের সময়-রূপ</b> ধরতে পেরেছে (আগস্টই শিখর — আবহাওয়া থেকেই), কিন্তু প্রাবল্য মাত্রাতিরিক্ত (মে–আগস্ট মিডিয়ান ${bnNum(Math.round(med * 100))}%); সেপ্টেম্বর আংশিক (৫ দিন) — তাই তুলনার বাইরে। কারণ জানা: মডেলে কেস-ফিডব্যাক নেই (সীমাবদ্ধতা দেখুন) — এটিই ফিল্ড ডিপ্লয়মেন্টে সংশোধনের প্রথম কাজ।`
+    : `Teal = ACTUAL (DGHS, through Sep 5), amber = model prediction. The model captures the <b>seasonal shape</b> from weather alone (August is the actual peak), but over-predicts amplitude (May–Aug median ${Math.round(med * 100)}%); September is partial (5 days) and excluded. Known cause: no case-feedback term (see limitations) — the first fix for field deployment.`);
+}
+
 // ---------- map: population-share choropleth ----------
 const prio = Object.fromEntries(fc.division_priority_demo.map((d) => [d.division, d.demo_priority_index]));
 // geoBoundaries names -> our census names
 const NAME_MAP = { "Chittagong": "Chattogram", "Rajshani": "Rajshahi", "Barisal": "Barishal" };
-const color = (v) => v > 20 ? "#134e4a" : v > 15 ? "#0f766e" : v > 10 ? "#14b8a6" : v > 7 ? "#5eead4" : "#ccfbf1";
+const divCases = y26.division_2026.cases, divDeaths = y26.division_2026.deaths;
+const color = (v) => v > 8000 ? "#134e4a" : v > 4000 ? "#0f766e" : v > 2000 ? "#14b8a6" : v > 1000 ? "#5eead4" : "#ccfbf1";
 const map = L.map("map").setView([23.7, 90.3], 6.4);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
   { attribution: "© OpenStreetMap contributors" }).addTo(map);
@@ -125,18 +148,17 @@ const geo = await (await fetch("../data/divisions.geojson")).json();
 L.geoJSON(geo, {
   style: (f) => {
     const name = NAME_MAP[f.properties.shapeName] || f.properties.shapeName;
-    const v = prio[name] ?? 0;
-    return { fillColor: color(v), fillOpacity: 0.75, color: "#0f766e", weight: 1 };
+    return { fillColor: color(divCases[name] ?? 0), fillOpacity: 0.78, color: "#0f766e", weight: 1 };
   },
   onEachFeature: (f, layer) => {
     const name = NAME_MAP[f.properties.shapeName] || f.properties.shapeName;
     const pop = pops.divisions[name];
-    layer.bindPopup(`<b>${name}</b><br>${lang === "bn" ? "জনসংখ্যা" : "Population"}: ${fmt(pop)}<br>${lang === "bn" ? "অগ্রাধিকার সূচি" : "Priority index"}: ${prio[name] ?? 0}/100`);
+    layer.bindPopup(`<b>${name}</b><br>${lang === "bn" ? "২০২৬ কেস (৫ সেপ্টে পর্যন্ত)" : "2026 cases (to Sep 5)"}: <b>${fmt(divCases[name] ?? 0)}</b><br>${lang === "bn" ? "মৃত্যু" : "deaths"}: ${fmt(divDeaths[name] ?? 0)}<br>${lang === "bn" ? "জনসংখ্যা" : "Population"}: ${fmt(pop)}`);
   },
 }).addTo(map);
-el("legend").innerHTML = [5, 10, 15, 22].map((v) =>
-  `<span><span class="swatch" style="background:${color(v)}"></span> ${v}${lang === "bn" ? "+" : "+"}</span>`).join("")
-  + `<span class="small">— ${lang === "bn" ? "জনসংখ্যার অনুপাতে অগ্রাধিকার (ডেমো)" : "population-share priority (demo)"}</span>`;
+el("legend").innerHTML = [1000, 2000, 4000, 8001].map((v) =>
+  `<span><span class="swatch" style="background:${color(v)}"></span> ${v === 8001 ? "৮,০০০+" : bnNum(v) + "+"}</span>`).join("")
+  + `<span class="small">— ${lang === "bn" ? "বাস্তব ২০২৬ কেস/বিভাগ (DGHS, ৫ সেপ্টেম্বর)" : "real 2026 cases/division (DGHS, Sep 5)"}</span>`;
 
 // ---------- bulletin ----------
 const sel = el("bulletinMonth");

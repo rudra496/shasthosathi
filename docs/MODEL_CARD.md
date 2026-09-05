@@ -12,6 +12,12 @@
 | **Cross-validation** | Leave-one-month-out: MAE(log₁₀) = 0.354; MAE(cases) ≈ 26,912 (dominated by the 3 peak months — heavy right tail) |
 | **Coefficients (fitted)** | b0 = 1.6141 · b1 (rain lag-1) = 0.0040 · b2 (rain lag-2) = 0.0053 · b3 (RH lag-1) = 0.0095 |
 
+## Live out-of-sample validation (2026 season, added 2026-09-06)
+The model's 2026 projection is now compared against **real current-year data** from the DGHS dashboard (41,032 cases / 113 deaths as of 05-Sep-2026; monthly and division rows sum exactly to YTD):
+- **Seasonal shape: captured.** August is the actual 2026 peak month (20,536 cases) — the model, using only lagged rainfall/humidity, also places the peak in the Aug–Sep window.
+- **Amplitude: over-predicted (disclosed).** Complete-month median predicted/actual ratio (May–Aug) ≈ 2.8×. September is partial (5 days) and excluded from ratios.
+- Interpretation: weather-only lags anticipate *timing* but not *magnitude* without case-feedback — quantified here on live data, and the first fix listed for field deployment.
+
 ## Intended use
 - A **relative seasonal-risk indicator** (index 0–100, reference = typical monsoon month) and a **what-if teaching tool** for supervisors to see how lagged rainfall/humidity shift risk.
 - Demonstration of a complete, reproducible climate→dengue pipeline built only on verifiable data.

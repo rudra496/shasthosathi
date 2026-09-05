@@ -1,0 +1,119 @@
+{
+ "source": "DGHS Health Emergency Operation Center Dengue Dashboard (dashboard.dghs.gov.bd/pages/heoc_dengue_v1.php) — 'Last Updated: 05-Sep-2026'. JS-rendered page read via browser on 2026-09-06 (curl cannot render it). September is PARTIAL (through 5 Sep; W35: 7,446 cases / 23 deaths in last week).",
+ "kpi": {
+  "cases": 41032,
+  "deaths": 113,
+  "as_of": "05-Sep-2026"
+ },
+ "monthly_cases": [
+  [
+   "2026-01",
+   1081
+  ],
+  [
+   "2026-02",
+   409
+  ],
+  [
+   "2026-03",
+   353
+  ],
+  [
+   "2026-04",
+   640
+  ],
+  [
+   "2026-05",
+   714
+  ],
+  [
+   "2026-06",
+   2907
+  ],
+  [
+   "2026-07",
+   9206
+  ],
+  [
+   "2026-08",
+   20536
+  ],
+  [
+   "2026-09",
+   5186
+  ]
+ ],
+ "monthly_deaths": [
+  [
+   "2026-01",
+   2
+  ],
+  [
+   "2026-02",
+   2
+  ],
+  [
+   "2026-03",
+   0
+  ],
+  [
+   "2026-04",
+   0
+  ],
+  [
+   "2026-05",
+   1
+  ],
+  [
+   "2026-06",
+   13
+  ],
+  [
+   "2026-07",
+   36
+  ],
+  [
+   "2026-08",
+   43
+  ],
+  [
+   "2026-09",
+   16
+  ]
+ ],
+ "division_2026": {
+  "source_note": "City corporations DNCC + DSCC are geographically inside Dhaka division; aggregated here so division rows sum to the national YTD (verified below).",
+  "cases": {
+   "Dhaka": 16312,
+   "Khulna": 6487,
+   "Barishal": 6379,
+   "Chattogram": 6178,
+   "Mymensingh": 2257,
+   "Rajshahi": 2230,
+   "Rangpur": 1005,
+   "Sylhet": 184
+  },
+  "cases_raw": {
+   "Dhaka(Out of CC)": 6017,
+   "DNCC": 4895,
+   "DSCC": 5400,
+   "Barishal": 6379,
+   "Chattogram": 6178,
+   "Khulna": 6487,
+   "Mymensingh": 2257,
+   "Rajshahi": 2230,
+   "Rangpur": 1005,
+   "Sylhet": 184
+  },
+  "deaths": {
+   "Dhaka": 58,
+   "Khulna": 19,
+   "Barishal": 10,
+   "Chattogram": 8,
+   "Mymensingh": 12,
+   "Rajshahi": 4,
+   "Rangpur": 1,
+   "Sylhet": 1
+  }
+ }
+}
