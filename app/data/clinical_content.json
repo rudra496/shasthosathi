@@ -74,5 +74,26 @@
     "age": "15-18 months"
    }
   ]
+ },
+ "prevention": {
+  "source": "WHO dengue fact sheet (who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue), fetched 2026-09-06; lists quoted verbatim from the sheet.",
+  "bite_protection": [
+   "clothes covering the body",
+   "nets (repellent-sprayed) for day sleeping",
+   "window screens",
+   "repellents (DEET, Picaridin, IR3535)",
+   "coils and vaporizers"
+  ],
+  "breeding_prevention": [
+   "dispose solid waste properly; remove water-holding artifacts",
+   "cover, empty and clean water-storage containers weekly",
+   "appropriate insecticides for outdoor water containers"
+  ],
+  "treatment_key_lines": [
+   "no specific treatment; paracetamol for pain",
+   "AVOID ibuprofen/aspirin (bleeding risk)",
+   "rest + plenty of liquids; contact doctor if severe symptoms",
+   "severe dengue often needs hospitalization"
+  ]
  }
 }

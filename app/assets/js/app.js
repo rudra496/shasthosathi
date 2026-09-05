@@ -25,6 +25,7 @@ export function header(active) {
     ["followups.html", "followups"],
     ["maternal.html", "maternal"],
     ["reader.html", "reader"],
+    ["camp.html", "camp"],
     ["learn.html", "learn"],
     ["dashboard/index.html", "dashboard"],
   ];

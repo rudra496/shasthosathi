@@ -18,9 +18,32 @@
   <div class="grid3" id="kpis"></div>
 
   <div class="card">
+    <b data-i18n="nowcast">ঢাকার আবহাওয়া (সর্বশেষ পর্যবেক্ষণ)</b>
+    <div id="nowcast" class="grid3" style="margin-top:0.5rem"></div>
+    <p class="small" id="nowcastNote" data-i18n="nowcast_note">Open-Meteo লাইভ; নেট না থাকলে শেষ ক্যাশ দেখাবে।</p>
+  </div>
+
+  <div class="card">
+    <b>২০১৪–২০২৩ দশক-দৃশ্য / Decade view (peer-reviewed series)</b>
+    <div class="chart" id="chartDecade"></div>
+    <p class="small">Hossain et al. 2025 (doi:10.1002/hsr2.70852), Tables 1–2. Ten-year totals: <b>535,970 cases / 2,300 deaths</b> (sums verified in tests).</p>
+  </div>
+
+  <div class="card">
     <b data-i18n="chart_2023">মাসভিত্তিক ডেঙ্গু ২০২৩ (প্রকৃত বনাম মডেল)</b>
     <div class="chart" id="chart2023"></div>
     <p class="small" id="modelInfo"></p>
+  </div>
+
+  <div class="card">
+    <b data-i18n="riskcalc">ঝুঁকি ক্যালকুলেটর (কী-হলে-কী)</b>
+    <p class="small" data-i18n="riskcalc_note">মডেলের সহগ দিয়ে আপেক্ষিক ঝুঁকি (গড় বর্ষণ মাস = ১০০-এর স্কেলে রেফারেন্স)। শেখার টুল — পূর্বাভাস নয়।</p>
+    <div class="grid3">
+      <div><label data-i18n="rain_lag1">গত মাসের বৃষ্টি (মিমি)</label><input type="range" id="rcR1" min="0" max="900" value="300"><span id="rcR1v" class="small"></span></div>
+      <div><label data-i18n="rain_lag2">তার আগের মাসের বৃষ্টি (মিমি)</label><input type="range" id="rcR2" min="0" max="900" value="300"><span id="rcR2v" class="small"></span></div>
+      <div><label data-i18n="rh_lag1">গত মাসের আর্দ্রতা (%)</label><input type="range" id="rcH1" min="40" max="100" value="80"><span id="rcH1v" class="small"></span></div>
+    </div>
+    <div class="kpi"><div class="num" id="rcOut">—</div><div class="lbl" data-i18n="risk_index">আপেক্ষিক ঝুঁকি সূচি</div></div>
   </div>
 
   <div class="card">
@@ -41,6 +64,7 @@
     <select id="bulletinMonth"></select>
     <button id="genB" data-i18n="gen_bulletin">বুলেটিন লিখুন</button>
     <button id="copyB" class="secondary" data-i18n="copy">কপি</button>
+    <button id="printB" class="secondary" data-i18n="print">🖨 প্রিন্ট/PDF</button>
     <textarea id="bulletinOut" rows="8" style="margin-top:0.6rem"></textarea>
   </div>
 

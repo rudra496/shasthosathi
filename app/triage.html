@@ -51,7 +51,7 @@
 <script type="module">
 import { initShell, el } from "./assets/js/app.js";
 import { triage, parseTranscript } from "./assets/js/engine.js";
-import { listen, speechSupported } from "./assets/js/voice.js";
+import { listen, speechSupported, speak } from "./assets/js/voice.js";
 import { settings } from "./assets/js/store.js";
 import { t } from "./assets/js/i18n.js";
 import { add } from "./assets/js/store.js";
@@ -119,7 +119,19 @@ el("checkBtn").onclick = () => {
       ${r.notes.map((n) => `<div class="note">• ${noteMap[n] || n}</div>`).join("")}
       <p class="small">${t("disclaimer", lang)}</p>
       <button id="saveBtn">${t("save_result", lang)}</button>
+      <button id="speakBtn" class="secondary">${t("speak", lang)}</button>
+      <div class="note" id="hotlineBox"></div>
     </div>`;
+  // read the result aloud (low-literacy support; device TTS, offline)
+  el("speakBtn").onclick = () => {
+    const txt = t(r.levelLabel, lang) + ". " + r.advice.map((a) => t(a, lang)).join(". ");
+    speak(txt, lang === "bn" ? "bn-BD" : "en-US");
+  };
+  // verified national hotlines (tel: links) — most valuable in REFER/EMERGENCY
+  fetch("./data/hotlines.json").then((res) => res.json()).then((h) => {
+    el("hotlineBox").innerHTML = `<b>${t("hotlines", lang)}:</b><br>` +
+      h.lines.map((l) => `<a href="tel:${l.number}" style="font-weight:800">${t("call", lang)} ${l.number}</a> — ${l[lang] || l.en}`).join("<br>");
+  }).catch(() => {});
   el("saveBtn").onclick = async () => {
     await add("triages", { ...input, level: r.level, at: new Date().toISOString() });
     if (r.level === "EMERGENCY" || r.level === "REFER" || r.level === "POSSIBLE") {

@@ -12,6 +12,8 @@ const monthly = await (await fetch("../data/dengue_monthly_2023.json")).json();
 const annual = await (await fetch("../data/dengue_annual.json")).json();
 const fc = await (await fetch("../data/forecast.json")).json();
 const pops = await (await fetch("../data/division_population.json")).json();
+const decade = await (await fetch("../data/dengue_decade_2014_2023.json")).json();
+const { riskIndex, toCSV } = await import("./risk.js");
 
 // ---------- KPIs ----------
 const yr = Object.fromEntries(annual.years.map((r) => [r.year, r]));
@@ -20,6 +22,58 @@ el("kpis").innerHTML = [2023, 2024, 2025].map((y) => `
     <div class="num">${fmt(yr[y].cases)}</div>
     <div class="lbl">${t("kpi_" + (y === 2023 ? "2023" : y), lang)} · ${fmt(yr[y].deaths)} ${lang === "bn" ? "মৃত্যু" : "deaths"}</div>
   </div>`).join("");
+
+// ---------- decade chart (peer-reviewed series 2014-2023) ----------
+{
+  const dc = decade.cases.map(([y, v]) => ({ label: y.slice(2), a: v, b: null }));
+  el("chartDecade").innerHTML = bars(dc, "bar-a", "bar-a", 321179 * 1.05);
+  const dsum = decade.cases.reduce((s, [, v]) => s + v, 0);
+  const dsumD = decade.deaths.reduce((s, [, v]) => s + v, 0);
+  console.assert(dsum === 535970 && dsumD === 2300, "decade sums must match the paper");
+}
+
+// ---------- weather nowcast (live Open-Meteo; offline shows last cache) ----------
+(async () => {
+  const box = el("nowcast");
+  const CARD = (v, lbl) => `<div class="kpi"><div class="num">${v}</div><div class="lbl">${lbl}</div></div>`;
+  try {
+    const u = "https://api.open-meteo.com/v1/forecast?latitude=23.8103&longitude=90.4125" +
+      "&current=temperature_2m,relative_humidity_2m,precipitation&timezone=Asia%2FDhaka";
+    const d = await (await fetch(u)).json();
+    const c = d.current;
+    localStorage.setItem("ss_nowcast", JSON.stringify({ ...c, at: new Date().toISOString() }));
+    box.innerHTML = CARD(bnNum(c.temperature_2m) + "°C", lang === "bn" ? "তাপমাত্রা" : "Temperature") +
+      CARD(bnNum(c.relative_humidity_2m) + "%", lang === "bn" ? "আর্দ্রতা" : "Humidity") +
+      CARD(bnNum(c.precipitation) + " mm", lang === "bn" ? "বৃষ্টি (এখন)" : "Rain (now)");
+  } catch {
+    const cached = localStorage.getItem("ss_nowcast");
+    if (cached) {
+      const c = JSON.parse(cached);
+      box.innerHTML = CARD(bnNum(c.temperature_2m) + "°C", lang === "bn" ? "তাপমাত্রা" : "Temperature") +
+        CARD(bnNum(c.relative_humidity_2m) + "%", lang === "bn" ? "আর্দ্রতা" : "Humidity") +
+        CARD(bnNum(c.precipitation) + " mm", lang === "bn" ? "বৃষ্টি" : "Rain") +
+        `<p class="small">${t("nowcast_off", lang)} · ${c.at.slice(0, 16).replace("T", " ")}</p>`;
+    } else {
+      box.innerHTML = `<p class="small">${t("nowcast_off", lang)}</p>`;
+    }
+  }
+})();
+
+// ---------- risk calculator (what-if, trained coefficients only) ----------
+{
+  const R = (id) => Number(el(id).value);
+  const ref = { rain_lag1: 300, rain_lag2: 300, rh_lag1: 80 }; // typical monsoon month = reference 100
+  const upd = () => {
+    el("rcR1v").textContent = bnNum(R("rcR1")) + " mm";
+    el("rcR2v").textContent = bnNum(R("rcR2")) + " mm";
+    el("rcH1v").textContent = bnNum(R("rcH1")) + " %";
+    const idx = riskIndex(fc.model.coefficients,
+      { rain_lag1: R("rcR1"), rain_lag2: R("rcR2"), rh_lag1: R("rcH1") }, ref);
+    el("rcOut").textContent = bnNum(idx) + " / 100";
+  };
+  ["rcR1", "rcR2", "rcH1"].forEach((id) => el(id).addEventListener("input", upd));
+  upd();
+}
 
 // ---------- 2023 chart: actual vs model ----------
 function bars(items, clsA, clsB, maxV) {
@@ -118,6 +172,7 @@ el("genB").onclick = () => {
       : "5) Recommended actions: warning-sign awareness drive, larval-source reduction, allocate test kits.\n— ShasthoSathi (auto-draft; to be verified by supervisor)");
 };
 el("copyB").onclick = () => navigator.clipboard.writeText(el("bulletinOut").value);
+el("printB").onclick = () => window.print();
 
 // ---------- limitations ----------
 el("lims").innerHTML = fc.limitations.map((l) => `<li>${l}</li>`).join("");

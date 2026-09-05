@@ -86,6 +86,25 @@ export const STRINGS = {
     bulletin: "সাপ্তাহিক বুলেটিন তৈরি করুন", gen_bulletin: "বুলেটিন লিখুন", copy: "কপি",
     model_info: "মডেল তথ্য", source_note: "সব সংখ্যার উৎস সংযুক্ত — কোনো কৃত্রিম ডেটা নেই।",
     limitations: "সীমাবদ্ধতা (সৎ থাকাটা জরুরি)",
+    // camp mode
+    camp: "ক্যাম্প স্ক্রিনিং", camp_intro: "অনেক জনের দ্রুত স্ক্রিনিং — ফলাফল টেবিলে জমা হবে",
+    camp_name_ph: "নাম/নম্বর", camp_add: "স্ক্রিন করুন → তালিকায়", camp_clear: "তালিকা মুছুন",
+    camp_export: "CSV ডাউনলোড", camp_empty: "এখনো কেউ নেই।", camp_count: "স্ক্রিনড",
+    // hotlines
+    hotlines: "জরুরি যোগাযোগ", call: "📞 কল",
+    // weather nowcast
+    nowcast: "ঢাকার আবহাওয়া (সর্বশেষ পর্যবেক্ষণ)", nowcast_note: "Open-Meteo লাইভ; নেট না থাকলে শেষ ক্যাশ দেখাবে।",
+    nowcast_off: "অফলাইন — শেষ ক্যাশ করা মান",
+    // risk calculator
+    riskcalc: "ঝুঁকি ক্যালকুলেটর (কী-হলে-কী)", riskcalc_note: "মডেলের সহগ দিয়ে আপেক্ষিক ঝুঁকি (গড় বর্ষণ মাস = ১০০-এর স্কেলে রেফারেন্স)। শেখার টুল — পূর্বাভাস নয়।",
+    rain_lag1: "গত মাসের বৃষ্টি (মিমি)", rain_lag2: "তার আগের মাসের বৃষ্টি (মিমি)", rh_lag1: "গত মাসের আর্দ্রতা (%)",
+    risk_index: "আপেক্ষিক ঝুঁকি সূচি",
+    // print + version
+    print: "🖨 প্রিন্ট/PDF", version: "সংস্করণ",
+    // quiz additions
+    q5: "ডেঙ্গুর মশা কখন কামড়ায়?", q5_opt: ["শুধু রাতে", "দিনের বেলা", "শুধু ভোরে", "শীতে"],
+    q6: "মশা বংশবিস্তার ঠেকাতে কী করবেন?",
+    q6_opt: ["ফ্রিজ বন্ধ রাখা", "পানি জমা পাত্র সপ্তাহে খালি-ঘষা", "পাখির বাসা", "জানালা খোলা রাখা"],
   },
   en: {
     app_name: "ShasthoSathi",
@@ -166,6 +185,19 @@ export const STRINGS = {
     bulletin: "Generate weekly bulletin", gen_bulletin: "Write bulletin", copy: "Copy",
     model_info: "Model info", source_note: "Every number is sourced — no synthetic data.",
     limitations: "Limitations (honesty matters)",
+    camp: "Camp screening", camp_intro: "Rapid screening for many people — results collect in a table",
+    camp_name_ph: "Name/ID", camp_add: "Screen → add to list", camp_clear: "Clear list",
+    camp_export: "Download CSV", camp_empty: "No one yet.", camp_count: "Screened",
+    hotlines: "Emergency contacts", call: "📞 Call",
+    nowcast: "Latest observed weather (Dhaka)", nowcast_note: "Live from Open-Meteo; shows last cached value when offline.",
+    nowcast_off: "Offline — last cached values",
+    riskcalc: "Risk calculator (what-if)", riskcalc_note: "Relative risk from the trained model's coefficients (reference: a typical monsoon month = 100). A teaching tool — not a forecast.",
+    rain_lag1: "Last month's rainfall (mm)", rain_lag2: "Month before's rainfall (mm)", rh_lag1: "Last month's humidity (%)",
+    risk_index: "Relative risk index",
+    print: "🖨 Print/PDF", version: "Version",
+    q5: "When does the dengue mosquito bite?", q5_opt: ["Only at night", "During the day", "Only at dawn", "In winter"],
+    q6: "How do you stop mosquitoes breeding?",
+    q6_opt: ["Keep the fridge off", "Empty & scrub water containers weekly", "Remove bird nests", "Keep windows open"],
   },
 };
 

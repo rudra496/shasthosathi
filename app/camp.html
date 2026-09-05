@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ক্যাম্প স্ক্রিনিং — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="camp">ক্যাম্প স্ক্রিনিং</h1>
+  <p class="small" data-i18n="camp_intro">অনেক জনের দ্রুত স্ক্রিনিং — ফলাফল টেবিলে জমা হবে</p>
+
+  <div class="card">
+    <div class="grid3">
+      <div><label data-i18n="camp_name_ph">নাম/নম্বর</label><input type="text" id="cName" placeholder="P-001"></div>
+      <div><label data-i18n="fever_days">জ্বর কত দিন?</label><input type="number" id="cFever" min="0" max="30" value="0"></div>
+      <div><label data-i18n="age_group">বয়স</label>
+        <select id="cAge"><option value="child" data-i18n="age_child">৫ বছরের কম</option><option value="adult" selected data-i18n="age_adult">৫–৬৪</option><option value="elder" data-i18n="age_elder">৬৫+</option></select></div>
+    </div>
+    <label>উপসর্গ / Symptoms</label>
+    <div class="symgrid" id="cSyms"></div>
+    <button id="cAdd" data-i18n="camp_add">স্ক্রিন করুন → তালিকায়</button>
+    <button class="secondary" id="cClear" data-i18n="camp_clear">তালিকা মুছুন</button>
+    <button class="secondary" id="cCsv" data-i18n="camp_export">CSV ডাউনলোড</button>
+    <span class="small"><b data-i18n="camp_count">স্ক্রিনড</b>: <span id="cCount">0</span></span>
+  </div>
+  <div class="card"><div id="cTable"><p class="small" data-i18n="camp_empty">এখনো কেউ নেই।</p></div></div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { triage } from "./assets/js/engine.js";
+import { toCSV } from "./assets/js/risk.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("camp");
+const lang = settings.lang || "bn";
+const SYMS = ["fever", "headache", "muscle", "nausea", "rash", "severe_abdominal",
+  "persistent_vomiting", "bleeding", "lethargy", "shock", "breathing"];
+const grid = el("cSyms");
+for (const k of SYMS) {
+  const lab = document.createElement("label");
+  lab.className = "sym";
+  lab.innerHTML = `<input type="checkbox" id="cs_${k}"><span>${t("symptom_" + k, lang)}</span>`;
+  grid.appendChild(lab);
+}
+const LEVEL_CLASS = { EMERGENCY: "result EMERGENCY", REFER: "result REFER", POSSIBLE: "result POSSIBLE", EARLY: "result EARLY", GENERAL: "result GENERAL" };
+const rows = [];
+
+el("cAdd").onclick = () => {
+  const symptoms = SYMS.filter((k) => el("cs_" + k).checked);
+  const feverDays = Number(el("cFever").value) || 0;
+  const r = triage({ symptoms, feverDays, ageGroup: el("cAge").value });
+  rows.push({
+    id: el("cName").value.trim() || "P-" + String(rows.length + 1).padStart(3, "0"),
+    fever_days: feverDays, level: r.level,
+    advice: t(r.levelLabel, lang), triggers: r.triggers.join("; "),
+    time: new Date().toISOString().slice(11, 19),
+  });
+  render();
+  el("cName").value = "";
+  el("cFever").value = 0;
+  for (const k of SYMS) el("cs_" + k).checked = false;
+};
+el("cClear").onclick = () => { rows.length = 0; render(); };
+el("cCsv").onclick = () => {
+  const blob = new Blob(["\uFEFF" + toCSV(rows)], { type: "text/csv;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "shasthosathi-camp-" + new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-") + ".csv";
+  a.click();
+};
+
+function render() {
+  el("cCount").textContent = rows.length;
+  const box = el("cTable");
+  if (!rows.length) { box.innerHTML = `<p class="small">${t("camp_empty", lang)}</p>`; return; }
+  box.innerHTML = `<table class="list"><tr><th>ID</th><th>${t("fever_days", lang)}</th><th>${t("check", lang)}</th><th>${t("why_this", lang)}</th></tr>
+    ${rows.map((r) => `<tr><td>${r.id}</td><td>${r.fever_days}</td>
+      <td><span class="chip" style="${r.level === "EMERGENCY" ? "background:#fee2e2;color:#b91c1c" : r.level === "REFER" ? "background:#fef3c7;color:#b45309" : ""}">${r.level}</span></td>
+      <td class="small">${r.triggers || "—"}</td></tr>`).join("")}</table>`;
+}
+</script>
+</body>
+</html>

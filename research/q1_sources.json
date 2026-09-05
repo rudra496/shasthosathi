@@ -1,0 +1,79 @@
+{
+ "The Lancet": {
+  "id": "https://openalex.org/S49861241",
+  "name": "The Lancet",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 475942
+ },
+ "The Lancet Global Health": {
+  "id": "https://openalex.org/S4210176958",
+  "name": "The Lancet Global Health",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 4883
+ },
+ "BMJ": {
+  "id": "https://openalex.org/S4393911389",
+  "name": "BMJ",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 389469
+ },
+ "Bulletin of the World Health Organization": {
+  "id": "https://openalex.org/S22004576",
+  "name": "Bulletin of the World Health Organization",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 5396
+ },
+ "PLOS Neglected Tropical Diseases": {
+  "id": "https://openalex.org/S46544255",
+  "name": "PLoS neglected tropical diseases",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 13500
+ },
+ "International Journal of Infectious Diseases": {
+  "id": "https://openalex.org/S35071406",
+  "name": "International Journal of Infectious Diseases",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 20209
+ },
+ "Transactions of the Royal Society of Tropical Medicine and Hygiene": {
+  "id": "https://openalex.org/S129317210",
+  "name": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 20143
+ },
+ "Vaccine": {
+  "id": "https://openalex.org/S27359860",
+  "name": "Vaccine",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 33127
+ },
+ "Nature Medicine": {
+  "id": "https://openalex.org/S203256638",
+  "name": "Nature Medicine",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 16728
+ },
+ "Journal of Infection": {
+  "id": "https://openalex.org/S19579164",
+  "name": "Journal of Infection",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 10818
+ },
+ "Travel Medicine and Infectious Disease": {
+  "id": "https://openalex.org/S121550340",
+  "name": "Travel Medicine and Infectious Disease",
+  "sim": 1.0,
+  "h_index": null,
+  "works": 2932
+ }
+}

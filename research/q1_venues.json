@@ -1,0 +1,38 @@
+{
+ "PLOS Neglected Tropical Diseases": {
+  "quartile": "Q1",
+  "sjr": null,
+  "verified": "SJR 11900154404 + resurchify/journalsearches snippets, 2026-09-06"
+ },
+ "The Lancet Global Health": {
+  "quartile": "Q1",
+  "sjr": 5.911,
+  "verified": "SJR 21100265444; journalsearches/wos-journal.info snippets (99.1st pct Public Health), 2026-09-06"
+ },
+ "Nature Medicine": {
+  "quartile": "Q1",
+  "sjr": 17.496,
+  "verified": "SJR 15819; resurchify/journalsearches snippets, 2026-09-06"
+ },
+ "International Journal of Infectious Diseases": {
+  "quartile": "Q1",
+  "sjr": 1.32,
+  "verified": "SJR 22380; journalsearches/askbisht snippets, 2026-09-06"
+ },
+ "Travel Medicine and Infectious Disease": {
+  "quartile": "Q1 (best; Public Health) / Q1-Q2 (Infectious Diseases by year)",
+  "sjr": 1.083,
+  "verified": "SJR 20200; OOIR/journalmetrics snippets, 2026-09-06"
+ },
+ "Transactions of the Royal Society of Tropical Medicine and Hygiene": {
+  "quartile": "Q2 (Infectious Diseases, Parasitology \u2014 historical)",
+  "sjr": 0.548,
+  "verified": "SJR 23046; resurchify snippet (explicitly NOT labeled Q1)",
+  "note": "kept for its Bangladesh dengue papers; honesty over optics"
+ },
+ "BMJ": {
+  "quartile": "leading general-medical journal (quartile varies by category/year \u2014 see SJR 51748)",
+  "sjr": null,
+  "verified": "SJR page located; quartile not machine-verified \u2014 labeled without a number"
+ }
+}

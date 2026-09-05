@@ -1,0 +1,24 @@
+{
+ "sources": [
+  "999: national emergency service (police/fire/ambulance), 24/7, free — 999.gov.bd, Bangladesh Police (police.gov.bd/en/hot_line_number). Verified 2026-09-06.",
+  "16263 Shastho Batayon: DGHS national telehealth call centre, 24/7 doctors, ~Tk 0.60/min — 16263.dghs.gov.bd, IEDCR NBPH. Verified 2026-09-06.",
+  "333: national government information/services helpline, free — 333.gov.bd. Verified 2026-09-06."
+ ],
+ "lines": [
+  {
+   "number": "999",
+   "bn": "জাতীয় জরুরি সেবা (পুলিশ/ফায়ার/অ্যাম্বুলেন্স) — ফ্রি, ২৪/৭",
+   "en": "National emergency (police/fire/ambulance) — free, 24/7"
+  },
+  {
+   "number": "16263",
+   "bn": "স্বাস্থ্য বাতায়ন — চিকিৎসকের পরামর্শ (প্রতি মিনিটে ~০.৬০ টাকা)",
+   "en": "Shastho Batayon — doctor advice hotline (DGHS, ~Tk 0.60/min)"
+  },
+  {
+   "number": "333",
+   "bn": "সরকারি তথ্য ও সেবা হেল্পলাইন — ফ্রি",
+   "en": "Government info & services helpline — free"
+  }
+ ]
+}

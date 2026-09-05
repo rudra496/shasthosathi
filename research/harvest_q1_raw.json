@@ -1,0 +1,4852 @@
+[
+ {
+  "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+  "authors": [
+   "Rafael Lozano",
+   "Mohsen Naghavi",
+   "Kyle J Foreman",
+   "Stephen S Lim",
+   "Kenji Shibuya",
+   "Victor Aboyans"
+  ],
+  "year": 2012,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(12)61728-0",
+  "cited_by": 14334,
+  "venue_target": "The Lancet",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+  "authors": [
+   "Theo Vos",
+   "Amanuel Alemu Abajobir",
+   "Kalkidan Hassen Abate",
+   "Cristiana Abbafati",
+   "Kaja Abbas",
+   "Foad Abd-Allah"
+  ],
+  "year": 2017,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(17)32154-2",
+  "cited_by": 13638,
+  "venue_target": "The Lancet",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+  "authors": [
+   "Gregory A. Roth",
+   "Degu Abate",
+   "Kalkidan Hassen Abate",
+   "Solomón Mequanente Abay",
+   "Cristiana Abbafati",
+   "Nooshin Abbasi"
+  ],
+  "year": 2018,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(18)32203-7",
+  "cited_by": 8762,
+  "venue_target": "The Lancet",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+  "authors": [
+   "Theo Vos",
+   "Abraham D Flaxman",
+   "Mohsen Naghavi",
+   "Rafael Lozano",
+   "Catherine Michaud",
+   "Majid Ezzati"
+  ],
+  "year": 2012,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(12)61729-2",
+  "cited_by": 8451,
+  "venue_target": "The Lancet",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national sepsis incidence and mortality, 1990–2017: analysis for the Global Burden of Disease Study",
+  "authors": [
+   "Kristina E. Rudd",
+   "Sarah Charlotte Johnson",
+   "Kareha M Agesa",
+   "Katya Anne Shackelford",
+   "Derrick Tsoi",
+   "Daniel Kievlan"
+  ],
+  "year": 2020,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(19)32989-7",
+  "cited_by": 8091,
+  "venue_target": "The Lancet",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+  "authors": [
+   "Theo Vos",
+   "Christine A. Allen",
+   "Megha Arora",
+   "Ryan M Barber",
+   "Zulfiqar A Bhutta",
+   "Alexandria Brown"
+  ],
+  "year": 2016,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(16)31678-6",
+  "cited_by": 7454,
+  "venue_target": "The Lancet",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+  "authors": [
+   "Haidong Wang",
+   "Mohsen Naghavi",
+   "Christine A. Allen",
+   "Ryan M Barber",
+   "Zulfiqar A Bhutta",
+   "Austin Carter"
+  ],
+  "year": 2016,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(16)31012-1",
+  "cited_by": 6743,
+  "venue_target": "The Lancet",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases and injuries in 188 countries, 1990–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+  "authors": [
+   "Theo Vos",
+   "Ryan M Barber",
+   "Brad Bell",
+   "Amelia Bertozzi-Villa",
+   "Stan Biryukov",
+   "Ian Bolliger"
+  ],
+  "year": 2015,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(15)60692-4",
+  "cited_by": 6552,
+  "venue_target": "The Lancet",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+  "authors": [
+   "Fei Zhou",
+   "Ting Yu",
+   "Ronghui Du",
+   "Guohui Fan",
+   "Ying Liu",
+   "Zhibo Liu"
+  ],
+  "year": 2020,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(20)30566-3",
+  "cited_by": 29226,
+  "venue_target": "The Lancet",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+  "authors": [
+   "Stephen S Lim",
+   "Theo Vos",
+   "Abraham D Flaxman",
+   "Goodarz Danaei",
+   "Kenji Shibuya",
+   "Heather Adair‐Rohani"
+  ],
+  "year": 2012,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(12)61766-8",
+  "cited_by": 12029,
+  "venue_target": "The Lancet",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+  "authors": [
+   "Gill Livingston",
+   "Jonathan Huntley",
+   "Andrew Sommerlad",
+   "David Ames",
+   "Clive Ballard",
+   "Sube Banerjee"
+  ],
+  "year": 2020,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(20)30367-6",
+  "cited_by": 10608,
+  "venue_target": "The Lancet",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+  "authors": [
+   "Jasper Fuk‐Woo Chan",
+   "Shuofeng Yuan",
+   "Kin‐Hang Kok",
+   "Kelvin Kai‐Wang To",
+   "Hin Chu",
+   "Yang Jin"
+  ],
+  "year": 2020,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(20)30154-9",
+  "cited_by": 9632,
+  "venue_target": "The Lancet",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global prevalence and burden of depressive and anxiety disorders in 204 countries and territories in 2020 due to the COVID-19 pandemic",
+  "authors": [
+   "Damian Santomauro",
+   "Ana Maria Mantilla Herrera",
+   "Jamileh Shadid",
+   "Peng Zheng",
+   "Charlie Ashbaugh",
+   "David M. Pigott"
+  ],
+  "year": 2021,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(21)02143-7",
+  "cited_by": 5549,
+  "venue_target": "The Lancet",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+  "authors": [
+   "Alize J Ferrari",
+   "Damian Santomauro",
+   "Amirali Aali",
+   "Yohannes Abate",
+   "Cristiana Abbafati",
+   "Hedayat Abbastabar"
+  ],
+  "year": 2024,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(24)00757-8",
+  "cited_by": 4888,
+  "venue_target": "The Lancet",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Body-mass index and cause-specific mortality in 900 000 adults: collaborative analyses of 57 prospective studies",
+  "authors": [
+   "Prospective Studies Collaboration"
+  ],
+  "year": 2009,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(09)60318-4",
+  "cited_by": 4860,
+  "venue_target": "The Lancet",
+  "query": "mobile health",
+  "title_similarity": 0.991,
+  "crossref_ok": true
+ },
+ {
+  "title": "Oral diseases: a global public health challenge",
+  "authors": [
+   "Marco Aurélio Peres",
+   "L.M.D. Macpherson",
+   "Robert J. Weyant",
+   "Blánaid Daly",
+   "Renato Venturelli",
+   "Manu Raj Mathur"
+  ],
+  "year": 2019,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(19)31146-8",
+  "cited_by": 3901,
+  "venue_target": "The Lancet",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Worldwide trends in hypertension prevalence and progress in treatment and control from 1990 to 2019: a pooled analysis of 1201 population-representative studies with 104 million participants",
+  "authors": [
+   "Bin Zhou",
+   "Rodrigo M. Carrillo‐Larco",
+   "Goodarz Danaei",
+   "Leanne M Riley",
+   "Christopher Paciorek",
+   "Gretchen A Stevens"
+  ],
+  "year": 2021,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(21)01330-1",
+  "cited_by": 3884,
+  "venue_target": "The Lancet",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health",
+  "authors": [
+   "Sarah Whitmee",
+   "Andy Haines",
+   "Chris Beyrer",
+   "Frederick Boltz",
+   "Anthony Capon",
+   "Braulio Ferreira de Souza Dias"
+  ],
+  "year": 2015,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(15)60901-1",
+  "cited_by": 2951,
+  "venue_target": "The Lancet",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The 2020 report of The Lancet Countdown on health and climate change: responding to converging crises",
+  "authors": [
+   "Nick Watts",
+   "Markus Amann",
+   "Nigel W. Arnell",
+   "Sonja Ayeb‐Karlsson",
+   "Jessica Beagley",
+   "Kristine Belesova"
+  ],
+  "year": 2020,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(20)32290-x",
+  "cited_by": 1931,
+  "venue_target": "The Lancet",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The 2022 report of the Lancet Countdown on health and climate change: health at the mercy of fossil fuels",
+  "authors": [
+   "Marina Romanello",
+   "Claudia Di Napoli",
+   "Paul Drummond",
+   "Carole Green",
+   "Harry Kennard",
+   "Pete Lampard"
+  ],
+  "year": 2022,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(22)01540-9",
+  "cited_by": 1661,
+  "venue_target": "The Lancet",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The 2021 report of the Lancet Countdown on health and climate change: code red for a healthy future",
+  "authors": [
+   "Marina Romanello",
+   "Alice McGushin",
+   "Claudia Di Napoli",
+   "Paul Drummond",
+   "Nick Hughes",
+   "Louis Jamart"
+  ],
+  "year": 2021,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(21)01787-6",
+  "cited_by": 1595,
+  "venue_target": "The Lancet",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The 2019 report of The Lancet Countdown on health and climate change: ensuring that the health of a child born today is not defined by a changing climate",
+  "authors": [
+   "Nick Watts",
+   "Markus Amann",
+   "Nigel W. Arnell",
+   "Sonja Ayeb‐Karlsson",
+   "Kristine Belesova",
+   "Maxwell Boykoff"
+  ],
+  "year": 2019,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(19)32596-6",
+  "cited_by": 1495,
+  "venue_target": "The Lancet",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The 2023 report of the Lancet Countdown on health and climate change: the imperative for a health-centred response in a world facing irreversible harms",
+  "authors": [
+   "Marina Romanello",
+   "Claudia Di Napoli",
+   "Carole Green",
+   "Harry Kennard",
+   "Pete Lampard",
+   "Daniel Scamman"
+  ],
+  "year": 2023,
+  "venue": "The Lancet",
+  "doi": "10.1016/s0140-6736(23)01859-7",
+  "cited_by": 1231,
+  "venue_target": "The Lancet",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Causes of non-malarial fever in Laos: a prospective study",
+  "authors": [
+   "Mayfong Mayxay",
+   "Josée Castonguay-Vanier",
+   "Vilada Chansamouth",
+   "Audrey Dubot‐Pérès",
+   "Daniel H. Paris",
+   "Rattanaphone Phetsouvanh"
+  ],
+  "year": 2013,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(13)70008-1",
+  "cited_by": 264,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Long-term efficacy and safety of a tetravalent dengue vaccine (TAK-003): 4·5-year results from a phase 3, randomised, double-blind, placebo-controlled trial",
+  "authors": [
+   "Vianney Tricou",
+   "Delia Yu",
+   "Humberto Reynales",
+   "Shibadas Biswal",
+   "Xavier Sáez‐Llorens",
+   "Chukiat Sirivichayakul"
+  ],
+  "year": 2024,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(23)00522-3",
+  "cited_by": 255,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Causes and outcomes of sepsis in southeast Asia: a multinational multicentre cross-sectional study",
+  "authors": [
+   "†"
+  ],
+  "year": 2017,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(17)30007-4",
+  "cited_by": 181,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national sepsis incidence and mortality, 1990–2021: a systematic analysis",
+  "authors": [
+   "Authia P Gray",
+   "Erin Chung",
+   "Rebecca Hsu",
+   "Daniel T Araki",
+   "Anna Gershberg Hayoon",
+   "Nicole Davis Weaver"
+  ],
+  "year": 2025,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(25)00356-0",
+  "cited_by": 177,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Operation Warp Speed: implications for global vaccine security",
+  "authors": [
+   "Jérôme H. Kim",
+   "Peter J. Hotez",
+   "Carolina Batista",
+   "Önder Ergönül",
+   "J. Peter Figueroa",
+   "Sarah Gilbert"
+  ],
+  "year": 2021,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(21)00140-6",
+  "cited_by": 163,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Burden of dengue infection in India, 2017: a cross-sectional population based serosurvey",
+  "authors": [
+   "Manoj Murhekar",
+   "P Kamaraj",
+   "Muthusamy Santhosh Kumar",
+   "Siraj Ahmed Khan",
+   "Ramesh Reddy Allam",
+   "Pradip Barde"
+  ],
+  "year": 2019,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(19)30250-5",
+  "cited_by": 153,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The burden of diseases and risk factors in Bangladesh, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+  "authors": [
+   "Sheikh Mohammed Shariful Islam",
+   "Riaz Uddin",
+   "Subasish Das",
+   "Syed Imran Ahmed",
+   "Sojib Bin Zaman",
+   "Sheikh Mohammad Alif"
+  ],
+  "year": 2023,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(23)00432-1",
+  "cited_by": 74,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Efficacy of typhoid vaccines against culture-confirmed Salmonella Typhi in typhoid endemic countries: a systematic review and meta-analysis",
+  "authors": [
+   "Rabab Batool",
+   "Zoya Haq Qamar",
+   "Rehana A Salam",
+   "Mohammad Tahir Yousafzai",
+   "Per Ashorn",
+   "Farah Naz Qamar"
+  ],
+  "year": 2024,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(23)00606-x",
+  "cited_by": 50,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Seasonality of influenza and coseasonality with avian influenza in Bangladesh, 2010–19: a retrospective, time-series analysis",
+  "authors": [
+   "Isha Berry",
+   "Mahbubur Rahman",
+   "Meerjady Sabrina Flora",
+   "Tahmina Shirin",
+   "A. S. M. Alamgir",
+   "Manjur Hossain Khan"
+  ],
+  "year": 2022,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(22)00212-1",
+  "cited_by": 35,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Early diagnostic indicators of dengue versus other febrile illnesses in Asia and Latin America (IDAMS study): a multicentre, prospective, observational study",
+  "authors": [
+   "Kerstin Daniela Rosenberger",
+   "Lam Phung Khanh",
+   "Frank Tobian",
+   "Ngoun Chanpheaktra",
+   "Varun Kumar",
+   "Lucy Chai See Lum"
+  ],
+  "year": 2023,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(22)00514-9",
+  "cited_by": 24,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Health-care burden related to respiratory syncytial virus in a resource-constrained setting: a prospective observational study",
+  "authors": [
+   "Senjuti Saha",
+   "Sudipta Saha",
+   "Sudipta Saha",
+   "Sudipta Saha",
+   "Naito Kanon",
+   "Yogesh Hooda"
+  ],
+  "year": 2025,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(25)00048-8",
+  "cited_by": 14,
+  "venue_target": "The Lancet Global Health",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+  "authors": [
+   "Margaret E. Kruk",
+   "Anna Gage",
+   "Catherine Arsenault",
+   "Keely Jordan",
+   "Hannah H. Leslie",
+   "Sanam Roder‐DeWan"
+  ],
+  "year": 2018,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(18)30386-3",
+  "cited_by": 4099,
+  "venue_target": "The Lancet Global Health",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+  "authors": [
+   "Jaimie D Steinmetz",
+   "Rupert Bourne",
+   "Paul Svitil Briant",
+   "Seth Flaxman",
+   "Hugh R B Taylor",
+   "Jost B. Jonas"
+  ],
+  "year": 2020,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(20)30489-7",
+  "cited_by": 3173,
+  "venue_target": "The Lancet Global Health",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Lancet Global Health Commission on Global Eye Health: vision beyond 2020",
+  "authors": [
+   "Matthew J. Burton",
+   "Jacqueline Ramke",
+   "Ana Patrícia Marques",
+   "Rupert Bourne",
+   "Nathan Congdon",
+   "Iain Jones"
+  ],
+  "year": 2021,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(20)30488-5",
+  "cited_by": 1617,
+  "venue_target": "The Lancet Global Health",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Early estimates of the indirect effects of the COVID-19 pandemic on maternal and child mortality in low-income and middle-income countries: a modelling study",
+  "authors": [
+   "Timothy Roberton",
+   "Emily D Carter",
+   "Victoria B. Chou",
+   "Angela Stegmuller",
+   "Bianca Jackson",
+   "Yvonne Tam"
+  ],
+  "year": 2020,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(20)30229-1",
+  "cited_by": 1486,
+  "venue_target": "The Lancet Global Health",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Trends in prevalence of blindness and distance and near vision impairment over 30 years: an analysis for the Global Burden of Disease Study",
+  "authors": [
+   "Rupert Bourne",
+   "Jaimie D Steinmetz",
+   "Seth Flaxman",
+   "Paul Svitil Briant",
+   "Hugh R. Taylor",
+   "Serge Resnikoff"
+  ],
+  "year": 2020,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(20)30425-3",
+  "cited_by": 1417,
+  "venue_target": "The Lancet Global Health",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global, regional, and national estimates of the population at increased risk of severe COVID-19 due to underlying health conditions in 2020: a modelling study",
+  "authors": [
+   "Andrew Clark",
+   "Mark Jit",
+   "Charlotte Warren‐Gash",
+   "Bruce Guthrie",
+   "Haoxiang Wang",
+   "Stewart W Mercer"
+  ],
+  "year": 2020,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(20)30264-3",
+  "cited_by": 1242,
+  "venue_target": "The Lancet Global Health",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Effects of water quality, sanitation, handwashing, and nutritional interventions on diarrhoea and child growth in rural Kenya: a cluster-randomised controlled trial",
+  "authors": [
+   "Clair Null",
+   "Christine P. Stewart",
+   "Amy J. Pickering",
+   "Holly N. Dentz",
+   "Benjamin F. Arnold",
+   "Charles D. Arnold"
+  ],
+  "year": 2018,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(18)30005-6",
+  "cited_by": 636,
+  "venue_target": "The Lancet Global Health",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Cervical cancer screening programmes and age-specific coverage estimates for 202 countries and territories worldwide: a review and synthetic analysis",
+  "authors": [
+   "Laia Bruni",
+   "Beatriz Serrano",
+   "Esther Roura",
+   "Laia Alemany",
+   "Melanie Cowan",
+   "Rolando Herrero"
+  ],
+  "year": 2022,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(22)00241-8",
+  "cited_by": 551,
+  "venue_target": "The Lancet Global Health",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Lancet Global Health Commission on financing primary health care: putting people at the centre",
+  "authors": [
+   "Kara Hanson",
+   "Nouria Brikci",
+   "Darius Erlangga",
+   "Abebe Alebachew",
+   "Manuela De Allegri",
+   "Dina Balabanova"
+  ],
+  "year": 2022,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(22)00005-5",
+  "cited_by": 492,
+  "venue_target": "The Lancet Global Health",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Effect of socioeconomic inequalities and vulnerabilities on health-system preparedness and response to COVID-19 in Brazil: a comprehensive analysis",
+  "authors": [
+   "Rudi Rocha",
+   "Rifat Atun",
+   "Adriano Massuda",
+   "Beatriz Rache",
+   "Paula Spinola",
+   "Letícia Nunes"
+  ],
+  "year": 2021,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(21)00081-4",
+  "cited_by": 419,
+  "venue_target": "The Lancet Global Health",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Aedes albopictus invasion across Africa: the time is now for cross-country collaboration and control",
+  "authors": [
+   "Joshua Longbottom",
+   "Abel Wilson Walekhwa",
+   "Victor Mwingira",
+   "Oliver Kijanga",
+   "Furaha Mramba",
+   "Jennifer Lord"
+  ],
+  "year": 2023,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(23)00046-3",
+  "cited_by": 70,
+  "venue_target": "The Lancet Global Health",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Arbovirus researchers unite: expanding genomic surveillance for an urgent global need",
+  "authors": [
+   "Gabriel Luz Wallau",
+   "Ngu Njei Abanda",
+   "Adriano Abbud",
+   "Saro Abdella",
+   "Adugna Abera",
+   "Steve Ahuka‐Mundeke"
+  ],
+  "year": 2023,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(23)00325-x",
+  "cited_by": 68,
+  "venue_target": "The Lancet Global Health",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Do we need a Global Virome Project?",
+  "authors": [
+   "Olga Jonas",
+   "Richard Seifman"
+  ],
+  "year": 2019,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(19)30335-3",
+  "cited_by": 39,
+  "venue_target": "The Lancet Global Health",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The 2024 small island developing states report of the Lancet Countdown on health and climate change",
+  "authors": [
+   "Georgiana Gordon‐Strachan",
+   "Stephanie Y Parker",
+   "Heather Harewood",
+   "Pablo Méndez‐Lázaro",
+   "Salanieta T Saketa",
+   "Kimalie F Parchment"
+  ],
+  "year": 2024,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(24)00421-2",
+  "cited_by": 27,
+  "venue_target": "The Lancet Global Health",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Differentiating dengue from other febrile illnesses: a dilemma faced by clinicians in dengue endemic countries",
+  "authors": [
+   "Gathsaurie Neelika Malavige",
+   "Ananda Wijewickrama",
+   "Graham S. Ogg"
+  ],
+  "year": 2023,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(22)00547-2",
+  "cited_by": 14,
+  "venue_target": "The Lancet Global Health",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Association between air raids and reported incidence of cholera in Yemen, 2016–19: an ecological modelling study",
+  "authors": [
+   "Maia C. Tarnas",
+   "Najwa Al‐Dheeb",
+   "Muhammad H. Zaman",
+   "Daniel M. Parker"
+  ],
+  "year": 2023,
+  "venue": "The Lancet Global Health",
+  "doi": "10.1016/s2214-109x(23)00272-3",
+  "cited_by": 9,
+  "venue_target": "The Lancet Global Health",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dengue: an escalating problem",
+  "authors": [
+   "Robert V. Gibbons",
+   "David W Vaughn"
+  ],
+  "year": 2002,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.324.7353.1563",
+  "cited_by": 793,
+  "venue_target": "BMJ",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Current concepts in the diagnosis and treatment of typhoid fever",
+  "authors": [
+   "Zulfiqar A Bhutta"
+  ],
+  "year": 2006,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.333.7558.78",
+  "cited_by": 377,
+  "venue_target": "BMJ",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Effective control of dengue vectors with curtains and water container covers treated with insecticide in Mexico and Venezuela: cluster randomised trials",
+  "authors": [
+   "Axel Kroeger",
+   "Audrey Lenhart",
+   "Manuel Ochoa",
+   "Elci Villegas",
+   "Michael Z. Levy",
+   "Neâl Alexander"
+  ],
+  "year": 2006,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.332.7552.1247",
+  "cited_by": 254,
+  "venue_target": "BMJ",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Bladder Dysfunction in Multiple Sclerosis",
+  "authors": [
+   "Herbert A. Miller",
+   "Christina Simpson",
+   "W. Keith Yeates"
+  ],
+  "year": 1965,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.1.5445.1265",
+  "cited_by": 211,
+  "venue_target": "BMJ",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Community involvement in dengue vector control: cluster randomised trial",
+  "authors": [
+   "Veerle Vanlerberghe",
+   "María Eugenia Toledo",
+   "Magdalena Rodríguez",
+   "Danilo Gómez",
+   "Alberto Baly",
+   "Juan R. Benitez"
+  ],
+  "year": 2009,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.b1959",
+  "cited_by": 167,
+  "venue_target": "BMJ",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Burden of infectious diseases in South Asia",
+  "authors": [
+   "Anita Zaidi",
+   "Shally Awasthi",
+   "Harendra de'Silva"
+  ],
+  "year": 2004,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.328.7443.811",
+  "cited_by": 142,
+  "venue_target": "BMJ",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global warming and health.",
+  "authors": [
+   "Andy Haines"
+  ],
+  "year": 1991,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.302.6778.669",
+  "cited_by": 29,
+  "venue_target": "BMJ",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Health implications of climatic change.",
+  "authors": [
+   "Fiona Godlee"
+  ],
+  "year": 1991,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.303.6812.1254",
+  "cited_by": 7,
+  "venue_target": "BMJ",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Undiagnosed fever--rickettsial, viral, and helminth infections.",
+  "authors": [
+   "A M Geddes"
+  ],
+  "year": 1974,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.4.5942.454",
+  "cited_by": 2,
+  "venue_target": "BMJ",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Spiritual relief",
+  "authors": [
+   "Sarah C. Hull"
+  ],
+  "year": 2004,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.328.7443.815",
+  "cited_by": 0,
+  "venue_target": "BMJ",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Growth in utero, blood pressure in childhood and adult life, and mortality from cardiovascular disease.",
+  "authors": [
+   "D.J.P. Barker",
+   "Clive Osmond",
+   "Jean Golding",
+   "Diana Kuh",
+   "Michael Wadsworth"
+  ],
+  "year": 1989,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.298.6673.564",
+  "cited_by": 2427,
+  "venue_target": "BMJ",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The impact of advance care planning on end of life care in elderly patients: randomised controlled trial",
+  "authors": [
+   "Karen Detering",
+   "A Hancock",
+   "Michael C. Reade",
+   "William Silvester"
+  ],
+  "year": 2010,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.c1345",
+  "cited_by": 2372,
+  "venue_target": "BMJ",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Intersalt: an international study of electrolyte excretion and blood pressure. Results for 24 hour urinary sodium and potassium excretion. Intersalt Cooperative Research Group.",
+  "authors": [
+   "Scally, Gabriel"
+  ],
+  "year": 1988,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.297.6644.319",
+  "cited_by": 2237,
+  "venue_target": "BMJ",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Distribution of adipose tissue and risk of cardiovascular disease and death: a 12 year follow up of participants in the population study of women in Gothenburg, Sweden.",
+  "authors": [
+   "Leif Lapidus",
+   "Calle Bengtsson",
+   "B. Larsson",
+   "Kjell Pennert",
+   "Elisabeth Rybo",
+   "Lars Sjöström"
+  ],
+  "year": 1984,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.289.6454.1257",
+  "cited_by": 1671,
+  "venue_target": "BMJ",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Association of alcohol consumption with selected cardiovascular disease outcomes: a systematic review and meta-analysis",
+  "authors": [
+   "Paul E. Ronksley",
+   "Susan Brien",
+   "Barbara J. Turner",
+   "Kenneth J. Mukamal",
+   "William A. Ghali"
+  ],
+  "year": 2011,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.d671",
+  "cited_by": 1627,
+  "venue_target": "BMJ",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Illness trajectories and palliative care",
+  "authors": [
+   "Scott A Murray",
+   "Marilyn Kendall",
+   "Kirsty Boyd",
+   "Aziz Sheikh"
+  ],
+  "year": 2005,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.330.7498.1007",
+  "cited_by": 1616,
+  "venue_target": "BMJ",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "MRC trial of treatment of mild hypertension: principal results. Medical Research Council Working Party.",
+  "authors": [],
+  "year": 1985,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.291.6488.97",
+  "cited_by": 1505,
+  "venue_target": "BMJ",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Flavonoid intake and coronary mortality in Finland: a cohort study",
+  "authors": [
+   "Paul Knekt",
+   "Ritva Jarvinen",
+   "Antti Reunanen",
+   "J. Maatela"
+  ],
+  "year": 1996,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.312.7029.478",
+  "cited_by": 1270,
+  "venue_target": "BMJ",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Selecting, designing, and developing your questionnaire",
+  "authors": [
+   "Petra Boynton",
+   "Trisha Greenhalgh"
+  ],
+  "year": 2004,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.328.7451.1312",
+  "cited_by": 1103,
+  "venue_target": "BMJ",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Comprehensive geriatric assessment for older adults admitted to hospital: meta-analysis of randomised controlled trials",
+  "authors": [
+   "Graham Ellis",
+   "Martin A Whitehead",
+   "David J. Robinson",
+   "Desmond O’Neill",
+   "Peter Langhorne"
+  ],
+  "year": 2011,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.d6553",
+  "cited_by": 1093,
+  "venue_target": "BMJ",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Classification and definition of protein-calorie malnutrition.",
+  "authors": [
+   "J. C. Waterlow"
+  ],
+  "year": 1972,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.3.5826.566",
+  "cited_by": 997,
+  "venue_target": "BMJ",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Mortality and morbidity after hip fractures.",
+  "authors": [
+   "G.S. Keene",
+   "M. Parker",
+   "G.A. Pryor"
+  ],
+  "year": 1993,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.307.6914.1248",
+  "cited_by": 882,
+  "venue_target": "BMJ",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Prime minister promises a more personal NHS",
+  "authors": [
+   "Zosia Kmietowicz"
+  ],
+  "year": 2007,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.39350.363553.4e",
+  "cited_by": 1,
+  "venue_target": "BMJ",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "SERUM THERAPY IN POLIOMYELITIS",
+  "authors": [
+   "J. P. Macnamara"
+  ],
+  "year": 1933,
+  "venue": "BMJ",
+  "doi": "10.1136/bmj.1.3768.526",
+  "cited_by": 1,
+  "venue_target": "BMJ",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Estimated global incidence of Japanese encephalitis:",
+  "authors": [
+   "Grant L. Campbell",
+   "Susan L. Hills",
+   "Marc Fischer",
+   "Julie Jacobson",
+   "Charles H. Hoke",
+   "Joachim Hombach"
+  ],
+  "year": 2011,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.10.085233",
+  "cited_by": 1007,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The global burden of kidney disease and the sustainable development goals",
+  "authors": [
+   "Valérie A. Luyckx",
+   "Marcello Tonelli",
+   "John W. Stanifer"
+  ],
+  "year": 2018,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.17.206441",
+  "cited_by": 937,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "a study of typhoid fever in five Asian countries: disease burden and implications for controls",
+  "authors": [
+   "R. Leon Ochiai"
+  ],
+  "year": 2008,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.06.039818",
+  "cited_by": 682,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Infodemics and health misinformation: a systematic review of reviews",
+  "authors": [
+   "Israel Júnior Borges do Nascimento",
+   "Ana Beatriz Pizarro",
+   "Jussara M. Almeida",
+   "Natasha Azzopardi‐Muscat",
+   "Marcos André Gonçalves",
+   "Maria Björklund"
+  ],
+  "year": 2022,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.21.287654",
+  "cited_by": 606,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Zika: the origin and spread of a mosquito-borne virus",
+  "authors": [
+   "Mary Kay Kindhauser",
+   "Tomas Allen",
+   "Veronika Frank",
+   "Ravi Shankar Santhana",
+   "Christopher Dye"
+  ],
+  "year": 2016,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.16.171082",
+  "cited_by": 468,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A guide to aid the selection of diagnostic tests",
+  "authors": [
+   "Cara Kosack",
+   "Anne‐Laure Page",
+   "Paul Klatser"
+  ],
+  "year": 2017,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.16.187468",
+  "cited_by": 423,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Estimated economic impact of vaccinations in 73 low- and middle-income countries, 2001–2020",
+  "authors": [
+   "Sachiko Ozawa",
+   "Samantha Clark",
+   "Allison Portnoy",
+   "Simrun Grewal",
+   "Meghan L. Stack",
+   "Anushua Sinha"
+  ],
+  "year": 2017,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.16.178475",
+  "cited_by": 153,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Why “improved” water sources are not always safe",
+  "authors": [
+   "Ameer Shaheed",
+   "Jennifer Orgill",
+   "Maggie A Montgomery",
+   "Marc A Jeuland",
+   "Joe Brown"
+  ],
+  "year": 2014,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.13.119594",
+  "cited_by": 153,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Hospital admissions as a function of temperature, other weather phenomena and pollution levels in an urban setting in China",
+  "authors": [
+   "Emily Ying Yang Chan",
+   "William B. Goggins",
+   "Janice Yue",
+   "Poyi Lee"
+  ],
+  "year": 2013,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.12.113035",
+  "cited_by": 89,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Communicable diseases in the South-East Asia Region of the World Health Organization: towards a more effective response",
+  "authors": [
+   "Indrani Gupta",
+   "Pradeep Guin"
+  ],
+  "year": 2010,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.09.065540",
+  "cited_by": 80,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Prevalence and determinants of common perinatal mental disorders in women in low- and lower-middle-income countries: a systematic review",
+  "authors": [
+   "Jane Fisher",
+   "Meena Cabral de Mello",
+   "Vikram Patel",
+   "Atıf Rahman",
+   "Thach Tran",
+   "Sara Holton"
+  ],
+  "year": 2011,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.11.091850",
+  "cited_by": 1828,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Declaration of Helsinki and public health",
+  "authors": [
+   "John Williams"
+  ],
+  "year": 2008,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.08.050955",
+  "cited_by": 988,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Thresholds for the cost–effectiveness of interventions: alternative approaches",
+  "authors": [
+   "Elliot Marseille",
+   "Bruce A. Larson",
+   "Dhruv S. Kazi",
+   "James G. Kahn",
+   "Sydney Rosen"
+  ],
+  "year": 2014,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.14.138206",
+  "cited_by": 887,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Herpes simplex virus: global infection prevalence and incidence estimates, 2016",
+  "authors": [
+   "Charlotte James",
+   "Manale Harfouche",
+   "Nicky J. Welton",
+   "Katy Turner",
+   "Laith J. Abu‐Raddad",
+   "Sami L. Gottlieb"
+  ],
+  "year": 2020,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.19.237149",
+  "cited_by": 814,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Huge poor–rich inequalities in maternity care: an international comparative study of maternity and child care in developing countries",
+  "authors": [
+   "Tanja A. J. Houweling",
+   "Carine Ronsmans",
+   "Oona M. R. Campbell",
+   "Anton E. Kunst"
+  ],
+  "year": 2007,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.06.038588",
+  "cited_by": 398,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "E-health in low- and middle-income countries: findings from the Center for Health Market Innovations",
+  "authors": [
+   "Trevor Lewis",
+   "Christina Synowiec",
+   "Gina Lagomarsino",
+   "Julian Schweitzer"
+  ],
+  "year": 2012,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.11.099820",
+  "cited_by": 336,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Emergency care in 59 low- and middle-income countries: a systematic review",
+  "authors": [
+   "Ziad Obermeyer",
+   "Samer Abujaber",
+   "Maggie Makar",
+   "Samantha J. Stoll",
+   "Stephanie Kayden",
+   "Lee Wallis"
+  ],
+  "year": 2015,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.14.148338",
+  "cited_by": 335,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global cost of correcting vision impairment from uncorrected refractive error",
+  "authors": [
+   "Tim Fricke",
+   "BA Holden",
+   "Donald A. Wilson",
+   "Gerhard Schlenther",
+   "KS Naidoo",
+   "Serge Resnikoff"
+  ],
+  "year": 2012,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.12.104034",
+  "cited_by": 312,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Entry and exit screening of airline travellers during the A(H1N1) 2009 pandemic: a retrospective evaluation",
+  "authors": [
+   "Kamran Khan",
+   "Rose Eckhardt",
+   "John S. Brownstein",
+   "Raza Naqvi",
+   "Wei Hu",
+   "David Kossowsky"
+  ],
+  "year": 2013,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.12.114777",
+  "cited_by": 50,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Integrated disease management: arboviral infections and waterborne diarrhoea",
+  "authors": [
+   "Hans J. Overgaard",
+   "Nsa Dada",
+   "Audrey Lenhart",
+   "Thor Axel Stenström",
+   "Neâl Alexander"
+  ],
+  "year": 2021,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.20.269985",
+  "cited_by": 37,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Climate change and health in Pacific island states",
+  "authors": [
+   "Rokho Kim",
+   "Anthony Costello",
+   "Diarmid Campbell‐Lendrum"
+  ],
+  "year": 2015,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.15.166199",
+  "cited_by": 28,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "National dengue surveillance, Cambodia 2002–2020",
+  "authors": [
+   "Christina Yek",
+   "Yimei Li",
+   "Andrea R. Pacheco",
+   "Chanthap Lon",
+   "Veasna Duong",
+   "Philippe Dussart"
+  ],
+  "year": 2023,
+  "venue": "Bulletin of the World Health Organization",
+  "doi": "10.2471/blt.23.289713",
+  "cited_by": 20,
+  "venue_target": "Bulletin of the World Health Organization",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global Morbidity and Mortality of Leptospirosis: A Systematic Review",
+  "authors": [
+   "Federico Costa",
+   "José E. Hagan",
+   "Juan Ignácio Calcagno",
+   "Michael J. Kane",
+   "Paul R. Torgerson",
+   "Martha Sílvia Martinez-Silveira"
+  ],
+  "year": 2015,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0003898",
+  "cited_by": 2011,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Refining the Global Spatial Limits of Dengue Virus Transmission by Evidence-Based Consensus",
+  "authors": [
+   "Oliver J. Brady",
+   "Peter W. Gething",
+   "Samir Bhatt",
+   "Jane P. Messina",
+   "John S. Brownstein",
+   "Anne G. Hoen"
+  ],
+  "year": 2012,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0001760",
+  "cited_by": 1927,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Estimating the Global Burden of Endemic Canine Rabies",
+  "authors": [
+   "Katie Hampson",
+   "Laurent Coudeville",
+   "Tiziana Lembo",
+   "Maganga Sambo",
+   "Alexia Kieffer",
+   "Michaël Attlan"
+  ],
+  "year": 2015,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0003709",
+  "cited_by": 1842,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Neglected Tropical Diseases in Sub-Saharan Africa: Review of Their Prevalence, Distribution, and Disease Burden",
+  "authors": [
+   "Peter J. Hotez",
+   "Aruna M. Kamath"
+  ],
+  "year": 2009,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0000412",
+  "cited_by": 1312,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global expansion and redistribution of Aedes-borne virus transmission risk with climate change",
+  "authors": [
+   "Sadie J. Ryan",
+   "Colin J. Carlson",
+   "Erin A. Mordecai",
+   "Leah R. Johnson"
+  ],
+  "year": 2019,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0007213",
+  "cited_by": 1150,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Global Burden of Disease Study 2010: Interpretation and Implications for the Neglected Tropical Diseases",
+  "authors": [
+   "Peter J. Hotez",
+   "Miriam Alvarado",
+   "Marı́a-Gloria Basáñez",
+   "Ian Bolliger",
+   "Rupert Bourne",
+   "Michel Boussinesq"
+  ],
+  "year": 2014,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0002865",
+  "cited_by": 1124,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The importance of vector control for the control and elimination of vector-borne diseases",
+  "authors": [
+   "Anne L. Wilson",
+   "Orin Courtenay",
+   "Louise A. Kelly‐Hope",
+   "Thomas W. Scott",
+   "Willem Takken",
+   "Stephen J. Torr"
+  ],
+  "year": 2020,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0007831",
+  "cited_by": 947,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A review of the global epidemiology of scrub typhus",
+  "authors": [
+   "Guang Xu",
+   "David H. Walker",
+   "Daniel C. Jupiter",
+   "Peter C. Melby",
+   "Christine M. Arcari"
+  ],
+  "year": 2017,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0006062",
+  "cited_by": 563,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Impact of Environment and Social Gradient on Leptospira Infection in Urban Slums",
+  "authors": [
+   "Renato Barbosa Reis",
+   "Guilherme S. Ribeiro",
+   "Ridalva Dias Martins Felzemburgh",
+   "Francisco S. Santana",
+   "Sharif B. Mohr",
+   "Astrid X. T. O. Melendez"
+  ],
+  "year": 2008,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0000228",
+  "cited_by": 462,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Estimating the burden of scrub typhus: A systematic review",
+  "authors": [
+   "Ana Bonell",
+   "Yoel Lubell",
+   "Paul N. Newton",
+   "John A. Crump",
+   "Daniel H. Paris"
+  ],
+  "year": 2017,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0005838",
+  "cited_by": 404,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The changing epidemiology of human monkeypox—A potential threat? A systematic review",
+  "authors": [
+   "Eveline M. Bunge",
+   "Bernard Hoet",
+   "Liddy Chen",
+   "Florian Lienert",
+   "Heinz Weidenthaler",
+   "Lorraine R. Baer"
+  ],
+  "year": 2022,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0010141",
+  "cited_by": 1967,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Epidemiology and Clinical Spectrum of Melioidosis: 540 Cases from the 20 Year Darwin Prospective Study",
+  "authors": [
+   "Bart J. Currie",
+   "Linda Ward",
+   "Allen Cheng"
+  ],
+  "year": 2010,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0000900",
+  "cited_by": 772,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Strongyloides stercoralis: Global Distribution and Risk Factors",
+  "authors": [
+   "Fabian Schär",
+   "Ulf Trostdorf",
+   "Federica Giardina",
+   "Virak Khieu",
+   "Sinuon Muth",
+   "Hans‐Peter Marti"
+  ],
+  "year": 2013,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0002288",
+  "cited_by": 752,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Revisiting the taxonomy and evolution of pathogenicity of the genus Leptospira through the prism of genomics",
+  "authors": [
+   "Antony T. Vincent",
+   "Olivier Schiettekatte",
+   "Cyrille Goarant",
+   "Vasantha Kumari Neela",
+   "Ève Bernet",
+   "Roman Thibeaux"
+  ],
+  "year": 2019,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0007270",
+  "cited_by": 637,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Role of Human Movement in the Transmission of Vector-Borne Pathogens",
+  "authors": [
+   "Steven T. Stoddard",
+   "Amy C. Morrison",
+   "Gonzalo M. Vazquez‐Prokopec",
+   "Valerie Paz Soldan",
+   "Tadeusz J. Kochel",
+   "Uriel Kitron"
+  ],
+  "year": 2009,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0000481",
+  "cited_by": 587,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Feasibility of Onchocerciasis Elimination with Ivermectin Treatment in Endemic Foci in Africa: First Evidence from Studies in Mali and Senegal",
+  "authors": [
+   "Lamine Diawara",
+   "Mamadou O. Traoré",
+   "Alioune Badji",
+   "Yiriba Bissan",
+   "Konimba Doumbia",
+   "Soula F. Goita"
+  ],
+  "year": 2009,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0000497",
+  "cited_by": 485,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Feasibility of Canine Rabies Elimination in Africa: Dispelling Doubts with Data",
+  "authors": [
+   "Tiziana Lembo",
+   "Katie Hampson",
+   "Magai Kaare",
+   "Eblate Ernest",
+   "Darryn L. Knobel",
+   "Rudovick Kazwala"
+  ],
+  "year": 2010,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0000626",
+  "cited_by": 411,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Global One Health Paradigm: Challenges and Opportunities for Tackling Infectious Diseases at the Human, Animal, and Environment Interface in Low-Resource Settings",
+  "authors": [
+   "Wondwossen A. Gebreyes",
+   "Jean Dupouy‐Camet",
+   "Melanie J. Newport",
+   "Celso José Bruno de Oliveira",
+   "Larry S. Schlesinger",
+   "Y. Μ. Saif"
+  ],
+  "year": 2014,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0003257",
+  "cited_by": 405,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Alternative strategies for mosquito-borne arbovirus control",
+  "authors": [
+   "Nicole L. Achee",
+   "John P. Grieco",
+   "Hassan Vatandoost",
+   "Gonçalo Seixas",
+   "João Pinto",
+   "Lee Ching-NG"
+  ],
+  "year": 2019,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0006822",
+  "cited_by": 377,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Assessing the Relationship between Vector Indices and Dengue Transmission: A Systematic Review of the Evidence",
+  "authors": [
+   "Leigh Bowman",
+   "Silvia Runge‐Ranzinger",
+   "Philip J. McCall"
+  ],
+  "year": 2014,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0002848",
+  "cited_by": 353,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Forecast of Dengue Incidence Using Temperature and Rainfall",
+  "authors": [
+   "Yien Ling Hii",
+   "Huaiping Zhu",
+   "Nawi Ng",
+   "Lee Ching Ng",
+   "Joacim Rocklöv"
+  ],
+  "year": 2012,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0001908",
+  "cited_by": 325,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Developing a dengue forecast model using machine learning: A case study in China",
+  "authors": [
+   "Pi Guo",
+   "Tao Liu",
+   "Qin Zhang",
+   "Li Wang",
+   "Jianpeng Xiao",
+   "Qingying Zhang"
+  ],
+  "year": 2017,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0005973",
+  "cited_by": 281,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Epidemiological Trends of Dengue Disease in Brazil (2000–2010): A Systematic Literature Search and Analysis",
+  "authors": [
+   "Maria Glória Teixeira",
+   "João Bosco Siqueira",
+   "Germano Ferreira",
+   "Lúcia Ferro Bricks",
+   "Joint Graham"
+  ],
+  "year": 2013,
+  "venue": "PLoS neglected tropical diseases",
+  "doi": "10.1371/journal.pntd.0002520",
+  "cited_by": 252,
+  "venue_target": "PLOS Neglected Tropical Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Prevalence of comorbidities in the Middle East respiratory syndrome coronavirus (MERS-CoV): a systematic review and meta-analysis",
+  "authors": [
+   "Alaa Badawi",
+   "Seung Gwan Ryoo"
+  ],
+  "year": 2016,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2016.06.015",
+  "cited_by": 754,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global risk mapping for major diseases transmitted by Aedes aegypti and Aedes albopictus",
+  "authors": [
+   "Samson Leta",
+   "Tariku J. Beyene",
+   "Eva M. De Clercq",
+   "Kebede Amenu",
+   "Moritz U. G. Kraemer",
+   "Crawford W. Revie"
+  ],
+  "year": 2017,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2017.11.026",
+  "cited_by": 566,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The globalization of leptospirosis: worldwide incidence trends",
+  "authors": [
+   "Γεώργιος Παππάς",
+   "Photini Papadimitriou",
+   "Vasiliki Siozopoulou",
+   "Leonidas Christou",
+   "Nikolaos Akritidis"
+  ],
+  "year": 2007,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2007.09.011",
+  "cited_by": 565,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dengue diagnosis, advances and challenges",
+  "authors": [
+   "María G. Guzmán",
+   "G Kourí"
+  ],
+  "year": 2004,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2003.03.003",
+  "cited_by": 379,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Covid-19 hyperinflammation and post-Covid-19 illness may be rooted in mast cell activation syndrome",
+  "authors": [
+   "Lawrence B. Afrin",
+   "Leonard B. Weinstock",
+   "Gerhard J. Molderings"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.09.016",
+  "cited_by": 334,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Effect of age on outcome of secondary dengue 2 infections",
+  "authors": [
+   "María G. Guzmán",
+   "Gustavo Kourí",
+   "José Bravo",
+   "Luís Valdés",
+   "Vazquez Susana",
+   "Scott B. Halstead"
+  ],
+  "year": 2002,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/s1201-9712(02)90072-x",
+  "cited_by": 332,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Evolution of dengue in Sri Lanka—changes in the virus, vector, and climate",
+  "authors": [
+   "PDNN Sirisena",
+   "F. Noordeen"
+  ],
+  "year": 2013,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2013.10.012",
+  "cited_by": 178,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Serological cross-reaction and coinfection of dengue and COVID-19 in Asia: Experience from Indonesia",
+  "authors": [
+   "Sri Masyeni",
+   "Marsha S. Santoso",
+   "Putu Dyah Widyaningsih",
+   "DG Wedha Asmara",
+   "Firzan Nainu",
+   "Harapan Harapan"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.10.043",
+  "cited_by": 150,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Planning for the Next Global Pandemic",
+  "authors": [
+   "Allen G. Ross",
+   "Suzanne M. Crowe",
+   "Mark Tyndall"
+  ],
+  "year": 2015,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2015.07.016",
+  "cited_by": 112,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Zika virus in Asia",
+  "authors": [
+   "Veasna Duong",
+   "Philippe Dussart",
+   "Philippe Buchy"
+  ],
+  "year": 2016,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2016.11.420",
+  "cited_by": 96,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Emergence of an independent lineage of dengue virus type 1 (DENV-1) and its co-circulation with predominant DENV-3 during the 2006 dengue fever outbreak in Delhi",
+  "authors": [
+   "Himani Kukreti",
+   "Artee Chaudhary",
+   "Rajendra Singh Rautela",
+   "Ranjana Anand",
+   "Veena Mittal",
+   "Mala Chhabra"
+  ],
+  "year": 2008,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2008.02.009",
+  "cited_by": 62,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Real-world effectiveness of COVID-19 vaccines: a literature review and meta-analysis",
+  "authors": [
+   "Caifang Zheng",
+   "Weihao Shao",
+   "Xiaorui Chen",
+   "Bowen Zhang",
+   "Gaili Wang",
+   "Weidong Zhang"
+  ],
+  "year": 2021,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2021.11.009",
+  "cited_by": 729,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A systematic review and meta-analysis of published research data on COVID-19 infection fatality rates",
+  "authors": [
+   "Gideon Meyerowitz‐Katz",
+   "Lea Merone"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.09.1464",
+  "cited_by": 572,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19",
+  "authors": [
+   "Samia Arshad",
+   "Paul E. Kilgore",
+   "Zohra Chaudhry",
+   "Gordon Jacobsen",
+   "Dee Dee Wang",
+   "Kylie Huitsing"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.06.099",
+  "cited_by": 566,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "COVID-19 outbreak in Malaysia: Actions taken by the Malaysian government",
+  "authors": [
+   "Ain Umaira Md Shah",
+   "Syafiqah Nur Azrie Safri",
+   "Rathedevi Thevadas",
+   "Nor Kamariah Noordin",
+   "Azmawani Abd Rahman",
+   "Zamberi Sekawi"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.05.093",
+  "cited_by": 523,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Insight into 2019 novel coronavirus — An updated interim review and lessons from SARS-CoV and MERS-CoV",
+  "authors": [
+   "Mingxuan Xie",
+   "Qiong Chen"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.03.071",
+  "cited_by": 481,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global Tuberculosis Report 2020 – Reflections on the Global TB burden, treatment and prevention efforts",
+  "authors": [
+   "Jeremiah Chakaya",
+   "Mishal Khan",
+   "Francine Ntoumi",
+   "Eleni Aklillu",
+   "Razia Fatima",
+   "Peter Mwaba"
+  ],
+  "year": 2021,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2021.02.107",
+  "cited_by": 1133,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Factors affecting perceived effectiveness of COVID-19 prevention measures among Filipinos during Enhanced Community Quarantine in Luzon, Philippines: Integrating Protection Motivation Theory and extended Theory of Planned Behavior",
+  "authors": [
+   "Yogi Tri Prasetyo",
+   "Allysa Mae Castillo",
+   "Louie John Salonga",
+   "John Allen Sia",
+   "Joshua Adam Seneta"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.07.074",
+  "cited_by": 368,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Robert Koch and the ‘golden age’ of bacteriology",
+  "authors": [
+   "Steve M. Blevins",
+   "Michael S. Bronze"
+  ],
+  "year": 2010,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2009.12.003",
+  "cited_by": 286,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Applications of Google Search Trends for risk communication in infectious disease management: A case study of the COVID-19 outbreak in Taiwan",
+  "authors": [
+   "Atina Husnayain",
+   "Anis Fuad",
+   "Emily Chia‐Yu Su"
+  ],
+  "year": 2020,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2020.03.021",
+  "cited_by": 276,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "SARS-CoV-2 seroprevalence among the general population and healthcare workers in India, December 2020–January 2021",
+  "authors": [
+   "Manoj Murhekar",
+   "Tarun Bhatnagar",
+   "Jeromie Wesley Vivian Thangaraj",
+   "V. Saravanakumar",
+   "Muthusamy Santhosh Kumar",
+   "Sriram Selvaraju"
+  ],
+  "year": 2021,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2021.05.040",
+  "cited_by": 148,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Major emerging and re-emerging zoonoses in China: a matter of global health and socioeconomic development for 1.3 billion",
+  "authors": [
+   "Quan Liu",
+   "Lili Cao",
+   "Xing-Quan Zhu"
+  ],
+  "year": 2014,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2014.04.003",
+  "cited_by": 94,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Climate change and disease dynamics - A big data perspective",
+  "authors": [
+   "Daphne Lopez",
+   "G. Sekaran"
+  ],
+  "year": 2016,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2016.02.084",
+  "cited_by": 62,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Human African trypanosomiasis: a review of non-endemic cases in the past 20 years",
+  "authors": [
+   "Stephanie J Migchelsen",
+   "Philippe Büscher",
+   "Andy I. M. Hoepelman",
+   "Henk D. F. H. Schallig",
+   "Emily R. Adams"
+  ],
+  "year": 2011,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2011.03.018",
+  "cited_by": 61,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Climate change and the rising incidence of vector-borne diseases globally",
+  "authors": [
+   "Angella Magdalene George",
+   "Rashid Ansumana",
+   "Dziedzom K. de Souza",
+   "Vettakkara Kandy Muhammed Niyas",
+   "Alimuddin Zumla",
+   "Moses J. Bockarie"
+  ],
+  "year": 2023,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2023.12.004",
+  "cited_by": 59,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Bangladesh's 2023 Dengue outbreak – age/gender-related disparity in morbidity and mortality and geographic variability of epidemic burdens",
+  "authors": [
+   "Najmul Haider",
+   "Md Asaduzzaman",
+   "Mohammad Nayeem Hasan",
+   "Mahbubur Rahman",
+   "Ahmed Raihan Sharif",
+   "Shah Ali Akbar Ashrafi"
+  ],
+  "year": 2023,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2023.08.026",
+  "cited_by": 38,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Temporal modeling of Crimean-Congo hemorrhagic fever in eastern Iran",
+  "authors": [
+   "Ehsan Mostafavi",
+   "Sadegh Chinikar",
+   "S Bokaei",
+   "Ali Akbar Haghdoost"
+  ],
+  "year": 2013,
+  "venue": "International Journal of Infectious Diseases",
+  "doi": "10.1016/j.ijid.2013.01.010",
+  "cited_by": 38,
+  "venue_target": "International Journal of Infectious Diseases",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Zika Virus (I). Isolations and serological specificity",
+  "authors": [
+   "G. W. A. Dick",
+   "S. F. Kitchen",
+   "A. J. Haddow"
+  ],
+  "year": 1952,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/0035-9203(52)90042-4",
+  "cited_by": 2742,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dengue haemorrhagic fever: Diagnosis, treatment, prevention and control",
+  "authors": [
+   "Ernest A. Gould"
+  ],
+  "year": 1998,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/s0035-9203(98)91100-2",
+  "cited_by": 724,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The double burden of communicable and non-communicable diseases in developing countries",
+  "authors": [
+   "Abdesslam Boutayeb"
+  ],
+  "year": 2005,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/j.trstmh.2005.07.021",
+  "cited_by": 700,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "An epidemic of virus disease in Southern Province, Tanganyika territory, in 1952–1953 II. General description and epidemiology",
+  "authors": [
+   "W. H. R. Lumsden"
+  ],
+  "year": 1955,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/0035-9203(55)90081-x",
+  "cited_by": 478,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Pathogenesis of liver involvement during dengue viral infections",
+  "authors": [
+   "Suranjith L. Seneviratne",
+   "Gathsaurie Neelika Malavige",
+   "H.J. de Silva"
+  ],
+  "year": 2006,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/j.trstmh.2005.10.007",
+  "cited_by": 290,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The global distribution of Crimean-Congo hemorrhagic fever",
+  "authors": [
+   "Jane P. Messina",
+   "David M. Pigott",
+   "Nick Golding",
+   "Kirsten A. Duda",
+   "John S. Brownstein",
+   "Daniel J. Weiss"
+  ],
+  "year": 2015,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trv050",
+  "cited_by": 284,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The impact of climate change on neglected tropical diseases: a systematic review",
+  "authors": [
+   "Rachel Tidman",
+   "Bernadette Abela-Ridder",
+   "Rafael Ruiz de Castañeda"
+  ],
+  "year": 2020,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/traa192",
+  "cited_by": 154,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The emergence of dengue in Bangladesh: epidemiology, challenges and future disease risk",
+  "authors": [
+   "Sifat Sharmin",
+   "Elvina Viennet",
+   "Kathryn Glass",
+   "David Harley"
+  ],
+  "year": 2015,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trv067",
+  "cited_by": 152,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Climate change, malaria and neglected tropical diseases: a scoping review",
+  "authors": [
+   "Petra Klepac",
+   "Jennifer L Hsieh",
+   "Camilla Ducker",
+   "Mohamad Assoum",
+   "Mark Booth",
+   "Isabel Byrne"
+  ],
+  "year": 2024,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trae026",
+  "cited_by": 79,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Climate change and dengue fever knowledge, attitudes and practices in Bangladesh: a social media–based cross-sectional survey",
+  "authors": [
+   "Md. Siddikur Rahman",
+   "Ajlina Karamehić-Muratović",
+   "Mahdi Baghbanzadeh",
+   "Miftahuzzannat Amrin",
+   "Sumaira Zafar",
+   "Nadia Nahrin Rahman"
+  ],
+  "year": 2020,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/traa093",
+  "cited_by": 57,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Clinico-epidemiologic characteristics of the 2019 dengue outbreak in Bangladesh",
+  "authors": [
+   "Mohammad Jahid Hasan",
+   "Tamanna Tabassum",
+   "Mohiuddin Sharif",
+   "Mohammad Abdullah Saeed Khan",
+   "Akhi Roy Bipasha",
+   "Ariful Basher"
+  ],
+  "year": 2020,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/traa126",
+  "cited_by": 45,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Neglected tropical diseases and vitamin B12: a review of the current evidence",
+  "authors": [
+   "Alexander J. Layden",
+   "Kristos Täse",
+   "Julia L. Finkelstein"
+  ],
+  "year": 2018,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/try078",
+  "cited_by": 33,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Sex-based differences in immune function and responses to vaccination",
+  "authors": [
+   "Sabra L. Klein",
+   "Ian Marriott",
+   "Eleanor N. Fish"
+  ],
+  "year": 2015,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/tru167",
+  "cited_by": 555,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Task shifting in HIV/AIDS: opportunities, challenges and proposed actions for sub-Saharan Africa",
+  "authors": [
+   "Rony Zachariah",
+   "Nathan Ford",
+   "Mit Philips",
+   "Sonya Lynch",
+   "Moses Massaquoi",
+   "V. Janssens"
+  ],
+  "year": 2008,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/j.trstmh.2008.09.019",
+  "cited_by": 401,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Adult mortality in developing countries",
+  "authors": [
+   "Christopher J L Murray",
+   "Richard Feachem"
+  ],
+  "year": 1990,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/0035-9203(90)90364-k",
+  "cited_by": 228,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "COVID-19: a fast evolving pandemic",
+  "authors": [
+   "Jimmy Whitworth"
+  ],
+  "year": 2020,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/traa025",
+  "cited_by": 215,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Mapping the zoonotic niche of Marburg virus disease in Africa",
+  "authors": [
+   "David M. Pigott",
+   "Nick Golding",
+   "Adrian Mylne",
+   "Zhi Huang",
+   "Daniel J. Weiss",
+   "Oliver J. Brady"
+  ],
+  "year": 2015,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trv024",
+  "cited_by": 165,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Epidemiology and challenges of dengue surveillance in the WHO South-East Asia Region",
+  "authors": [
+   "Tsheten Tsheten",
+   "Darren J. Gray",
+   "Archie C. A. Clements",
+   "Kinley Wangdi"
+  ],
+  "year": 2020,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/traa158",
+  "cited_by": 92,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Lassa fever in pregnancy: a systematic review and meta-analysis",
+  "authors": [
+   "Nzelle Delphine Kayem",
+   "C. S. Benson",
+   "Christina Aye",
+   "Sarah Barker",
+   "Mariana Tomé",
+   "Stephen Kennedy"
+  ],
+  "year": 2020,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/traa011",
+  "cited_by": 63,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Sero-epidemiological survey for alveolar echinococcosis (by Em2-ELISA) of blood donors in an endemic area of Switzerland",
+  "authors": [
+   "Bruno Gottstein",
+   "Christian Lengeler",
+   "P. Bachmann",
+   "Peter Hagemann",
+   "P Köcher",
+   "Michel Brossard"
+  ],
+  "year": 1987,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1016/0035-9203(87)90365-8",
+  "cited_by": 62,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The feasibility and acceptability of mass drug administration for malaria in Cambodia: a mixed-methods study",
+  "authors": [
+   "Thomas J. Peto",
+   "Rupam Tripura",
+   "Nou Sanann",
+   "Bipin Adhikari",
+   "James J. Callery",
+   "Mark Droogleever"
+  ],
+  "year": 2018,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/try053",
+  "cited_by": 42,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Molecular characterization of Shigella spp. from patients in Gabon 2011-2013",
+  "authors": [
+   "Frieder Schaumburg",
+   "Ade Stephen Alabi",
+   "Hüseyin KABA",
+   "Bertrand Lell",
+   "Karsten Becker",
+   "Martin P. Grobusch"
+  ],
+  "year": 2014,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/tru175",
+  "cited_by": 42,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A review of dengue diagnostics and implications for surveillance and control",
+  "authors": [
+   "Nader Raafat",
+   "Stuart D. Blacksell",
+   "Richard J. Maude"
+  ],
+  "year": 2019,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trz068",
+  "cited_by": 200,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The ecology and epidemiology of Ross River and Murray Valley encephalitis viruses in Western Australia: examples of One Health in Action",
+  "authors": [
+   "J. S. Mackenzie",
+   "M.D. Lindsay",
+   "David W. Smith",
+   "Allison Imrie"
+  ],
+  "year": 2017,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trx045",
+  "cited_by": 40,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dengue on islands: a Bayesian approach to understanding the global ecology of dengue viruses",
+  "authors": [
+   "Leora R. Feldstein",
+   "John S. Brownstein",
+   "Oliver J. Brady",
+   "Simon I Hay",
+   "Michael A. Johansson"
+  ],
+  "year": 2015,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/trv012",
+  "cited_by": 38,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Lessons from history: viral surveillance in 1940s East Africa",
+  "authors": [
+   "Lauren B. Carrington",
+   "Bridget Wills"
+  ],
+  "year": 2018,
+  "venue": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "doi": "10.1093/trstmh/try086",
+  "cited_by": 3,
+  "venue_target": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Barriers to vaccination in Latin America: A systematic literature review",
+  "authors": [
+   "Adriana Guzmán-Holst",
+   "Rodrigo DeAntonio",
+   "David Prado-Cohrs",
+   "Patricia Juliao"
+  ],
+  "year": 2019,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2019.10.088",
+  "cited_by": 594,
+  "venue_target": "Vaccine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The complexity and cost of vaccine manufacturing – An overview",
+  "authors": [
+   "Stanley A. Plotkin",
+   "James M. Robinson",
+   "Gerard Cunningham",
+   "Robyn Iqbal",
+   "Shannon Larsen"
+  ],
+  "year": 2017,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2017.06.003",
+  "cited_by": 442,
+  "venue_target": "Vaccine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "From research to phase III: Preclinical, industrial and clinical development of the Sanofi Pasteur tetravalent dengue vaccine",
+  "authors": [
+   "Bruno Guy",
+   "B. Barrère",
+   "Claire Malinowski",
+   "Mélanie Saville",
+   "R Teyssou",
+   "Jean Lang"
+  ],
+  "year": 2011,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2011.06.094",
+  "cited_by": 320,
+  "venue_target": "Vaccine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Preclinical and clinical development of YFV 17D-based chimeric vaccines against dengue, West Nile and Japanese encephalitis viruses",
+  "authors": [
+   "Bruno Guy",
+   "Farshad Guirakhoo",
+   "Véronique Barban",
+   "Stephen Higgs",
+   "Thomas P. Monath",
+   "Jean Lang"
+  ],
+  "year": 2009,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2009.09.098",
+  "cited_by": 290,
+  "venue_target": "Vaccine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Flaviviruses and flavivirus vaccines",
+  "authors": [
+   "Franz X. Heinz",
+   "Karin Stiasny"
+  ],
+  "year": 2012,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2011.09.114",
+  "cited_by": 275,
+  "venue_target": "Vaccine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The pathogenesis of dengue",
+  "authors": [
+   "Jamie Whitehorn",
+   "Cameron P. Simmons"
+  ],
+  "year": 2011,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2011.07.022",
+  "cited_by": 266,
+  "venue_target": "Vaccine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Arboviruses: A global public health threat",
+  "authors": [
+   "Marc Girard",
+   "Christopher B. Nelson",
+   "Valentina Picot",
+   "Duane J. Gubler"
+  ],
+  "year": 2020,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2020.04.011",
+  "cited_by": 260,
+  "venue_target": "Vaccine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A randomized Phase III clinical trial to assess the efficacy of a bovine-human reassortant pentavalent rotavirus vaccine in Indian infants",
+  "authors": [
+   "Prasad S. Kulkarni",
+   "Sajjad Desai",
+   "Tushar Tewari",
+   "Anand Kawade",
+   "Nidhi Goyal",
+   "Bishan Swarup Garg"
+  ],
+  "year": 2017,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2017.09.014",
+  "cited_by": 139,
+  "venue_target": "Vaccine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "New approaches to understanding the immune response to vaccination and infection",
+  "authors": [
+   "David Furman",
+   "Mark M. Davis"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.06.117",
+  "cited_by": 129,
+  "venue_target": "Vaccine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Cost-effectiveness of dengue vaccination in ten endemic countries",
+  "authors": [
+   "Wu Zeng",
+   "Yara A. Halasa‐Rappel",
+   "Nicolas Baurin",
+   "Laurent Coudeville",
+   "Donald S. Shepard"
+  ],
+  "year": 2017,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2017.11.064",
+  "cited_by": 69,
+  "venue_target": "Vaccine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A public health evaluation of 13-valent pneumococcal conjugate vaccine impact on adult disease outcomes from a randomized clinical trial in the Netherlands",
+  "authors": [
+   "Bradford D. Gessner",
+   "Qin Jiang",
+   "Cornelis H. van Werkhoven",
+   "Heather L. Sings",
+   "Chris Webber",
+   "Daniel A. Scott"
+  ],
+  "year": 2018,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2018.05.097",
+  "cited_by": 62,
+  "venue_target": "Vaccine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Status of vaccine research and development for Campylobacter jejuni",
+  "authors": [
+   "Mark S. Riddle",
+   "Patricia Guerry"
+  ],
+  "year": 2016,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2016.02.080",
+  "cited_by": 62,
+  "venue_target": "Vaccine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Vaccine hesitancy: Definition, scope and determinants",
+  "authors": [
+   "Noni E. MacDonald"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.04.036",
+  "cited_by": 5753,
+  "venue_target": "Vaccine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Strategies for addressing vaccine hesitancy – A systematic review",
+  "authors": [
+   "Caitlin Jarrett",
+   "Rose Wilson",
+   "Maureen O’Leary",
+   "Elisabeth Eckersberger",
+   "Heidi J. Larson"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.04.040",
+  "cited_by": 1106,
+  "venue_target": "Vaccine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Measuring vaccine hesitancy: The development of a survey tool",
+  "authors": [
+   "Heidi J. Larson",
+   "Caitlin Jarrett",
+   "W Schulz",
+   "Mohuya Chaudhuri",
+   "Yuqing Zhou",
+   "Ève Dubé"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.04.037",
+  "cited_by": 993,
+  "venue_target": "Vaccine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Vaccine hesitancy and healthcare providers",
+  "authors": [
+   "Pauline Paterson",
+   "François Meurice",
+   "Lawrence R. Stanberry",
+   "S Glismann",
+   "Susan L. Rosenthal",
+   "Heidi J. Larson"
+  ],
+  "year": 2016,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2016.10.042",
+  "cited_by": 925,
+  "venue_target": "Vaccine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Strategies intended to address vaccine hesitancy: Review of published reviews",
+  "authors": [
+   "Ève Dubé",
+   "Dominique Gagnon",
+   "Noni E. MacDonald"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.04.041",
+  "cited_by": 665,
+  "venue_target": "Vaccine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Low birth weight: Case definition & guidelines for data collection, analysis, and presentation of maternal immunization safety data",
+  "authors": [
+   "Clare Cutland",
+   "Eve Lackritz",
+   "Tamala Mallett Moore",
+   "Azucena Bardají",
+   "Ravichandran Chandrasekaran",
+   "Chandrakant Lahariya"
+  ],
+  "year": 2017,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2017.01.049",
+  "cited_by": 468,
+  "venue_target": "Vaccine",
+  "query": "mobile health",
+  "title_similarity": 0.988,
+  "crossref_ok": true
+ },
+ {
+  "title": "Improving cold chain systems: Challenges and solutions",
+  "authors": [
+   "Ashvin Ashok",
+   "Michael Brison",
+   "Yann LeTallec"
+  ],
+  "year": 2016,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2016.08.045",
+  "cited_by": 315,
+  "venue_target": "Vaccine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Mapping information exposure on social media to explain differences in HPV vaccine coverage in the United States",
+  "authors": [
+   "Adam G. Dunn",
+   "Didi Surian",
+   "Julie Leask",
+   "Aditi Dey",
+   "Kenneth D. Mandl",
+   "Enrico Coiera"
+  ],
+  "year": 2017,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2017.04.060",
+  "cited_by": 290,
+  "venue_target": "Vaccine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Diagnosing the determinants of vaccine hesitancy in specific subgroups: The Guide to Tailoring Immunization Programmes (TIP)",
+  "authors": [
+   "Robb Butler",
+   "Noni E. MacDonald"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.04.038",
+  "cited_by": 287,
+  "venue_target": "Vaccine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Trust in government, intention to vaccinate and COVID-19 vaccine hesitancy: A comparative survey of five large cities in the United States, United Kingdom, and Australia",
+  "authors": [
+   "Mallory Trent",
+   "Holly Seale",
+   "Abrar Ahmad Chughtai",
+   "Daniel A. Salmon",
+   "C. Raina MacIntyre"
+  ],
+  "year": 2021,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2021.06.048",
+  "cited_by": 267,
+  "venue_target": "Vaccine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Rift Valley fever virus: A review of diagnosis and vaccination, and implications for emergence in Europe",
+  "authors": [
+   "Karen L. Mansfield",
+   "Ashley C. Banyard",
+   "Lorraine M. McElhinney",
+   "Nicholas Johnson",
+   "Daniel L. Horton",
+   "Luis M. Hernández‐Triana"
+  ],
+  "year": 2015,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2015.08.020",
+  "cited_by": 163,
+  "venue_target": "Vaccine",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Impact of pregnancy vaccine uptake and socio-demographic determinants on subsequent childhood Measles, Mumps and Rubella vaccine uptake: A UK birth cohort study",
+  "authors": [
+   "Helen Skirrow",
+   "Kimberley Foley",
+   "Helen Bedford",
+   "Celine Lewis",
+   "Elizabeth Whittaker",
+   "Céire Costelloe"
+  ],
+  "year": 2023,
+  "venue": "Vaccine",
+  "doi": "10.1016/j.vaccine.2023.11.063",
+  "cited_by": 8,
+  "venue_target": "Vaccine",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Emerging flaviviruses: the spread and resurgence of Japanese encephalitis, West Nile and dengue viruses",
+  "authors": [
+   "J. S. Mackenzie",
+   "Duane J. Gubler",
+   "Lyle R. Petersen"
+  ],
+  "year": 2004,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/nm1144",
+  "cited_by": 1328,
+  "venue_target": "Nature Medicine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Digital technologies in the public-health response to COVID-19",
+  "authors": [
+   "Jobie Budd",
+   "Benjamin S. Miller",
+   "Erin Manning",
+   "Vasileios Lampos",
+   "Mengdie Zhuang",
+   "Michael Edelstein"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-1011-4",
+  "cited_by": 1266,
+  "venue_target": "Nature Medicine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dengue virus infectivity depends on envelope protein binding to target cell heparan sulfate",
+  "authors": [
+   "Yaping Chen",
+   "Terry Maguire",
+   "Ronald E. Hileman",
+   "Jonathan R. Fromm",
+   "Jeffrey D. Esko",
+   "Robert J. Linhardt"
+  ],
+  "year": 1997,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/nm0897-866",
+  "cited_by": 1063,
+  "venue_target": "Nature Medicine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A dynamic COVID-19 immune signature includes associations with poor prognosis",
+  "authors": [
+   "Adam G. Laing",
+   "Anna Lorenc",
+   "Irene del Molino del Barrio",
+   "Abhishek Das",
+   "Matthew Fish",
+   "Leticia Monin"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-1038-6",
+  "cited_by": 1035,
+  "venue_target": "Nature Medicine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The Global Burden of Disease Study at 30 years",
+  "authors": [
+   "Christopher J L Murray"
+  ],
+  "year": 2022,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-022-01990-1",
+  "cited_by": 857,
+  "venue_target": "Nature Medicine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Original antigenic sin and apoptosis in the pathogenesis of dengue hemorrhagic fever",
+  "authors": [
+   "Juthathip Mongkolsapaya",
+   "Wanwisa Dejnirattisai",
+   "Xiao‐Ning Xu",
+   "Sirijitt Vasanawathana",
+   "Nattaya Tangthawornchaikul",
+   "Aroonrung Chairunsri"
+  ],
+  "year": 2003,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/nm887",
+  "cited_by": 828,
+  "venue_target": "Nature Medicine",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Vaccine development for emerging infectious diseases",
+  "authors": [
+   "Jean‐Louis Excler",
+   "Mélanie Saville",
+   "Seth Berkley",
+   "Jérôme H. Kim"
+  ],
+  "year": 2021,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-021-01301-0",
+  "cited_by": 423,
+  "venue_target": "Nature Medicine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Evidence for a role of Anopheles stephensi in the spread of drug- and diagnosis-resistant malaria in Africa",
+  "authors": [
+   "Tadele Emiru",
+   "Dejene Getachew",
+   "Maxwell Murphy",
+   "Luigi Sedda",
+   "Legesse Alamerie Ejigu",
+   "Mikiyas Gebremichael Bulto"
+  ],
+  "year": 2023,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-023-02641-9",
+  "cited_by": 178,
+  "venue_target": "Nature Medicine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Modeling the impact of vaccine campaigns on the epidemic transmission dynamics of chikungunya virus outbreaks",
+  "authors": [
+   "Pastor Pérez‐Estigarribia",
+   "Gabriel Ribeiro dos Santos",
+   "Simon Cauchemez",
+   "Cynthia Vázquez",
+   "Ana Karina Ibarrola-Vannucci",
+   "Guillermo Sequera"
+  ],
+  "year": 2025,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-025-03684-w",
+  "cited_by": 21,
+  "venue_target": "Nature Medicine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Predicting referral need for febrile children in low-resource community settings in South and Southeast Asia",
+  "authors": [
+   "Arjun Chandna",
+   "Constantinos Koshiaris",
+   "Raman Mahajan",
+   "Riris Adono Ahmad",
+   "Dinh Thi Van Anh",
+   "Khalid Shams Choudhury"
+  ],
+  "year": 2026,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-026-04338-1",
+  "cited_by": 0,
+  "venue_target": "Nature Medicine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "News In Brief",
+  "authors": [],
+  "year": 2005,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/nm0705-699",
+  "cited_by": 0,
+  "venue_target": "Nature Medicine",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Clinical and immunological assessment of asymptomatic SARS-CoV-2 infections",
+  "authors": [
+   "Quanxin Long",
+   "Xiao-Jun Tang",
+   "Q L Shi",
+   "Qin Li",
+   "Haijun Deng",
+   "Jun Yuan"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-0965-6",
+  "cited_by": 3062,
+  "venue_target": "Nature Medicine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy",
+  "authors": [
+   "Giulia Giordano",
+   "Franco Blanchini",
+   "Raffaele Bruno",
+   "Patrizio Colaneri",
+   "Di Filippo A",
+   "Angela Di Matteo"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-0883-7",
+  "cited_by": 1927,
+  "venue_target": "Nature Medicine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Real-time tracking of self-reported symptoms to predict potential COVID-19",
+  "authors": [
+   "Cristina Menni",
+   "Ana M. Valdes",
+   "Maxim B. Freidin",
+   "Carole H. Sudre",
+   "Long H. Nguyen",
+   "David A. Drew"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-0916-2",
+  "cited_by": 1522,
+  "venue_target": "Nature Medicine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Health systems resilience in managing the COVID-19 pandemic: lessons from 28 countries",
+  "authors": [
+   "Victoria Haldane",
+   "Chuan De Foo",
+   "Salma M. Abdalla",
+   "Anne-Sophie Jung",
+   "Melisa Mei Jin Tan",
+   "Shishi Wu"
+  ],
+  "year": 2021,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-021-01381-y",
+  "cited_by": 1301,
+  "venue_target": "Nature Medicine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries",
+  "authors": [
+   "Julio S. Solís Arce",
+   "Shana S. Warren",
+   "Niccolò F. Meriggi",
+   "Alexandra Scacco",
+   "Nina McMurry",
+   "Maarten Voors"
+  ],
+  "year": 2021,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-021-01454-y",
+  "cited_by": 1153,
+  "venue_target": "Nature Medicine",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Antibacterial resistance worldwide: causes, challenges and responses",
+  "authors": [
+   "Stuart B. Levy",
+   "Bonnie Marshall"
+  ],
+  "year": 2004,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/nm1145",
+  "cited_by": 4080,
+  "venue_target": "Nature Medicine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A global survey of potential acceptance of a COVID-19 vaccine",
+  "authors": [
+   "Jeffrey V. Lazarus",
+   "Scott C. Ratzan",
+   "Adam Palayew",
+   "Lawrence O. Gostin",
+   "Heidi J. Larson",
+   "Kenneth Rabin"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-1124-9",
+  "cited_by": 3080,
+  "venue_target": "Nature Medicine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Attributes and predictors of long COVID",
+  "authors": [
+   "Carole H. Sudre",
+   "Benjamin Murray",
+   "Thomas Varsavsky",
+   "Mark S. Graham",
+   "Rose Penfold",
+   "Ruth C. E. Bowyer"
+  ],
+  "year": 2021,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-021-01292-y",
+  "cited_by": 2678,
+  "venue_target": "Nature Medicine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Characteristics of pediatric SARS-CoV-2 infection and potential evidence for persistent fecal viral shedding",
+  "authors": [
+   "Yi Xu",
+   "Xufang Li",
+   "Bing Zhu",
+   "Huiying Liang",
+   "Chunxiao Fang",
+   "Yu Gong"
+  ],
+  "year": 2020,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-0817-4",
+  "cited_by": 1530,
+  "venue_target": "Nature Medicine",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Developing therapeutic approaches for twenty-first-century emerging infectious viral diseases",
+  "authors": [
+   "Rita M. Meganck",
+   "Ralph S. Baric"
+  ],
+  "year": 2021,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-021-01282-0",
+  "cited_by": 254,
+  "venue_target": "Nature Medicine",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Pandemic monitoring with global aircraft-based wastewater surveillance networks",
+  "authors": [
+   "Guillaume St-Onge",
+   "Jessica T. Davis",
+   "Laurent Hébert‐Dufresne",
+   "Antoine Allard",
+   "Alessandra Urbinati",
+   "Samuel V. Scarpino"
+  ],
+  "year": 2025,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-025-03501-4",
+  "cited_by": 31,
+  "venue_target": "Nature Medicine",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Global approaches to infectious disease surveillance and modeling",
+  "authors": [
+   "Mark P. Khurana",
+   "Joseph L.-H. Tsui",
+   "Bernardo Gutierrez",
+   "Ayush Chopra",
+   "Neil Scheidwasser",
+   "Hong Zhu"
+  ],
+  "year": 2026,
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-026-04351-4",
+  "cited_by": 1,
+  "venue_target": "Nature Medicine",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Broad-spectrum antivirals for the emerging Middle East respiratory syndrome coronavirus",
+  "authors": [
+   "Jasper Fuk‐Woo Chan",
+   "Kwok‐Hung Chan",
+   "Richard Yi Tsun Kao",
+   "Kelvin Kai‐Wang To",
+   "Bo-Jian Zheng",
+   "Clara P. Y. Li"
+  ],
+  "year": 2013,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2013.09.029",
+  "cited_by": 391,
+  "venue_target": "Journal of Infection",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The utility of peripheral blood leucocyte ratios as biomarkers in infectious diseases: A systematic review and meta-analysis",
+  "authors": [
+   "Clark D Russell",
+   "Arun Parajuli",
+   "Hugo Gale",
+   "Naomi Bulteel",
+   "Philipp Schüetz",
+   "Cornelis P. C. de Jager"
+  ],
+  "year": 2019,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2019.02.006",
+  "cited_by": 302,
+  "venue_target": "Journal of Infection",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Zika fever and congenital Zika syndrome: An unexpected emerging arboviral disease",
+  "authors": [
+   "Jasper Fuk‐Woo Chan",
+   "Garnet Kwan-Yue Choi",
+   "Cyril Chik‐Yan Yip",
+   "Vincent Chi‐Chung Cheng",
+   "Kwok‐Yung Yuen"
+  ],
+  "year": 2016,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2016.02.011",
+  "cited_by": 276,
+  "venue_target": "Journal of Infection",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The nature and consequences of coinfection in humans",
+  "authors": [
+   "Emily Griffiths",
+   "Amy B. Pedersen",
+   "Andy Fenton",
+   "Owen L. Petchey"
+  ],
+  "year": 2011,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2011.06.005",
+  "cited_by": 276,
+  "venue_target": "Journal of Infection",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Encephalitis diagnosis using metagenomics: application of next generation sequencing for undiagnosed cases",
+  "authors": [
+   "Julianne R. Brown",
+   "Tehmina Bharucha",
+   "Judith Breuer"
+  ],
+  "year": 2018,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2017.12.014",
+  "cited_by": 269,
+  "venue_target": "Journal of Infection",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "UK malaria treatment guidelines 2016",
+  "authors": [
+   "David G. Lalloo",
+   "Delane Shingadia",
+   "David Bell",
+   "Nicholas J. Beeching",
+   "C. W. M. Whitty",
+   "Peter L. Chiodini"
+  ],
+  "year": 2016,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2016.02.001",
+  "cited_by": 259,
+  "venue_target": "Journal of Infection",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Meningococcal disease surveillance in the Asia–Pacific region (2020): The global meningococcal initiative",
+  "authors": [
+   "Aye Mya Min Aye",
+   "Xilian Bai",
+   "Ray Borrow",
+   "Sotharith Bory",
+   "Josefina Carlos",
+   "Dominique A. Caugant"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.07.025",
+  "cited_by": 78,
+  "venue_target": "Journal of Infection",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Emergence of co-infection of COVID-19 and dengue: A serious public health threat",
+  "authors": [
+   "Arbab Saddique",
+   "Muhammad Suleman Rana",
+   "Muhammad Masroor Alam",
+   "Aamer Ikram",
+   "Muhammad Usman",
+   "Muhammad Salman"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.08.009",
+  "cited_by": 73,
+  "venue_target": "Journal of Infection",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Regular and booster vaccination with inactivated vaccines enhance the neutralizing activity against Omicron variant both in the breakthrough infections and vaccinees",
+  "authors": [
+   "YangYang",
+   "Xiaohua Gong",
+   "Liuqing Yang",
+   "Jie Li",
+   "Jiaqi Zhang",
+   "Lanlan Wei"
+  ],
+  "year": 2022,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2022.01.004",
+  "cited_by": 33,
+  "venue_target": "Journal of Infection",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Cross reactivity of spike glycoprotein induced antibody against Delta and Omicron variants before and after third SARS-CoV-2 vaccine dose in healthy and immunocompromised individuals",
+  "authors": [
+   "Sian Faustini",
+   "Adrian Shields",
+   "Gemma D. Banham",
+   "Nadezhda Wall",
+   "Saly Al‐Taei",
+   "Chloe Tanner"
+  ],
+  "year": 2022,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2022.01.002",
+  "cited_by": 24,
+  "venue_target": "Journal of Infection",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Imported rickettsial infections to the United Kingdom, 2015–2020",
+  "authors": [
+   "Clare E. Warrell",
+   "Jane Osborne",
+   "Laura Nabarro",
+   "Barry C. Gibney",
+   "Daniel Carter",
+   "J. Warner"
+  ],
+  "year": 2023,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2023.03.015",
+  "cited_by": 12,
+  "venue_target": "Journal of Infection",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "COVID-19 and alarming dengue co-epidemics in the dilapidated healthcare system in Pakistan: Where to focus!",
+  "authors": [
+   "Muhammad Khurram",
+   "Ghadir Ali",
+   "Usman Ayub Awan",
+   "Muhammad Sohail Afzal"
+  ],
+  "year": 2021,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2021.12.015",
+  "cited_by": 9,
+  "venue_target": "Journal of Infection",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Clinical characteristics of coronavirus disease 2019 (COVID-19) in China: A systematic review and meta-analysis",
+  "authors": [
+   "Leiwen Fu",
+   "Bingyi Wang",
+   "Tanwei Yuan",
+   "Xiaoting Chen",
+   "Yunlong Ao",
+   "Thomas Fitzpatrick"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.03.041",
+  "cited_by": 1191,
+  "venue_target": "Journal of Infection",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The role of community-wide wearing of face mask for control of coronavirus disease 2019 (COVID-19) epidemic due to SARS-CoV-2",
+  "authors": [
+   "Vincent Chi‐Chung Cheng",
+   "Shuk‐Ching Wong",
+   "Vivien Wai‐Man Chuang",
+   "Simon Yung-Chun So",
+   "Jonathan Hon-Kwan Chen",
+   "Siddharth Sridhar"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.04.024",
+  "cited_by": 930,
+  "venue_target": "Journal of Infection",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Saliva is a reliable tool to detect SARS-CoV-2",
+  "authors": [
+   "Lorenzo Azzi",
+   "Giulio Carcano",
+   "Francesco Gianfagna",
+   "Paolo Grossi",
+   "Daniela Dalla Gasperina",
+   "Angelo Genoni"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.04.005",
+  "cited_by": 711,
+  "venue_target": "Journal of Infection",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The role of particle size in aerosolised pathogen transmission: A review",
+  "authors": [
+   "Jan Gralton",
+   "Euan R. Tovey",
+   "Mary‐Louise McLaws",
+   "William D﻿.﻿ Rawlinson"
+  ],
+  "year": 2010,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2010.11.010",
+  "cited_by": 705,
+  "venue_target": "Journal of Infection",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Inactivation of influenza A viruses in the environment and modes of transmission: A critical review",
+  "authors": [
+   "Thomas Weber",
+   "Nikolaos I. Stilianakis"
+  ],
+  "year": 2008,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2008.08.013",
+  "cited_by": 502,
+  "venue_target": "Journal of Infection",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Baricitinib therapy in COVID-19: A pilot study on safety and clinical impact",
+  "authors": [
+   "Fabrizio Cantini",
+   "Laura Niccoli",
+   "Daniela Matarrese",
+   "Emanuele Nicastri",
+   "Paolo Stobbione",
+   "Delia Goletti"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.04.017",
+  "cited_by": 448,
+  "venue_target": "Journal of Infection",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Current epidemiological and clinical features of COVID-19; a global perspective from China",
+  "authors": [
+   "Huilan Tu",
+   "Sheng Tu",
+   "Shiqi Gao",
+   "Anwen Shao",
+   "Jifang Sheng"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.04.011",
+  "cited_by": 295,
+  "venue_target": "Journal of Infection",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Artificial intelligence, machine learning and deep learning: Potential resources for the infection clinician",
+  "authors": [
+   "Anastasia A Theodosiou",
+   "Robert C. Read"
+  ],
+  "year": 2023,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2023.07.006",
+  "cited_by": 240,
+  "venue_target": "Journal of Infection",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Novel coronavirus disease (Covid-19): The first two patients in the UK with person to person transmission",
+  "authors": [
+   "Patrick Lillie",
+   "Anda Samson",
+   "Ang Li",
+   "Kate Adams",
+   "Richard Capstick",
+   "Gavin Barlow"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.02.020",
+  "cited_by": 225,
+  "venue_target": "Journal of Infection",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A highly effective reverse-transcription loop-mediated isothermal amplification (RT-LAMP) assay for the rapid detection of SARS-CoV-2 infection",
+  "authors": [
+   "Veronica L. Fowler",
+   "Bryony Armson",
+   "José L. Gonzáles",
+   "Emma L. Wise",
+   "Emma L.A. Howson",
+   "Zoé I. Vincent‐Mistiaen"
+  ],
+  "year": 2020,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2020.10.039",
+  "cited_by": 102,
+  "venue_target": "Journal of Infection",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Incidence of non-typhoidal Salmonella invasive disease: A systematic review and meta-analysis",
+  "authors": [
+   "Christian S. Marchello",
+   "Fabio Fiorino",
+   "Elena Pettini",
+   "John A. Crump",
+   "Laura Martín",
+   "Gianluca Breghi"
+  ],
+  "year": 2021,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2021.06.029",
+  "cited_by": 99,
+  "venue_target": "Journal of Infection",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Evidence for lack of transmission by close contact and surface touch in a restaurant outbreak of COVID-19",
+  "authors": [
+   "Nan Zhang",
+   "Xuguang Chen",
+   "Wei Jia",
+   "Tianyi Jin",
+   "Shenglan Xiao",
+   "Wenzhao Chen"
+  ],
+  "year": 2021,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2021.05.030",
+  "cited_by": 94,
+  "venue_target": "Journal of Infection",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Model-informed risk assessment for Zika virus outbreaks in the Asia-Pacific regions",
+  "authors": [
+   "Yue Teng",
+   "Dehua Bi",
+   "Guigang Xie",
+   "Yuan Jin",
+   "Yong Huang",
+   "Baihan Lin"
+  ],
+  "year": 2017,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2017.01.015",
+  "cited_by": 43,
+  "venue_target": "Journal of Infection",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The chikungunya virus outbreak in Foshan, China: A rising public health threat in tropical and subtropical regions",
+  "authors": [
+   "Jiayi Wang",
+   "Leiliang Zhang"
+  ],
+  "year": 2025,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2025.106591",
+  "cited_by": 16,
+  "venue_target": "Journal of Infection",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Impact of climate change and extreme temperature on the incidence of infectious disease among children and adolescents in China: A nationwide case-crossover study with over 8.7 million cases between 2008 and 2019",
+  "authors": [
+   "Li Chen",
+   "Duanke Liu",
+   "Yuchen Guo",
+   "Brian Wen",
+   "Yao Wu",
+   "Yi Xing"
+  ],
+  "year": 2025,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2025.106547",
+  "cited_by": 11,
+  "venue_target": "Journal of Infection",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Blood donors as sentinels for genomic surveillance of West Nile virus in Germany using a sensitive amplicon-based sequencing approach",
+  "authors": [
+   "Gábor Endre Tóth",
+   "Marike Petersen",
+   "François Chevenet",
+   "Marcin Sikora",
+   "Alexandru Tomazatos",
+   "Alexandra Bialonski"
+  ],
+  "year": 2025,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2025.106647",
+  "cited_by": 4,
+  "venue_target": "Journal of Infection",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Advancing the 2030 NTDs roadmap targets: A scoping review of environmental DNA/RNA applications in neglected tropical diseases",
+  "authors": [
+   "Jian He",
+   "Tianyun Li",
+   "Jinxin Zheng",
+   "Jinxian Chen",
+   "Yuzheng Huang",
+   "Kun Yin"
+  ],
+  "year": 2026,
+  "venue": "Journal of Infection",
+  "doi": "10.1016/j.jinf.2026.106716",
+  "cited_by": 2,
+  "venue_target": "Journal of Infection",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Chikungunya and dengue autochthonous cases in Europe, 2007–2012",
+  "authors": [
+   "Danilo Tomasello",
+   "Patricia Schlagenhauf"
+  ],
+  "year": 2013,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2013.07.006",
+  "cited_by": 260,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "COVID-19 and dengue fever: A dangerous combination for the health system in Brazil",
+  "authors": [
+   "Camila Lorenz",
+   "Thiago Salomão de Azevedo",
+   "Francisco Chiaravalloti Neto"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101659",
+  "cited_by": 196,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The arboviral burden of disease caused by co-circulation and co-infection of dengue, chikungunya and Zika in the Americas",
+  "authors": [
+   "Alfonso J. Rodríguez‐Morales",
+   "Wilmer E. Villamil‐Gómez",
+   "Carlos Franco‐Paredes"
+  ],
+  "year": 2016,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2016.05.004",
+  "cited_by": 171,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "COVID-19 and dengue, co-epidemics in Ecuador and other countries in Latin America: Pushing strained health care systems over the edge",
+  "authors": [
+   "Juan Carlos Navarro",
+   "Jazzmín Arrivillaga",
+   "José Salazar-Loor",
+   "Alfonso J. Rodríguez‐Morales"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101656",
+  "cited_by": 156,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Therapeutic use of chloroquine and hydroxychloroquine in COVID-19 and other viral infections: A narrative review",
+  "authors": [
+   "Anwar M. Hashem",
+   "Badrah S. Alghamdi",
+   "Abdullah Algaissi",
+   "Fahad S. Alshehri",
+   "Abdullah Bukhari",
+   "Mohamed A. Alfaleh"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101735",
+  "cited_by": 132,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Antimalarial drugs inhibit the replication of SARS-CoV-2: An in vitro evaluation",
+  "authors": [
+   "Mathieu Gendrot",
+   "Julien Andréani",
+   "Manon Boxberger",
+   "Priscilla Jardot",
+   "Isabelle Fonta",
+   "Marion Le Bideau"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101873",
+  "cited_by": 108,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Importation of travel-related infectious diseases is increasing in South Korea: An analysis of salmonellosis, shigellosis, malaria, and dengue surveillance data",
+  "authors": [
+   "Young June Choe",
+   "Seung‐Ah Choe",
+   "Sung‐Il Cho"
+  ],
+  "year": 2017,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2017.09.003",
+  "cited_by": 43,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The surveillance of four mosquito-borne diseases in international travelers arriving at Guangzhou Baiyun International Airport, China, 2016–2017",
+  "authors": [
+   "Feng Xue",
+   "Wei Sun",
+   "Guthrie S. Birkhead",
+   "Xuanzhuo Wang",
+   "Zhongmin Guo",
+   "Jiahai Lu"
+  ],
+  "year": 2019,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2019.101513",
+  "cited_by": 24,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Hospital-based care and/or death followed by repatriation in Dutch travelers: The HAZARD study",
+  "authors": [
+   "Jessica A. Vlot",
+   "Jim van Steenbergen",
+   "Floriana S. Luppino",
+   "Katie Geary",
+   "Perry J.J. van Genderen",
+   "Leo G. Visser"
+  ],
+  "year": 2022,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2022.102329",
+  "cited_by": 4,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Reducing communicable-disease risk after earthquakes: Vaccination and prevention lessons for Venezuela's doublet",
+  "authors": [
+   "Alfonso J. Rodriguez-Morales",
+   "Ivan Arturo Rodriguez-Sabogal",
+   "Adriana Sucari",
+   "Wendy Moncada",
+   "Lili Vanessa Hernández-Serrano",
+   "Florencia Escarrá"
+  ],
+  "year": 2026,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2026.103009",
+  "cited_by": 2,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "From local burden to global threat: Neglected tropical diseases in an era of climate change and human mobility",
+  "authors": [
+   "Francisco Javier Membrillo",
+   "Juan-Carlos Navarro",
+   "Diana Marcela Pava-Garzón",
+   "Jill E. Weatherhead",
+   "José A. Suárez",
+   "Alfonso J. Rodriguez-Morales."
+  ],
+  "year": 2026,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2026.102958",
+  "cited_by": 1,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Hemorrhagic manifestations in primary DENV-3 infection: A case of dengue with warning signs in an adolescent",
+  "authors": [
+   "Davide Mileto",
+   "Marta Stracuzzi",
+   "Alessandro Mancon",
+   "Erika Naddeo",
+   "Alberto Rizzo",
+   "Roberta Caiazzo"
+  ],
+  "year": 2026,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2026.103005",
+  "cited_by": 0,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "dengue Bangladesh",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Comorbidities, clinical signs and symptoms, laboratory findings, imaging features, treatment strategies, and outcomes in adult and pediatric patients with COVID-19: A systematic review and meta-analysis",
+  "authors": [
+   "Catherine R. Jutzeler",
+   "Lucie Bourguignon",
+   "Caroline Weis",
+   "Bobo Tong",
+   "Ka Wo Wong",
+   "Bastian Rieck"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101825",
+  "cited_by": 155,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Incidence of invasive pneumococcal disease in immunocompromised patients: A systematic review and meta-analysis",
+  "authors": [
+   "Mariëlle van Aalst",
+   "Felix Lötsch",
+   "René Spijker",
+   "Jan T. M. van der Meer",
+   "Miranda Langendam",
+   "Abraham Goorhuis"
+  ],
+  "year": 2018,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2018.05.016",
+  "cited_by": 139,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Mobile phones represent a pathway for microbial transmission: A scoping review",
+  "authors": [
+   "Matthew Olsen",
+   "Mariana Campos",
+   "Anna Lohning",
+   "Peter Jones",
+   "John Legget",
+   "Alexandra Bannach‐Brown"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101704",
+  "cited_by": 106,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Typhoid fever infection – Antibiotic resistance and vaccination strategies: A narrative review",
+  "authors": [
+   "Cristina Masuet‐Aumatell",
+   "Jorge Atouguia"
+  ],
+  "year": 2020,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2020.101946",
+  "cited_by": 82,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Infectious disease profiles of Syrian and Eritrean migrants presenting in Europe: A systematic review",
+  "authors": [
+   "Egon Isenring",
+   "Jan Fehr",
+   "Nejla Gültekin",
+   "Patricia Schlagenhauf"
+  ],
+  "year": 2018,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2018.04.014",
+  "cited_by": 72,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "community health worker",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "The role of ‘filth flies’ in the spread of antimicrobial resistance",
+  "authors": [
+   "Francis C. Onwugamba",
+   "J. Ross Fitzgerald",
+   "Kateryn Rochon",
+   "Luca Guardabassi",
+   "Abraham Alabi",
+   "Stefan Kühne"
+  ],
+  "year": 2018,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2018.02.007",
+  "cited_by": 143,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Estimating chagas disease prevalence and number of underdiagnosed, and undertreated individuals in Spain",
+  "authors": [
+   "Miriam Navarro",
+   "Laura Reguero",
+   "Carme Subirà",
+   "Antonio Blázquez-Pérez",
+   "Ana Requena‐Méndez"
+  ],
+  "year": 2022,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2022.102284",
+  "cited_by": 67,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "A meta-analysis and systematic literature review of factors associated with sexual risk-taking during international travel",
+  "authors": [
+   "Pia Svensson",
+   "Mats Sundbeck",
+   "Kristina Ingemarsdotter Persson",
+   "Martin Stafström",
+   "Per‐Olof Östergren",
+   "Louise Mannheimer"
+  ],
+  "year": 2018,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2018.03.002",
+  "cited_by": 64,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Acceptance towards COVID-19 vaccination in Latin America and the Caribbean: A systematic review and meta-analysis",
+  "authors": [
+   "Esteban A. Alarcón‐Braga",
+   "Enrique A. Hernández-Bustamante",
+   "Farley E. Salazar-Valdivia",
+   "Valeria A. Valdez-Cornejo",
+   "Melany D. Mosquera-Rojas",
+   "Juan R. Ulloque‐Badaracco"
+  ],
+  "year": 2022,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2022.102369",
+  "cited_by": 50,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "mobile health",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Spatial and temporal variation of dengue incidence in the island of Bali, Indonesia: An ecological study",
+  "authors": [
+   "Pandji Wibawa Dhewantara",
+   "Rina Marina",
+   "Tities Puspita",
+   "Yusniar Ariati",
+   "Edy Purwanto",
+   "Miko Hananto"
+  ],
+  "year": 2019,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2019.06.008",
+  "cited_by": 47,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Dengue clinical features and harbingers of severity in the diabetic patient: A retrospective cohort study on Reunion island, 2019",
+  "authors": [
+   "Azizah Issop",
+   "A. Bertolotti",
+   "Yves-Marie Diarra",
+   "Jean-Christophe Maïza",
+   "Éric Jarlet",
+   "Muriel Cogne"
+  ],
+  "year": 2023,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2023.102586",
+  "cited_by": 8,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Climate change, migration, and infectious disease vulnerability at Europe's southern border: Lampedusa as a sentinel interface",
+  "authors": [
+   "Giuseppe Accurso",
+   "Giorgia Corpora",
+   "Luigi Profera",
+   "Flavia Faranda",
+   "Marco Palmeri",
+   "Fabio Genco"
+  ],
+  "year": 2026,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2026.102985",
+  "cited_by": 1,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Outbreak preparedness and response in a globalized world: are we ready?",
+  "authors": [
+   "Francesca Norman",
+   "David Brett-Major",
+   "Chiara Sepulcri",
+   "Emmanuel Bottieau",
+   "Theresa Sepulveda",
+   "Federica Toscanini"
+  ],
+  "year": 2026,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2026.103002",
+  "cited_by": 0,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ },
+ {
+  "title": "Real-time illness monitoring in travellers: an international, prospective, digital surveillance study",
+  "authors": [
+   "Nadja Hedrich",
+   "Thibault Lovey",
+   "Julian Bernhard",
+   "Martin P. Grobusch",
+   "Philippe Gautret",
+   "Patricia Schlagenhauf"
+  ],
+  "year": 2025,
+  "venue": "Travel Medicine and Infectious Disease",
+  "doi": "10.1016/j.tmaid.2025.102943",
+  "cited_by": 0,
+  "venue_target": "Travel Medicine and Infectious Disease",
+  "query": "early warning dengue climate",
+  "title_similarity": 1.0,
+  "crossref_ok": true
+ }
+]
