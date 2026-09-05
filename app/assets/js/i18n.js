@@ -101,6 +101,10 @@ export const STRINGS = {
     risk_index: "আপেক্ষিক ঝুঁকি সূচি",
     // print + version
     print: "🖨 প্রিন্ট/PDF", version: "সংস্করণ",
+    // sms mode
+    sms_title: "SMS মোড", sms_intro: "ফিচার-ফোনেও চলবে — স্বাস্থ্যকর্মী SMS-এ উপসর্গের কোড পাঠাবে, একই ইঞ্জিন উত্তর দেবে। (অপারেটর SMS গেটওয়ে দিয়ে বাস্তবায়নযোগ্য — এটি সিমুলেশন)",
+    sms_in: "স্বাস্থ্যকর্মীর SMS", sms_send: "পাঠান →", sms_thread: "কথোপকথন",
+    sms_note: "একই WHO-ভিত্তিক ইঞ্জিন অ্যাপ ও SMS-এ চলে — এক সত্যের উৎস। বাংলা উত্তর UCS-2 (৭০ অক্ষর/সেগমেন্ট), ইংরেজি GSM-7 (১৬০) — সেগমেন্ট গণনা টেস্টে যাচাইকৃত।",
     // quiz additions
     q5: "ডেঙ্গুর মশা কখন কামড়ায়?", q5_opt: ["শুধু রাতে", "দিনের বেলা", "শুধু ভোরে", "শীতে"],
     q6: "মশা বংশবিস্তার ঠেকাতে কী করবেন?",
@@ -195,6 +199,9 @@ export const STRINGS = {
     rain_lag1: "Last month's rainfall (mm)", rain_lag2: "Month before's rainfall (mm)", rh_lag1: "Last month's humidity (%)",
     risk_index: "Relative risk index",
     print: "🖨 Print/PDF", version: "Version",
+    sms_title: "SMS mode", sms_intro: "Works on feature phones too — the health worker texts symptom codes, the SAME engine replies. (Deployable via an operator SMS gateway — this is a simulation)",
+    sms_in: "Health worker's SMS", sms_send: "Send →", sms_thread: "Conversation",
+    sms_note: "The SAME WHO-based engine runs in the app and over SMS — one source of truth. Bangla replies use UCS-2 (70 chars/segment), English GSM-7 (160) — segmentation is test-verified.",
     q5: "When does the dengue mosquito bite?", q5_opt: ["Only at night", "During the day", "Only at dawn", "In winter"],
     q6: "How do you stop mosquitoes breeding?",
     q6_opt: ["Keep the fridge off", "Empty & scrub water containers weekly", "Remove bird nests", "Keep windows open"],

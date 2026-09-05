@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMS মোড — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:title" content="ShasthoSathi — Offline AI Health Companion">
+<meta property="og:description" content="Offline-first AI companion for community health workers: WHO-based triage in Bangla, dengue early-warning, SMS mode for feature phones.">
+<meta property="og:image" content="assets/icons/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="sms_title">SMS মোড <span class="pill">SIMULATION</span></h1>
+  <p class="small" data-i18n="sms_intro">ফিচার-ফোনেও চলবে — স্বাস্থ্যকর্মী SMS-এ উপসর্গের কোড পাঠাবে, একই ইঞ্জিন উত্তর দেবে। (অপারেটর SMS গেটওয়ে দিয়ে বাস্তবায়নযোগ্য — এটি সিমুলেশন)</p>
+
+  <div class="grid2">
+    <div class="card">
+      <label data-i18n="sms_in">স্বাস্থ্যকর্মীর SMS</label>
+      <input type="text" id="smsIn" placeholder="DENGUE FEVER PAIN VOMITING" value="DENGUE FEVER PAIN VOMITING">
+      <div class="chips" style="margin-top:0.4rem">
+        <span class="small">Codes:</span>
+        <span class="chip">FEVER/JOR</span><span class="chip">PAIN/PET</span><span class="chip">VOMITING</span>
+        <span class="chip">BLEED/ROKTO</span><span class="chip">SHOCK</span><span class="chip">BREATH</span><span class="chip">FIT</span>
+      </div>
+      <button id="sendBtn" data-i18n="sms_send">পাঠান →</button>
+      <div id="parseOut" class="small" style="margin-top:0.4rem"></div>
+    </div>
+
+    <div class="card" id="threadCard">
+      <b data-i18n="sms_thread">কথোপকথন</b>
+      <div id="thread" style="margin-top:0.5rem"></div>
+      <div id="smsMeta" class="small" style="margin-top:0.4rem"></div>
+    </div>
+  </div>
+
+  <div class="note" data-i18n="sms_note">একই WHO-ভিত্তিক ইঞ্জিন অ্যাপ ও SMS-এ চলে — এক সত্যের উৎস। বাংলা উত্তর UCS-2 (৭০ অক্ষর/সেগমেন্ট), ইংরেজি GSM-7 (১৬০) — সেগমেন্ট গণনা টেস্টে যাচাইকৃত।</div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { triage } from "./assets/js/engine.js";
+import { parseSms, buildReplySms, smsInfo } from "./assets/js/sms.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("sms");
+const lang = settings.lang || "bn";
+
+el("sendBtn").onclick = () => {
+  const text = el("smsIn").value;
+  const keys = parseSms(text);
+  const r = triage({ symptoms: keys, feverDays: 3, ageGroup: "adult" });
+  const reply = buildReplySms(r.level, lang);
+  el("parseOut").textContent = (lang === "bn" ? "শনাক্ত: " : "Parsed: ") + (keys.join(", ") || "—");
+  const thread = el("thread");
+  thread.innerHTML += `
+    <div style="text-align:right;margin:0.3rem 0">
+      <span style="display:inline-block;background:var(--teal);color:#fff;border-radius:12px 12px 2px 12px;padding:0.4rem 0.7rem;max-width:80%;text-align:left">${text}</span>
+    </div>
+    <div style="margin:0.3rem 0">
+      <span style="display:inline-block;background:#e2e8f0;color:var(--slate);border-radius:12px 12px 12px 2px;padding:0.4rem 0.7rem;max-width:80%">${reply}</span>
+    </div>`;
+  const info = smsInfo(reply);
+  el("smsMeta").textContent = (lang === "bn" ? "উত্তর" : "Reply") + ": " + info.encoding + " · " +
+    info.chars + " " + (lang === "bn" ? "অক্ষর" : "chars") + " · " + info.segments + " " +
+    (lang === "bn" ? "সেগমেন্ট (প্রতি " + info.perSegment + ")" : "segment(s) of " + info.perSegment);
+  thread.scrollTop = thread.scrollHeight;
+};
+</script>
+</body>
+</html>
