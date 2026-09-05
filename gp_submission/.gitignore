@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+ShasthoSathi_GP_Video.mp4
+seg_*.mp3
+sil.mp3
+narration.mp3
+concat.txt
+frames_concat.txt
+slide_*.png
+check_frame*.png
+caption_*.png
+test_*.mp3
