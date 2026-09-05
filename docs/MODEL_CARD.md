@@ -1,4 +1,19 @@
-# Model Card — ShasthoSathi Dengue Climate-Lag Model
+# Model Card 1 — On-Device Symptom NLP (Bangla/Banglish/English)
+
+**Version:** 1.0 (2026-09-06) · **Code:** `research/train_nlp.py` · **Runtime:** `app/assets/js/nlp.js` · **Weights:** `app/data/nlp_model.json` (94.5 KB, offline)
+
+| Field | Value |
+|---|---|
+| Task | Free text (Bangla/Banglish/English) → symptom flags (16 classes, multi-label) |
+| Model | Multinomial Naive Bayes, one-vs-rest, word 1–2 grams, positive-evidence scoring |
+| Negation | NegEx-style adjacency suppression (Chapman et al. 2001) — "জ্বর নেই"/"no fever" rejects the flag |
+| Training data | 4,590 template-generated bilingual sentences (multi-label, disclosed synthetic, fixed seed 20260906) from curated lexicons + background chatter |
+| Held-out test | 1,300 unseen sentences (incl. multi-symptom + negation) |
+| **Metrics** | **Precision 0.972 · Recall 0.966 · Micro-F1 0.969** · negation rejection 91% · weakest class F1 0.893 (lethargy) |
+| Inference | Pure JavaScript, on-device, ~ms latency, no network, no data leaves the phone |
+| Scope guard | The classifier ONLY extracts symptom flags. Clinical decisions are made by the deterministic WHO-2009 rule engine (auditable). ML never diagnoses. |
+
+# Model Card 2 — Dengue Climate-Lag Forecast
 
 **Version:** 1.1 (2026-09-06) · **Code:** `research/forecast_model.py` · **Output:** `app/data/forecast.json`
 

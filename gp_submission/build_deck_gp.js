@@ -85,6 +85,7 @@ bullets(s, [
 s = p.addSlide(); master(s, 6, "Role of AI — meaningful, explainable, responsible");
 const rows = [
   ["AI component", "Input → Output", "Why AI / guardrail"],
+  ["Trained on-device NLP (multinomial NB): free Bangla/Banglish/English text → symptom flags. Held-out micro-F1 0.969, negation rejection 91%, 94.5 KB, ~ms, offline — NegEx-style negation suppression (Chapman 2001)", "voice/text → symptom flags", "runs where ChatGPT cannot: offline, private, free, feature-phone-adjacent"],
   ["Bangla speech recognition", "voice → symptom list", "removes literacy barrier"],
   ["Explainable triage engine", "flags → care level + reasons", "WHO rules as auditable code — not a black box"],
   ["SMS NLP", "coded text → same triage", "reaches feature phones"],

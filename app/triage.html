@@ -55,7 +55,10 @@
 <script type="module">
 import { initShell, el } from "./assets/js/app.js";
 import { triage, parseTranscript } from "./assets/js/engine.js";
+import { loadModel, classify } from "./assets/js/nlp.js";
 import { listen, speechSupported, speak } from "./assets/js/voice.js";
+import { loadModel, classify as classifyNlp } from "./assets/js/nlp.js";
+const classifyLoaded = async (t) => classifyNlp(await loadModel(), t);
 import { settings } from "./assets/js/store.js";
 import { t } from "./assets/js/i18n.js";
 import { add } from "./assets/js/store.js";
@@ -83,9 +86,14 @@ el("voiceBtn").onclick = () => {
   el("voiceBtn").disabled = true;
   listen({
     lang: lang === "bn" ? "bn-BD" : "en-US",
-    onResult: (text) => {
+    onResult: async (text) => {
       const heard = el("heard"); heard.style.display = "block"; heard.textContent = "🗣 " + text;
-      const hits = parseTranscript(text, lang);
+      let hits;
+      try {
+        hits = (await classifyLoaded(text)).map((f) => f.symptom);  // trained on-device NLP
+      } catch {
+        hits = parseTranscript(text, lang);  // offline fallback
+      }
       for (const h of hits) { const cb = el("sym_" + h); if (cb) cb.checked = true; }
     },
     onError: () => {},

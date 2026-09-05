@@ -32,11 +32,14 @@ Every year dengue overwhelms Bangladesh. In 2023 the country recorded its worst 
 ## 5. Specific role of AI
 | AI component | Inputs | Output | Why AI is appropriate |
 |---|---|---|---|
+| **Trained on-device NLP classifier** (multinomial Naive Bayes, our model) | free Bangla/Banglish/English symptom text/voice transcript | symptom flags — held-out micro-F1 **0.969**, negation rejection **91%** (NegEx, Chapman et al. 2001), 94.5 KB, ~ms, offline | patients speak freely, not in keywords; the model runs where cloud AI cannot — no internet, no cost, no data leaving the phone |
 | Bangla speech recognition (on-device) | spoken Bangla symptoms | structured symptom list | removes the literacy barrier; faster than typing in the field |
 | Explainable decision-support engine | symptom flags + fever duration + age/pregnancy | 3-level care recommendation + triggered signs | encodes the WHO 2009 warning-sign list as auditable rules — safer and more transparent than a black box for triage |
 | Offline SMS NLP | coded SMS text | symptom flags → same triage | extends reach to feature phones |
 | Climate-lag risk model (ML) | real rainfall/humidity (Open-Meteo) + official case series | relative seasonal-risk index | weather leads cases by weeks; simple lagged regression captures seasonal forcing (R²(log)=0.93 on the 2023 series) |
 | On-device OCR + TTS | photo of a medicine pack | read-aloud label text | independent use by low-literacy patients |
+
+**"Why not just ChatGPT?"** Because the field has no internet, no budget, and no tolerance for hallucinated medical advice: ShasthoSathi's AI runs **offline on any Android phone (~ms, free, private — data never leaves the device)**, its clinical logic is a transparent WHO rule engine (auditable, bounded — no hallucination), and it is a **system** (registry + follow-ups + schedules + SMS for feature phones + supervisor dashboard), not a chat window. An "AI Inside" page in the app shows every component's inputs, outputs, measured accuracy, and limitations to any judge.
 
 **Honest limitations we disclose (in the app itself):** the forecast model is a proof-of-concept trained on 12 verified monthly points; it captures the seasonal *shape* (validated against live 2026 data — August is the actual peak month) but over-predicts amplitude (~2.8× May–Aug median) because it lacks case-feedback — disclosed in the app, the dashboard, and the Model Card. Triage is decision *support*: every screen says it is not a doctor. Personal data stays on-device by design.
 

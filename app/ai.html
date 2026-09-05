@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Inside — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1>AI Inside — কোথায় কী এআই, কতটা ভরসা</h1>
+  <p class="small">প্রতিটি উপাদানের ইনপুট, আউটপুট, পরিমাপ ও সীমাবদ্ধতা — খোলাখুলি। (All AI components, measured and disclosed.)</p>
+
+  <div class="card">
+    <b>🧠 ১. Trained NLP: বাংলা/বাংলিশ/English উপসর্গ শনাক্তকারী</b>
+    <p class="small">Multinomial Naive Bayes (one-vs-rest, word 1–2 grams), 4,420 template-generated bilingual sentences-এ প্রশিক্ষিত, 1,000 held-out sentence-এ যাচাই। <b>NegEx</b>-স্টাইল নেগেশন চেক ("জ্বর নেই" = জ্বর নয়)। সম্পূর্ণ অফলাইন, ~ms ইনফারেন্স, ৮৭ KB মডেল।</p>
+    <label>যেকোনো বাক্য লিখুন (বাংলা/বাংলিশ/English):</label>
+    <input type="text" id="tryText" value="তার তিন দিন জ্বর আছে, পেটে প্রচণ্ড ব্যথা, কিন্তু জ্বর নেই এমন না" >
+    <button id="tryBtn">শনাক্ত করুন</button>
+    <div id="tryOut" class="chips"></div>
+    <div id="tryMetrics" class="small"></div>
+  </div>
+
+  <div class="card">
+    <b>🩺 ২. Explainable triage (decision support)</b>
+    <p class="small">ইনপুট: উপসর্গ ফ্ল্যাগ + জ্বরের দিন + বয়স/গর্ভাবস্থা → আউটপুট: ৩-স্তরের সুপারিশ + কোন সংকেত ট্রিগার করল। <b>কেন এআই:</b> WHO ২০০৯-এর warning-sign তালিকা অডিটেবল রুল হিসেবে — চিকিৎসা সিদ্ধান্তে black-box নয়। <b>সীমা:</b> রুল-ভিত্তিক; চিকিৎসকের বিকল্প নয়।</p>
+  </div>
+
+  <div class="card">
+    <b>📈 ৩. Climate-lag ML forecast</b>
+    <p class="small">ইনপুট: বাস্তব বৃষ্টি/আর্দ্রতা (Open-Meteo) + সরকারি কেস সিরিজ → আউটপুট: আপেক্ষিক ঝুঁকি সূচি। R²(log)=০.৯৩ (২০২৩), LOO-MAE ০.৩৫৪; ২০২৬-এর বাস্তব ডেটায় রূপ ধরা হয়েছে (আগস্ট = শিখর), প্রাবল্য-পার্থক্য ~২.৮× ঘোষিত। <b>সীমা:</b> case-feedback নেই — Model Card-এ বিস্তারিত।</p>
+  </div>
+
+  <div class="card">
+    <b>💊 ৪. On-device OCR + TTS</b>
+    <p class="small">ওষুধের প্যাকেটের ছবি → বাংলা পাঠ (Tesseract, অফলাইন-ক্যাশযোগ্য) → শুনিয়ে পড়া। <b>সীমা:</b> পরীক্ষামূলক — ফলাফল যাচাই করতে বলা হয়।</p>
+  </div>
+
+  <div class="card" style="border-color:#0f766e">
+    <b>❓ "ChatGPT-ই তো করতে পারে — কেন এটা?"</b>
+    <table class="list">
+      <tr><th></th><th>Cloud LLM (ChatGPT)</th><th>স্বাস্থ্যসাথী</th></tr>
+      <tr><td>ইন্টারনেট</td><td>লাগবে</td><td class="small">দরকার নেই — অফলাইনে ১০০%</td></tr>
+      <tr><td>খরচ</td><td>API/সাবস্ক্রিপশন</td><td class="small">০ টাকা, কোনো key নেই</td></tr>
+      <tr><td>প্রাইভেসি</td><td>ডেটা ক্লাউডে যায়</td><td class="small">ডেটা ফোন ছাড়ে না</td></tr>
+      <tr><td>গতি</td><td>সেকেন্ড</td><td class="small">~ms (on-device)</td></tr>
+      <tr><td>চিকিৎসা সিদ্ধান্ত</td><td>hallucinate করতে পারে</td><td class="small">WHO-রুল ইঞ্জিন — ব্যাখ্যাযোগ্য, বাউন্ডেড</td></tr>
+      <tr><td>ফিচার ফোন</td><td>অসম্ভব</td><td class="small">SMS মোড ✓</td></tr>
+      <tr><td>সিস্টেম</td><td>শুধু চ্যাট</td><td class="small">রেজিস্ট্রি+ফলোআপ+সূচি+ড্যাশবোর্ড</td></tr>
+    </table>
+    <p class="small">মূল কথা: এটা একটা <b>সিস্টেম</b> — মডেল, রুল-ইঞ্জিন, ডেটা-পাইপলাইন আর ওয়ার্কফ্লো একসাথে; চ্যাটবক্স নয়।</p>
+  </div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { loadModel, classify } from "./assets/js/nlp.js";
+import { t } from "./assets/js/i18n.js";
+import { settings } from "./assets/js/store.js";
+
+initShell("ai");
+const lang = settings.lang || "bn";
+const model = await loadModel();
+const m = model.metrics || {};
+
+el("tryBtn").onclick = () => {
+  const sent = el("tryText").value;
+  const flags = classify(model, sent);
+  el("tryOut").innerHTML = flags.length
+    ? flags.map((f) => `<span class="chip">${f.symptom} · ${f.score}</span>`).join("")
+    : `<span class="small">— কোনো উপসর্গ শনাক্ত হয়নি</span>`;
+};
+el("tryBtn").click();
+
+if (m.micro_f1) {
+  el("tryMetrics").innerHTML =
+    (lang === "bn" ? "হেল্ড-আউট মেট্রিক্স: " : "Held-out metrics: ") +
+    `precision ${m.micro_precision} · recall ${m.micro_recall} · <b>F1 ${m.micro_f1}</b> · ` +
+    (lang === "bn" ? `নেগেশন-বাতিল ${Math.round(m.negation_rejection_rate * 100)}%` : `negation rejection ${Math.round(m.negation_rejection_rate * 100)}%`) +
+    ` · train ${m.train_sentences} / test ${m.test_sentences}`;
+}
+</script>
+</body>
+</html>

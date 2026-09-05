@@ -1,18 +1,18 @@
 // ShasthoSathi service worker — offline-first app shell + data.
-const CACHE = "shasthosathi-v4";
+const CACHE = "shasthosathi-v5";
 const ASSETS = [
   "./", "./index.html", "./triage.html", "./register.html", "./followups.html",
-  "./maternal.html", "./reader.html", "./camp.html", "./sms.html", "./learn.html", "./dashboard/index.html",
+  "./maternal.html", "./reader.html", "./camp.html", "./sms.html", "./ai.html", "./learn.html", "./dashboard/index.html",
   "./assets/css/app.css",
   "./assets/js/app.js", "./assets/js/i18n.js", "./assets/js/engine.js",
   "./assets/js/scheduler.js", "./assets/js/store.js", "./assets/js/voice.js",
-  "./assets/js/dashboard.js", "./assets/js/risk.js", "./assets/js/sms.js",
+  "./assets/js/dashboard.js", "./assets/js/risk.js", "./assets/js/sms.js", "./assets/js/nlp.js",
   "./assets/js/vendor/leaflet/leaflet.js", "./assets/js/vendor/leaflet/leaflet.css",
   "./manifest.webmanifest",
   "./data/dengue_monthly_2023.json", "./data/dengue_annual.json",
   "./data/weather_dhaka_monthly.json", "./data/forecast.json",
   "./data/division_population.json", "./data/clinical_content.json",
-  "./data/divisions.geojson", "./data/dengue_decade_2014_2023.json", "./data/hotlines.json", "./data/dengue_2026_ytd.json",
+  "./data/divisions.geojson", "./data/dengue_decade_2014_2023.json", "./data/hotlines.json", "./data/nlp_model.json", "./data/dengue_2026_ytd.json",
 ];
 
 self.addEventListener("install", (e) => {

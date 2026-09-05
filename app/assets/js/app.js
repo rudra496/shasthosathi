@@ -27,6 +27,7 @@ export function header(active) {
     ["reader.html", "reader"],
     ["camp.html", "camp"],
     ["sms.html", "sms"],
+    ["ai.html", "ai"],
     ["learn.html", "learn"],
     ["dashboard/index.html", "dashboard"],
   ];
