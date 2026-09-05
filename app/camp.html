@@ -36,7 +36,7 @@
 </main>
 </div>
 <script type="module">
-import { initShell, el } from "./assets/js/app.js";
+import { initShell, el, esc } from "./assets/js/app.js";
 import { triage } from "./assets/js/engine.js";
 import { toCSV } from "./assets/js/risk.js";
 import { settings } from "./assets/js/store.js";
@@ -85,9 +85,9 @@ function render() {
   const box = el("cTable");
   if (!rows.length) { box.innerHTML = `<p class="small">${t("camp_empty", lang)}</p>`; return; }
   box.innerHTML = `<table class="list"><tr><th>ID</th><th>${t("fever_days", lang)}</th><th>${t("check", lang)}</th><th>${t("why_this", lang)}</th></tr>
-    ${rows.map((r) => `<tr><td>${r.id}</td><td>${r.fever_days}</td>
+    ${rows.map((r) => `<tr><td>${esc(r.id)}</td><td>${esc(r.fever_days)}</td>
       <td><span class="chip" style="${r.level === "EMERGENCY" ? "background:#fee2e2;color:#b91c1c" : r.level === "REFER" ? "background:#fef3c7;color:#b45309" : ""}">${r.level}</span></td>
-      <td class="small">${r.triggers || "—"}</td></tr>`).join("")}</table>`;
+      <td class="small">${esc(r.triggers) || "—"}</td></tr>`).join("")}</table>`;
 }
 </script>
 </body>

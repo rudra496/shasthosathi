@@ -35,11 +35,8 @@ s.addShape(p.ShapeType.roundRect, { x: 9.5, y: 1.7, w: 3.3, h: 4.6, fill: { colo
 s.addText("✚", { x: 9.5, y: 2.0, w: 3.3, h: 1.2, fontSize: 60, bold: true, color: "ffffff", align: "center" });
 s.addText("ShasthoSathi", { x: 9.5, y: 3.2, w: 3.3, h: 0.5, fontSize: 20, bold: true, color: "ffffff", align: "center" });
 s.addText("স্বাস্থ্যসাথী", { x: 9.5, y: 3.7, w: 3.3, h: 0.5, fontSize: 18, color: "a7f3d0", align: "center" });
-s.addText([
-  { text: "LIVE →", options: { breakLine: true } },
-  { text: "rudra496.github.io", options: { breakLine: true } },
-  { text: "/shasthosathi" },
-], { x: 9.6, y: 4.4, w: 3.1, h: 1.6, fontSize: 14, color: "ffffff", align: "center" });
+s.addImage({ path: "qr-demo.png", x: 9.9, y: 4.3, w: 2.5, h: 2.5 });
+s.addText("scan → open → airplane-mode test", { x: 9.5, y: 6.85, w: 3.3, h: 0.35, fontSize: 11, color: "a7f3d0", align: "center" });
 s.addText("Everything demonstrated today is deployed and clickable — not a concept drawing.", { x: 0.7, y: 6.35, w: 11.9, h: 0.6, fontSize: 16, italic: true, color: T });
 
 // ---- 02 Problem ----
@@ -155,6 +152,7 @@ bullets(s, [
   "Bangladesh: ~169.8M population (BBS 2022); CHW networks among the world's largest — the constraint is coordination, and our unit economics make that the only constraint",
   "Global South: dengue-endemic countries (India, Indonesia, Brazil, Philippines) reuse the platform with two data files (clinical content + language) — architecture unchanged",
   "Roadmap: on-device Gemma-class LLM for richer consultation summaries (RAM-permitting) · ward-level case-feedback model · vaccine/ANC SMS automation via gateway",
+  "Built for GP's assets: SMS gateway (simulated in-product) → live for every feature-phone user · zero-rating health traffic → free for all GP customers · MyGP integration · GP-brokered DGHS data partnership closes the forecast gap",
   "What we ask from FutureMakers: mentorship for the DGHS data partnership, pilot-site introduction, and responsible-AI guidance",
   "The idea is live today: rudra496.github.io/shasthosathi — open it during Q&A, turn on airplane mode, and try to break it.",
 ], { size: 16.5 });

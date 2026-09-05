@@ -19,4 +19,6 @@ file 'E:\zcode-data\workspace\shasthosathi\video\slide_08.png'
 duration 13.570
 file 'E:\zcode-data\workspace\shasthosathi\video\slide_09.png'
 duration 8.990
-file 'E:\zcode-data\workspace\shasthosathi\video\slide_09.png'
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_10.png'
+duration 7.190
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_10.png'

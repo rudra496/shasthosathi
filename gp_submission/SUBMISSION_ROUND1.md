@@ -51,7 +51,21 @@ Every year dengue overwhelms Bangladesh. In 2023 the country recorded its worst 
 - **Implementation path (12 months):** (1) pilot with one ward-level health-worker team in Sylhet via the university's public-health contacts; (2) add division-level case-feedback to the model with DGHS/IEDCR data partnership; (3) SMS delivery via an operator gateway (the simulation already proves the message format); (4) supervised sync for supervisors' coverage views.
 - **Risks & mitigations:** clinical misuse → hard guardrails + hotlines; data privacy → on-device storage by architecture; model overconfidence → disclosed limitations + relative-index-only outputs.
 
-## 8. Video pitch
+## 8. Disclosure (per competition rules)
+Per the official FAQ, prior development must be disclosed: ShasthoSathi was developed **before** this competition by our team, is fully owned by us (public repository, no third-party/funded contributions), and has received **no prior awards or funding** for this specific project. We disclose this proactively — the live deployment is our proof of feasibility, and all competition rounds will build on it.
+
+## 9. Why this wins WITH Grameenphone
+This is not a generic app looking for a sponsor — it is built around the assets only a telecom has:
+- **SMS mode is telecom-native**: the feature-phone path (already simulated in-product with real GSM-7/UCS-2 segmentation) needs exactly one thing to go live — an operator SMS gateway. On GP's network, a health worker in any village becomes reachable today.
+- **Zero-rating**: the PWA is tiny and offline-first; zero-rating health-information traffic on GP networks makes it free-to-use for every GP customer — inclusion with one business decision.
+- **Network-scale alerts**: anonymized, ward-level outbreak warnings pushed via GP channels when the (case-feedback-upgraded) forecast crosses thresholds.
+- **MyGP/health-platform integration**: ShasthoSathi's triage and hotlines (999/16263) can surface inside existing GP customer touchpoints.
+- **Data partnership**: the forecast's known amplitude gap closes with division-monthly case feedback — a data partnership GP is uniquely positioned to broker with DGHS/IEDCR.
+
+## 10. Impact model (transparent assumptions, labeled est.)
+During an outbreak season, one CHW sees ~10 suspected fever patients/day (field-typical order of magnitude, **est.**). With 10,000 active CHWs: **~100,000 triage decisions/month** supported, each with a shown reason and escalation guardrails; follow-up compliance and referral consistency are the pilot's measured outcomes (baseline vs app). Even one prevented death per 1,000 correct emergency referrals (2023 CFR was 0.53%) makes the arithmetic of impact overwhelming. All figures **est.** and labeled; the pilot measures them for real.
+
+## 11. Video pitch
 `ShasthoSathi_GP_Video.mp4` — 1 minute 40 seconds, 1280×720, MP4 (2.1 MB): problem with official numbers → who is affected → live product demo (offline triage in Bangla, SMS mode, live 2023–2026 dashboard, real division map) → role of AI → impact. (Bangla narration + Bangla captions.)
 
 ---

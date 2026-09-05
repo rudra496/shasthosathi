@@ -54,6 +54,9 @@ SEGMENTS = [
     ("01-home",
      "ইতিমধ্যেই চালু, ব্রাউজারে ব্যবহারযোগ্য, আন্তর্জাতিক গবেষণায় ভিত্তি করে। স্বাস্থ্যসাথী — প্রতিটি স্বাস্থ্যকর্মীর হাতে।",
      "শুরু হয়ে গেছে · ৬৪টি যাচাইকৃত গবেষণার ভিত্তিতে · rudra496.github.io/shasthosathi"),
+    ("99-endcard",
+     "কিউআর কোড স্ক্যান করুন, এখনই ব্যবহার করুন। স্বাস্থ্যসাথী। ধন্যবাদ।",
+     "Scan & try now · rudra496.github.io/shasthosathi"),
 ]
 
 def compose(frame, caption, idx):
@@ -65,6 +68,16 @@ def compose(frame, caption, idx):
     x = (W - img.width) // 2
     y = (H - 64 - img.height) // 2
     slide.paste(img, (x, y))
+    if frame == "99-endcard":
+        dd = ImageDraw.Draw(slide)
+        qr = Image.open(os.path.join(ROOT, "..", "app", "assets", "icons", "qr-demo.png")).resize((340, 340))
+        slide.paste(qr, ((W - 340) // 2, 250))
+        f_big = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 52)
+        dd.text((W / 2, 60), "ShasthoSathi", font=f_big, fill="white", anchor="ma")
+        f_sub = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 30)
+        dd.text((W / 2, 130), "Offline AI Health Companion", font=f_sub, fill="#a7f3d0", anchor="ma")
+        f_url = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 26)
+        dd.text((W / 2, 620), "rudra496.github.io/shasthosathi", font=f_url, fill="#ccfbf1", anchor="ma")
     cap_path = os.path.join(ROOT, f"caption_{idx:02d}.png")
     if os.path.exists(cap_path):
         strip = Image.open(cap_path).convert("RGB").resize((W, 64))

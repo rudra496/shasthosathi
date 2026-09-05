@@ -41,7 +41,7 @@ export function header(active) {
         <div class="name">${t("app_name", lang)}</div>
         <div class="tag">${t("app_tag", lang)}</div>
       </div>
-      <button id="langToggle" class="langbtn" aria-label="language"></button>
+      <button id="langToggle" class="langbtn" aria-label="Switch language / ভাষা বদলান"></button>
     </div>
     <nav class="nav">${links}</nav>
     <div id="netBanner" class="netbanner"></div>
@@ -87,3 +87,9 @@ function updateNetBanner() {
 }
 
 export function el(id) { return document.getElementById(id); }
+
+/** Escape user-provided strings for safe interpolation into innerHTML templates. */
+export function esc(v) {
+  return String(v ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}

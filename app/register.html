@@ -34,7 +34,7 @@
 </main>
 </div>
 <script type="module">
-import { initShell, el } from "./assets/js/app.js";
+import { initShell, el, esc } from "./assets/js/app.js";
 import { add, all, del, exportAll } from "./assets/js/store.js";
 import { settings } from "./assets/js/store.js";
 import { t } from "./assets/js/i18n.js";
@@ -47,7 +47,7 @@ async function render() {
   const box = el("plist");
   if (!patients.length) { box.innerHTML = `<p class="small">${t("no_patients", lang)}</p>`; return; }
   box.innerHTML = `<table class="list"><tr><th>${t("reg_name", lang)}</th><th>${t("reg_age", lang)}</th><th>${t("reg_sex", lang)}</th><th>${t("reg_address", lang)}</th><th></th></tr>
-    ${patients.map((p) => `<tr><td>${p.name}</td><td>${p.age ?? ""}</td><td>${t(p.sex || "other", lang)}</td><td>${p.address ?? ""}</td>
+    ${patients.map((p) => `<tr><td>${esc(p.name)}</td><td>${esc(p.age ?? "")}</td><td>${t(p.sex || "other", lang)}</td><td>${esc(p.address ?? "")}</td>
       <td><button class="danger" data-id="${p.id}">${t("delete", lang)}</button></td></tr>`).join("")}</table>`;
   box.querySelectorAll("button.danger").forEach((b) => {
     b.onclick = async () => { await del("patients", Number(b.dataset.id)); render(); };
