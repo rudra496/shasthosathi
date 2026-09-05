@@ -1,0 +1,44 @@
+{
+ "sources": [
+  "DGHS (Directorate General of Health Services, Bangladesh) figures as reported by IEDCR National Bulletin (nbph.iedcr.gov.bd/an-update-on-dengue/), WHO DON 2023-DON481, PMC7535344 (2019), outbreaknewstoday + newsonair (2024), Xinhua/Beacon (2025, 28 Dec). All verified 2026-09-06."
+ ],
+ "unit": "cases / deaths per calendar year",
+ "years": [
+  {
+   "year": 2000,
+   "cases": 5551,
+   "deaths": 93,
+   "note": "first recognized dengue outbreak year (Wikipedia 2023-outbreak article, background)"
+  },
+  {
+   "year": 2019,
+   "cases": 101354,
+   "deaths": 179,
+   "note": "largest outbreak before 2023 (IEDCR/PMC7535344)"
+  },
+  {
+   "year": 2022,
+   "cases": 62382,
+   "deaths": 281,
+   "note": "DGHS via published year-wise table; deaths via Outbreak News Today"
+  },
+  {
+   "year": 2023,
+   "cases": 321179,
+   "deaths": 1705,
+   "note": "deadliest on record (DGHS)"
+  },
+  {
+   "year": 2024,
+   "cases": 101214,
+   "deaths": 575,
+   "note": "DGHS via outbreaknewstoday/newsonair"
+  },
+  {
+   "year": 2025,
+   "cases": 102562,
+   "deaths": 412,
+   "note": "DGHS via Xinhua/Beacon 28 Dec 2025; CFR 0.40%"
+  }
+ ]
+}

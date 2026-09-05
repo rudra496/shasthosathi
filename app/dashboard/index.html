@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>সুপারভাইজার ড্যাশবোর্ড — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="../assets/css/app.css">
+<link rel="stylesheet" href="../assets/js/vendor/leaflet/leaflet.css">
+<link rel="icon" href="../assets/icons/icon-192.png">
+<link rel="manifest" href="../manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="db_title">সুপারভাইজার ড্যাশবোর্ড</h1>
+  <p class="small" data-i18n="source_note">সব সংখ্যার উৎস সংযুক্ত — কোনো কৃত্রিম ডেটা নেই।</p>
+
+  <div class="grid3" id="kpis"></div>
+
+  <div class="card">
+    <b data-i18n="chart_2023">মাসভিত্তিক ডেঙ্গু ২০২৩ (প্রকৃত বনাম মডেল)</b>
+    <div class="chart" id="chart2023"></div>
+    <p class="small" id="modelInfo"></p>
+  </div>
+
+  <div class="card">
+    <b data-i18n="chart_2026">২০২৬ আউটলুক (আপেক্ষিক ঝুঁকি সূচি)</b>
+    <div class="chart" id="chart2026"></div>
+    <p class="small" id="outlookNote"></p>
+  </div>
+
+  <div class="card">
+    <b data-i18n="map_title">বিভাগ অনুযায়ী জনসংখ্যা-ভিত্তিক অগ্রাধিকার (ডেমো)</b>
+    <div id="map"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+
+  <div class="card">
+    <b data-i18n="bulletin">সাপ্তাহিক বুলেটিন তৈরি করুন</b>
+    <p class="small">Select a month → the app drafts a situation bulletin from verified data. Off-line, template-based.</p>
+    <select id="bulletinMonth"></select>
+    <button id="genB" data-i18n="gen_bulletin">বুলেটিন লিখুন</button>
+    <button id="copyB" class="secondary" data-i18n="copy">কপি</button>
+    <textarea id="bulletinOut" rows="8" style="margin-top:0.6rem"></textarea>
+  </div>
+
+  <div class="card">
+    <b data-i18n="limitations">সীমাবদ্ধতা (সৎ থাকাটা জরুরি)</b>
+    <ul id="lims" style="font-size:0.88rem"></ul>
+  </div>
+</main>
+</div>
+<script src="../assets/js/vendor/leaflet/leaflet.js"></script>
+<script type="module" src="../assets/js/dashboard.js"></script>
+</body>
+</html>

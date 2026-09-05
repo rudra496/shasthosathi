@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ওষুধ পাঠ — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="reader">ওষুধ পাঠ <span class="pill">EXPERIMENTAL</span></h1>
+  <p class="small" data-i18n="reader_intro">ওষুধের প্যাকেটের ছবি তুলুন — লেখা পড়ে শুনিয়ে দেবে (পরীক্ষামূলক)</p>
+  <div class="note" data-i18n="reader_experimental">পরীক্ষামূলক ফিচার: প্রথমবার ইন্টারনেট লাগবে। ফলাফল যাচাই করুন।</div>
+  <div class="card">
+    <input type="file" id="file" accept="image/*" capture="environment" style="display:none">
+    <button id="pickBtn" data-i18n="pick_image">📷 ছবি তুলুন/বাছুন</button>
+    <img id="preview" alt="">
+    <div id="status" class="small"></div>
+    <div id="ocrOut"></div>
+    <button id="speakBtn" class="secondary" style="display:none" data-i18n="speak">🔊 শুনুন</button>
+  </div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { speak } from "./assets/js/voice.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("reader");
+const lang = settings.lang || "bn";
+let text = "";
+
+el("pickBtn").onclick = () => el("file").click();
+el("file").onchange = async (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  const url = URL.createObjectURL(f);
+  const img = el("preview"); img.src = url; img.style.display = "block";
+  el("status").textContent = t("ocr_running", lang);
+  try {
+    // Lazy-load tesseract.js from CDN (runtime-cached by the service worker).
+    const T = (await import("https://unpkg.com/tesseract.js@5/dist/tesseract.esm.min.js")).default;
+    const { data } = await T.recognize(f, "ben+eng");
+    text = (data.text || "").trim();
+    el("ocrOut").textContent = text || t("ocr_none", lang);
+    el("status").textContent = "";
+    el("speakBtn").style.display = text ? "inline-block" : "none";
+  } catch (err) {
+    el("status").textContent = lang === "bn"
+      ? "⚠ পড়া যায়নি — ইন্টারনেট সংযোগ দেখুন (প্রথমবারে লাগবে)"
+      : "⚠ OCR failed — check internet (needed on first use)";
+  }
+};
+el("speakBtn").onclick = () => speak(text || t("ocr_none", lang), lang === "bn" ? "bn-BD" : "en-US");
+</script>
+</body>
+</html>

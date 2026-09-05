@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>স্বাস্থ্যসাথী — ShasthoSathi</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <section class="hero">
+    <h1 data-i18n="app_name">স্বাস্থ্যসাথী</h1>
+    <p data-i18n="app_tag">স্বাস্থ্যকর্মীর অফলাইন এআই সঙ্গী</p>
+    <div class="rolebtns">
+      <a href="triage.html" data-i18n="role_chw">আমি স্বাস্থ্যকর্মী</a>
+      <a href="dashboard/index.html" data-i18n="role_sup">আমি সুপারভাইজার</a>
+    </div>
+  </section>
+  <p class="small" style="text-align:center" data-i18n="choose_role">আপনি কে? (ভূমিকা বাছুন)</p>
+
+  <div class="actions">
+    <a href="triage.html">🩺<br><span data-i18n="triage">উপসর্গ যাচাই</span></a>
+    <a href="registry.html">👥<br><span data-i18n="registry">রোগী তালিকা</span></a>
+    <a href="followups.html">📅<br><span data-i18n="followups">ফলোআপ</span></a>
+    <a href="maternal.html">🤰<br><span data-i18n="maternal">মা ও শিশু</span></a>
+    <a href="reader.html">💊<br><span data-i18n="reader">ওষুধ পাঠ</span></a>
+    <a href="learn.html">🎓<br><span data-i18n="learn">শিখুন</span></a>
+  </div>
+
+  <div class="card">
+    <b>শুনুন (Listen):</b> <button class="secondary" onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(document.querySelector('.hero p').textContent))">🔊</button>
+    <span class="small">— প্রতিটি স্ক্রিনে অডিও সহায়তা</span>
+  </div>
+</main>
+</div>
+<script type="module">
+  import { initShell } from "./assets/js/app.js";
+  initShell("home");
+</script>
+</body>
+</html>

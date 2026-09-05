@@ -1,0 +1,218 @@
+[
+ {
+  "month": "2023-01",
+  "temp_mean_c": 18.11,
+  "rain_total_mm": 0.6,
+  "rh_mean_pct": 77.65
+ },
+ {
+  "month": "2023-02",
+  "temp_mean_c": 21.84,
+  "rain_total_mm": 3.0,
+  "rh_mean_pct": 66.61
+ },
+ {
+  "month": "2023-03",
+  "temp_mean_c": 24.65,
+  "rain_total_mm": 99.4,
+  "rh_mean_pct": 68.26
+ },
+ {
+  "month": "2023-04",
+  "temp_mean_c": 28.51,
+  "rain_total_mm": 70.9,
+  "rh_mean_pct": 65.8
+ },
+ {
+  "month": "2023-05",
+  "temp_mean_c": 29.13,
+  "rain_total_mm": 185.3,
+  "rh_mean_pct": 70.81
+ },
+ {
+  "month": "2023-06",
+  "temp_mean_c": 29.9,
+  "rain_total_mm": 330.1,
+  "rh_mean_pct": 78.5
+ },
+ {
+  "month": "2023-07",
+  "temp_mean_c": 29.33,
+  "rain_total_mm": 176.5,
+  "rh_mean_pct": 80.81
+ },
+ {
+  "month": "2023-08",
+  "temp_mean_c": 28.54,
+  "rain_total_mm": 347.1,
+  "rh_mean_pct": 85.06
+ },
+ {
+  "month": "2023-09",
+  "temp_mean_c": 28.66,
+  "rain_total_mm": 247.4,
+  "rh_mean_pct": 84.67
+ },
+ {
+  "month": "2023-10",
+  "temp_mean_c": 26.84,
+  "rain_total_mm": 192.6,
+  "rh_mean_pct": 78.61
+ },
+ {
+  "month": "2023-11",
+  "temp_mean_c": 23.92,
+  "rain_total_mm": 66.7,
+  "rh_mean_pct": 72.57
+ },
+ {
+  "month": "2023-12",
+  "temp_mean_c": 19.98,
+  "rain_total_mm": 42.1,
+  "rh_mean_pct": 79.0
+ },
+ {
+  "month": "2024-01",
+  "temp_mean_c": 16.78,
+  "rain_total_mm": 1.3,
+  "rh_mean_pct": 80.32
+ },
+ {
+  "month": "2024-02",
+  "temp_mean_c": 20.76,
+  "rain_total_mm": 16.5,
+  "rh_mean_pct": 69.55
+ },
+ {
+  "month": "2024-03",
+  "temp_mean_c": 24.73,
+  "rain_total_mm": 65.8,
+  "rh_mean_pct": 65.52
+ },
+ {
+  "month": "2024-04",
+  "temp_mean_c": 30.66,
+  "rain_total_mm": 7.1,
+  "rh_mean_pct": 64.27
+ },
+ {
+  "month": "2024-05",
+  "temp_mean_c": 29.95,
+  "rain_total_mm": 277.7,
+  "rh_mean_pct": 72.52
+ },
+ {
+  "month": "2024-06",
+  "temp_mean_c": 29.65,
+  "rain_total_mm": 256.9,
+  "rh_mean_pct": 82.0
+ },
+ {
+  "month": "2024-07",
+  "temp_mean_c": 28.86,
+  "rain_total_mm": 202.7,
+  "rh_mean_pct": 82.61
+ },
+ {
+  "month": "2024-08",
+  "temp_mean_c": 27.51,
+  "rain_total_mm": 477.2,
+  "rh_mean_pct": 86.48
+ },
+ {
+  "month": "2024-09",
+  "temp_mean_c": 28.65,
+  "rain_total_mm": 271.6,
+  "rh_mean_pct": 83.9
+ },
+ {
+  "month": "2024-10",
+  "temp_mean_c": 26.87,
+  "rain_total_mm": 314.7,
+  "rh_mean_pct": 84.81
+ },
+ {
+  "month": "2024-11",
+  "temp_mean_c": 24.32,
+  "rain_total_mm": 2.4,
+  "rh_mean_pct": 69.93
+ },
+ {
+  "month": "2024-12",
+  "temp_mean_c": 20.68,
+  "rain_total_mm": 1.2,
+  "rh_mean_pct": 67.06
+ },
+ {
+  "month": "2025-01",
+  "temp_mean_c": 20.31,
+  "rain_total_mm": 3.1,
+  "rh_mean_pct": 69.16
+ },
+ {
+  "month": "2025-02",
+  "temp_mean_c": 23.51,
+  "rain_total_mm": 7.8,
+  "rh_mean_pct": 60.89
+ },
+ {
+  "month": "2025-03",
+  "temp_mean_c": 28.37,
+  "rain_total_mm": 18.8,
+  "rh_mean_pct": 51.58
+ },
+ {
+  "month": "2025-04",
+  "temp_mean_c": 29.14,
+  "rain_total_mm": 113.9,
+  "rh_mean_pct": 67.93
+ },
+ {
+  "month": "2025-05",
+  "temp_mean_c": 29.0,
+  "rain_total_mm": 273.5,
+  "rh_mean_pct": 76.26
+ },
+ {
+  "month": "2025-06",
+  "temp_mean_c": 28.75,
+  "rain_total_mm": 223.0,
+  "rh_mean_pct": 83.27
+ },
+ {
+  "month": "2025-07",
+  "temp_mean_c": 28.14,
+  "rain_total_mm": 324.7,
+  "rh_mean_pct": 86.52
+ },
+ {
+  "month": "2025-08",
+  "temp_mean_c": 28.29,
+  "rain_total_mm": 226.1,
+  "rh_mean_pct": 84.1
+ },
+ {
+  "month": "2025-09",
+  "temp_mean_c": 29.23,
+  "rain_total_mm": 175.0,
+  "rh_mean_pct": 80.2
+ },
+ {
+  "month": "2025-10",
+  "temp_mean_c": 28.09,
+  "rain_total_mm": 185.2,
+  "rh_mean_pct": 77.94
+ },
+ {
+  "month": "2025-11",
+  "temp_mean_c": 25.05,
+  "rain_total_mm": 12.4,
+  "rh_mean_pct": 64.13
+ },
+ {
+  "month": "2025-12",
+  "temp_mean_c": 21.08,
+  "rain_total_mm": 0.0,
+  "rh_mean_pct": 63.87
+ }
+]

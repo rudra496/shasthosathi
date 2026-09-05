@@ -1,0 +1,214 @@
+{
+ "model": {
+  "form": "log10(cases+1) ~ b0 + b1*rain_mm_lag1 + b2*rain_mm_lag2 + b3*RH_pct_lag1",
+  "fitted_on": "Bangladesh monthly hospitalized dengue cases, 2023 (12 months, Hossain et al. 2025, doi:10.1002/hsr2.70852)",
+  "weather_source": "Open-Meteo archive API, Dhaka (23.81N, 90.41E), real observations",
+  "coefficients": {
+   "b0_const": 1.6141,
+   "b1_rain_lag1": 0.00405,
+   "b2_rain_lag2": 0.00529,
+   "b3_rh_lag1": 0.00954
+  },
+  "in_sample_r2_log": 0.93,
+  "loo_mae_log10": 0.354,
+  "loo_mae_cases": 26912,
+  "fit_monthly": [
+   {
+    "month": "2023-01",
+    "actual": 566,
+    "fitted": 225
+   },
+   {
+    "month": "2023-02",
+    "actual": 166,
+    "fitted": 254
+   },
+   {
+    "month": "2023-03",
+    "actual": 111,
+    "fitted": 183
+   },
+   {
+    "month": "2023-04",
+    "actual": 143,
+    "fitted": 481
+   },
+   {
+    "month": "2023-05",
+    "actual": 1036,
+    "fitted": 1134
+   },
+   {
+    "month": "2023-06",
+    "actual": 5956,
+    "fitted": 2599
+   },
+   {
+    "month": "2023-07",
+    "actual": 43854,
+    "fitted": 47851
+   },
+   {
+    "month": "2023-08",
+    "actual": 71976,
+    "fitted": 70261
+   },
+   {
+    "month": "2023-09",
+    "actual": 79598,
+    "fitted": 58173
+   },
+   {
+    "month": "2023-10",
+    "actual": 67769,
+    "fitted": 182159
+   },
+   {
+    "month": "2023-11",
+    "actual": 40716,
+    "fitted": 28390
+   },
+   {
+    "month": "2023-12",
+    "actual": 9288,
+    "fitted": 3943
+   }
+  ]
+ },
+ "out_of_sample_annual_checks": [
+  {
+   "year": 2024,
+   "model_annual_prediction": 1642350,
+   "actual": 101214,
+   "ratio_model_over_actual": 16.23
+  },
+  {
+   "year": 2025,
+   "model_annual_prediction": 300081,
+   "actual": 102562,
+   "ratio_model_over_actual": 2.93
+  }
+ ],
+ "projection_2026": {
+  "months": [
+   {
+    "month": "2026-01",
+    "predicted_cases": 193,
+    "weather_available": true
+   },
+   {
+    "month": "2026-02",
+    "predicted_cases": 164,
+    "weather_available": true
+   },
+   {
+    "month": "2026-03",
+    "predicted_cases": 126,
+    "weather_available": true
+   },
+   {
+    "month": "2026-04",
+    "predicted_cases": 462,
+    "weather_available": true
+   },
+   {
+    "month": "2026-05",
+    "predicted_cases": 2056,
+    "weather_available": true
+   },
+   {
+    "month": "2026-06",
+    "predicted_cases": 4398,
+    "weather_available": true
+   },
+   {
+    "month": "2026-07",
+    "predicted_cases": 4588,
+    "weather_available": true
+   },
+   {
+    "month": "2026-08",
+    "predicted_cases": 57809,
+    "weather_available": true
+   },
+   {
+    "month": "2026-09",
+    "predicted_cases": 913516,
+    "weather_available": true
+   },
+   {
+    "month": "2026-10",
+    "predicted_cases": null,
+    "weather_available": false
+   },
+   {
+    "month": "2026-11",
+    "predicted_cases": null,
+    "weather_available": false
+   },
+   {
+    "month": "2026-12",
+    "predicted_cases": null,
+    "weather_available": false
+   }
+  ],
+  "total_if_2023_amplitude_holds": 983312
+ },
+ "division_priority_demo": [
+  {
+   "division": "Dhaka",
+   "population": 45644586,
+   "population_share_pct": 26.9,
+   "demo_priority_index": 26.9
+  },
+  {
+   "division": "Chattogram",
+   "population": 34178612,
+   "population_share_pct": 20.1,
+   "demo_priority_index": 20.1
+  },
+  {
+   "division": "Rajshahi",
+   "population": 20794019,
+   "population_share_pct": 12.2,
+   "demo_priority_index": 12.2
+  },
+  {
+   "division": "Rangpur",
+   "population": 18020071,
+   "population_share_pct": 10.6,
+   "demo_priority_index": 10.6
+  },
+  {
+   "division": "Khulna",
+   "population": 17813218,
+   "population_share_pct": 10.5,
+   "demo_priority_index": 10.5
+  },
+  {
+   "division": "Mymensingh",
+   "population": 12637472,
+   "population_share_pct": 7.4,
+   "demo_priority_index": 7.4
+  },
+  {
+   "division": "Sylhet",
+   "population": 11415113,
+   "population_share_pct": 6.7,
+   "demo_priority_index": 6.7
+  },
+  {
+   "division": "Barishal",
+   "population": 9325820,
+   "population_share_pct": 5.5,
+   "demo_priority_index": 5.5
+  }
+ ],
+ "limitations": [
+  "Trained on 12 monthly points (2023) — proof-of-concept pipeline, not an operational forecast.",
+  "Climate lags capture seasonal forcing only; they CANNOT capture epidemic burn-out (susceptible depletion). Predicted annual totals overshoot 2024/2025 actuals — see out_of_sample_annual_checks — exactly because 2024/2025 had favorable climate but fewer susceptibles after the 2023 mega-outbreak.",
+  "Division priority uses population share only; Dhaka city carried 44% of 2023 cases and 69% of deaths, so true field deployment needs case-feedback and division-level reporting.",
+  "All numbers trace to sources in data_provenance.json / clinical_content.json. No synthetic data."
+ ],
+ "generated": "2026-09-06"
+}

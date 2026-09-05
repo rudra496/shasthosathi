@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>মা ও শিশু — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="maternal">মা ও শিশু</h1>
+
+  <div class="card">
+    <b data-i18n="anc_title">গর্ভাবস্থার যত্ন (WHO: ৮ বার চেকআপ)</b>
+    <label data-i18n="lmp_label">শেষ মাসিকের তারিখ</label>
+    <input type="date" id="lmp">
+    <br><button id="ancBtn" data-i18n="anc_calc">তারিখ বের করুন</button>
+    <div id="ancOut"></div>
+  </div>
+
+  <div class="card">
+    <b data-i18n="epi_title">শিশুর টিকা (বাংলাদেশ EPI সূচি)</b>
+    <label data-i18n="birth_label">শিশুর জন্ম তারিখ</label>
+    <input type="date" id="birth">
+    <br><button id="epiBtn" data-i18n="epi_calc">টিকার তারিখ বের করুন</button>
+    <div id="epiOut"></div>
+  </div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { ancDates, epiDates, smsText } from "./assets/js/scheduler.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("maternal");
+const lang = settings.lang || "bn";
+const table = (rows) => `<table class="list">${rows.map((r) => `<tr><td>${r.date}</td><td>${r.label || ("সপ্তাহ " + r.week + " / week " + r.week)}</td></tr>`).join("")}</table>`;
+
+el("ancBtn").onclick = () => {
+  const r = ancDates(el("lmp").value);
+  const out = el("ancOut");
+  if (r.error) { out.innerHTML = `<p class="small">⚠ invalid date</p>`; return; }
+  const sms = smsText("anc", "", r.contacts, lang);
+  out.innerHTML = `<p class="small">EDD: <b>${r.edd}</b></p>` + table(r.contacts)
+    + `<br><button class="secondary" id="ancSms">${t("sms_copy", lang)}</button><span class="small" id="ancCopied"></span>`;
+  document.getElementById("ancSms").onclick = () => {
+    navigator.clipboard.writeText(sms);
+    document.getElementById("ancCopied").textContent = " " + t("copied", lang);
+  };
+};
+
+el("epiBtn").onclick = () => {
+  const r = epiDates(el("birth").value);
+  const out = el("epiOut");
+  if (r.error) { out.innerHTML = `<p class="small">⚠ invalid date</p>`; return; }
+  const sms = smsText("epi", "", r.doses.map((d) => ({ date: d.date, label: d.label })), lang);
+  out.innerHTML = table(r.doses)
+    + `<br><button class="secondary" id="epiSms">${t("sms_copy", lang)}</button><span class="small" id="epiCopied"></span>`;
+  document.getElementById("epiSms").onclick = () => {
+    navigator.clipboard.writeText(sms);
+    document.getElementById("epiCopied").textContent = " " + t("copied", lang);
+  };
+};
+</script>
+</body>
+</html>

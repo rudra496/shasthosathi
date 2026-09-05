@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>রোগী তালিকা — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="registry">রোগী তালিকা</h1>
+  <div class="card">
+    <div class="grid2">
+      <div><label data-i18n="reg_name">নাম</label><input type="text" id="pName"></div>
+      <div><label data-i18n="reg_age">বয়স</label><input type="number" id="pAge" min="0" max="120"></div>
+      <div><label data-i18n="reg_sex">লিঙ্গ</label>
+        <select id="pSex"><option value="female" data-i18n="female">মহিলা</option><option value="male" data-i18n="male">পুরুষ</option><option value="other" data-i18n="other">অন্য</option></select></div>
+      <div><label data-i18n="reg_phone">মোবাইল (ঐচ্ছিক)</label><input type="tel" id="pPhone"></div>
+      <div><label data-i18n="reg_address">ঠিকানা/ওয়ার্ড</label><input type="text" id="pAddr"></div>
+      <div><label data-i18n="reg_notes">নোট</label><input type="text" id="pNotes"></div>
+    </div>
+    <br><button id="addBtn" data-i18n="add_patient">রোগী যোগ করুন</button>
+    <button class="secondary" id="exportBtn" data-i18n="export_data">তথ্য ব্যাকআপ (JSON)</button>
+    <span class="small" data-i18n="security_note"></span>
+  </div>
+  <div class="card"><div id="plist"></div></div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { add, all, del, exportAll } from "./assets/js/store.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("registry");
+const lang = settings.lang || "bn";
+
+async function render() {
+  const patients = await all("patients");
+  const box = el("plist");
+  if (!patients.length) { box.innerHTML = `<p class="small">${t("no_patients", lang)}</p>`; return; }
+  box.innerHTML = `<table class="list"><tr><th>${t("reg_name", lang)}</th><th>${t("reg_age", lang)}</th><th>${t("reg_sex", lang)}</th><th>${t("reg_address", lang)}</th><th></th></tr>
+    ${patients.map((p) => `<tr><td>${p.name}</td><td>${p.age ?? ""}</td><td>${t(p.sex || "other", lang)}</td><td>${p.address ?? ""}</td>
+      <td><button class="danger" data-id="${p.id}">${t("delete", lang)}</button></td></tr>`).join("")}</table>`;
+  box.querySelectorAll("button.danger").forEach((b) => {
+    b.onclick = async () => { await del("patients", Number(b.dataset.id)); render(); };
+  });
+}
+
+el("addBtn").onclick = async () => {
+  const name = el("pName").value.trim();
+  if (!name) { el("pName").focus(); return; }
+  await add("patients", {
+    name, age: el("pAge").value, sex: el("pSex").value, phone: el("pPhone").value,
+    address: el("pAddr").value, notes: el("pNotes").value, createdAt: new Date().toISOString(),
+  });
+  for (const id of ["pName", "pAge", "pPhone", "pAddr", "pNotes"]) el(id).value = "";
+  render();
+};
+el("exportBtn").onclick = async () => {
+  const blob = new Blob([await exportAll()], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "shasthosathi-backup-" + new Date().toISOString().slice(0, 10) + ".json";
+  a.click();
+};
+render();
+</script>
+</body>
+</html>

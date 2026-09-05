@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ফলোআপ — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="followups">ফলোআপ</h1>
+  <div class="card"><div id="fulist"></div></div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { all, put } from "./assets/js/store.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("followups");
+const lang = settings.lang || "bn";
+const LEVEL_KEY = { EMERGENCY: "level_emergency", REFER: "level_refer", POSSIBLE: "level_possible" };
+
+async function render() {
+  const items = (await all("followups")).sort((a, b) => a.when.localeCompare(b.when));
+  const box = el("fulist");
+  if (!items.length) { box.innerHTML = `<p class="small">${t("no_followups", lang)}</p>`; return; }
+  const pending = items.filter((x) => !x.done);
+  const done = items.filter((x) => x.done);
+  const row = (x) => `<tr><td>${x.when}</td><td>${t(LEVEL_KEY[x.level] || "level_general", lang)}</td>
+    <td>${x.done ? "✅" : `<button data-id="${x.id}">${t("mark_done", lang)}</button>`}</td></tr>`;
+  box.innerHTML = `
+    <b>${t("fu_pending", lang)} (${pending.length})</b>
+    <table class="list">${pending.map(row).join("")}</table>
+    <br><b>${t("fu_done", lang)} (${done.length})</b>
+    <table class="list">${done.map(row).join("")}</table>`;
+  box.querySelectorAll("button[data-id]").forEach((b) => {
+    b.onclick = async () => {
+      const item = pending.find((x) => x.id === Number(b.dataset.id));
+      item.done = true; item.doneAt = new Date().toISOString();
+      await put("followups", item); render();
+    };
+  });
+}
+render();
+</script>
+</body>
+</html>

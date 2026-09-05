@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>শিখুন — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="learn">শিখুন</h1>
+  <p class="small" data-i18n="learn_title">ডেঙ্গুর বিপদ সংকেত চেনুন (কুইজ)</p>
+  <div class="card" id="quiz"></div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+
+initShell("learn");
+const lang = settings.lang || "bn";
+
+// Correct answers are the evidence-based ones: severe abdominal pain (WHO warning sign),
+// paracetamol (safe), hospital today (warning sign action), fever days 3-7 (critical phase).
+const QUIZ = [
+  { q: "q1", opts: "q1_opt", correct: 1,
+    why: "WHO 2009 warning sign — severe abdominal pain/tenderness." },
+  { q: "q2", opts: "q2_opt", correct: 2,
+    why: "Paracetamol only; aspirin/ibuprofen increase bleeding risk (WHO/CDC)." },
+  { q: "q3", opts: "q3_opt", correct: 1,
+    why: "Any warning sign = go to hospital/clinic the same day (WHO 2009)." },
+  { q: "q4", opts: "q4_opt", correct: 0,
+    why: "The critical phase is around fever days 3–7 (WHO)." },
+];
+
+let idx = 0, score = 0;
+function render() {
+  const box = el("quiz");
+  if (idx >= QUIZ.length) {
+    box.innerHTML = `<h2>${t("score", lang)}: ${score} / ${QUIZ.length}</h2>
+      <button onclick="location.reload()">${t("restart", lang)}</button>`;
+    speakText(`${t("score", lang)} ${score} / ${QUIZ.length}`);
+    return;
+  }
+  const q = QUIZ[idx];
+  box.innerHTML = `<b>${idx + 1}. ${t(q.q, lang)}</b><br>
+    ${t(q.opts, lang).map((o, i) => `<br><label class="sym"><input type="radio" name="ans" value="${i}"><span>${o}</span></label>`).join("")}
+    <br><br><button id="ansBtn">${t("next", lang)}</button><div id="fb"></div>`;
+  document.getElementById("ansBtn").onclick = () => {
+    const sel = document.querySelector('input[name=ans]:checked');
+    if (!sel) return;
+    const ok = Number(sel.value) === q.correct;
+    if (ok) score++;
+    document.getElementById("fb").innerHTML =
+      `<div class="note">${ok ? t("correct", lang) : t("wrong", lang) + t(q.opts, lang)[q.correct]} <span class="small">${q.why}</span></div>`;
+    setTimeout(() => { idx++; render(); }, 1600);
+  };
+}
+function speakText(s) { try { const u = new SpeechSynthesisUtterance(s); u.lang = lang === "bn" ? "bn-BD" : "en-US"; speechSynthesis.speak(u); } catch {} }
+render();
+</script>
+</body>
+</html>

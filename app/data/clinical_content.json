@@ -1,0 +1,78 @@
+{
+ "who_warning_signs": {
+  "source": "WHO. Dengue: Guidelines for Diagnosis, Treatment, Prevention and Control. New edition 2009 (iris.who.int, ISBN 9789241547871) — 'dengue with warning signs' list; validation: Hadinegoro SRS. The revised WHO dengue case classification. Trans R Soc Trop Med Hyg. 2012;doi:10.1179/2046904712z.00000000052",
+  "items": [
+   "abdominal_pain",
+   "persistent_vomiting",
+   "fluid_accumulation",
+   "mucosal_bleeding",
+   "lethargy_restlessness",
+   "liver_enlargement",
+   "rising_hct_falling_platelets"
+  ]
+ },
+ "severe_dengue_proxies_app": {
+  "source": "WHO 2009 severe-dengue criteria operationalized for community-level red flags; plus WHO/UNICEF IMCI generic danger signs (unable to drink, vomiting everything, convulsions, unconsciousness). App shows 'emergency' for any of these.",
+  "items": [
+   "shock_signs",
+   "breathing_difficulty",
+   "convulsion",
+   "unconscious",
+   "unable_to_drink",
+   "vomiting_everything",
+   "severe_bleeding"
+  ]
+ },
+ "home_care_advice": {
+  "source": "WHO dengue fact sheet (who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue) and CDC dengue clinical guidance (cdc.gov/dengue/hcp/clinical-signs/guidelines.html): paracetamol for fever; AVOID aspirin/ibuprofen/NSAIDs (bleeding risk); oral fluids; daily follow-up during critical phase (fever days 3-7).",
+  "items": [
+   "paracetamol_only",
+   "avoid_aspirin_ibuprofen",
+   "oral_fluids",
+   "daily_monitoring",
+   "return_if_warning_signs"
+  ]
+ },
+ "anc_contacts_weeks": {
+  "source": "WHO. WHO recommendations on antenatal care for a positive pregnancy experience. Geneva: WHO; 2016. (8 contacts model)",
+  "weeks": [
+   12,
+   20,
+   26,
+   30,
+   34,
+   36,
+   38,
+   40
+  ]
+ },
+ "bd_epi_schedule": {
+  "source": "WHO IRIS Bangladesh EPI document + PMC9984999 (Mobile-Based Immunization Decision Support). Verified 2026-09-06.",
+  "doses": [
+   {
+    "vaccine": "BCG",
+    "age": "birth"
+   },
+   {
+    "vaccine": "Penta-1 / OPV-1 / PCV-1 / IPV-1",
+    "age": "6 weeks"
+   },
+   {
+    "vaccine": "Penta-2 / OPV-2 / PCV-2",
+    "age": "10 weeks"
+   },
+   {
+    "vaccine": "Penta-3 / OPV-3 / PCV-3 / IPV-2",
+    "age": "14 weeks"
+   },
+   {
+    "vaccine": "MR-1",
+    "age": "9 months"
+   },
+   {
+    "vaccine": "MR-2",
+    "age": "15-18 months"
+   }
+  ]
+ }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>উপসর্গ যাচাই — স্বাস্থ্যসাথী</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div id="shell">
+<main>
+  <h1 data-i18n="triage">উপসর্গ যাচাই</h1>
+  <p class="small" data-i18n="triage_intro">রোগীর উপসর্গ বাছুন। ভয়েসও বলা যাবে।</p>
+
+  <div class="card">
+    <button id="voiceBtn" class="secondary"><span data-i18n="start_voice">🎤 কথা বলুন</span></button>
+    <span class="small" data-i18n="voice_hint">(ইন্টারনেট লাগলে ভয়েস ভালো কাজ করবে)</span>
+    <div id="heard" class="note" style="display:none"></div>
+  </div>
+
+  <div class="card">
+    <div class="grid3">
+      <div>
+        <label data-i18n="fever_days">জ্বর কত দিন?</label>
+        <input type="number" id="feverDays" min="0" max="30" value="1">
+      </div>
+      <div>
+        <label data-i18n="age_group">বয়স</label>
+        <select id="ageGroup">
+          <option value="child" data-i18n="age_child">৫ বছরের কম</option>
+          <option value="adult" selected data-i18n="age_adult">৫–৬৪ বছর</option>
+          <option value="elder" data-i18n="age_elder">৬৫+</option>
+        </select>
+      </div>
+      <div>
+        <label data-i18n="pregnant">সন্তানধারণকারী (গর্ভবতী)</label>
+        <select id="pregnant"><option value="no">না / No</option><option value="yes">হ্যাঁ / Yes</option></select>
+      </div>
+    </div>
+
+    <label>উপসর্গ / Symptoms</label>
+    <div class="symgrid" id="symgrid"></div>
+    <button id="checkBtn" data-i18n="check">ফলাফল দেখুন</button>
+  </div>
+
+  <div id="result" style="display:none"></div>
+</main>
+</div>
+<script type="module">
+import { initShell, el } from "./assets/js/app.js";
+import { triage, parseTranscript } from "./assets/js/engine.js";
+import { listen, speechSupported } from "./assets/js/voice.js";
+import { settings } from "./assets/js/store.js";
+import { t } from "./assets/js/i18n.js";
+import { add } from "./assets/js/store.js";
+
+initShell("triage");
+const lang = settings.lang || "bn";
+
+const SYMS = [
+  ["fever", true], ["headache"], ["muscle"], ["nausea"], ["rash"],
+  ["severe_abdominal"], ["persistent_vomiting"], ["bleeding"], ["lethargy"],
+  ["shock"], ["breathing"], ["convulsion"], ["unconscious"], ["unable_drink"], ["vomit_all"],
+];
+const grid = el("symgrid");
+for (const [key, checked] of SYMS) {
+  const lab = document.createElement("label");
+  lab.className = "sym";
+  lab.innerHTML = `<input type="checkbox" id="sym_${key}" ${checked ? "checked" : ""}>
+                   <span>${t("symptom_" + key, lang)}</span>`;
+  grid.appendChild(lab);
+}
+
+// voice intake -> keyword parse -> tick boxes
+el("voiceBtn").onclick = () => {
+  if (!speechSupported()) { alert(lang === "bn" ? "এই ব্রাউজারে ভয়েস নেই" : "Voice not supported"); return; }
+  el("voiceBtn").disabled = true;
+  listen({
+    lang: lang === "bn" ? "bn-BD" : "en-US",
+    onResult: (text) => {
+      const heard = el("heard"); heard.style.display = "block"; heard.textContent = "🗣 " + text;
+      const hits = parseTranscript(text, lang);
+      for (const h of hits) { const cb = el("sym_" + h); if (cb) cb.checked = true; }
+    },
+    onError: () => {},
+    onEnd: () => { el("voiceBtn").disabled = false; },
+  });
+};
+
+el("checkBtn").onclick = () => {
+  const symptoms = SYMS.filter(([k]) => el("sym_" + k).checked).map(([k]) => k);
+  const input = {
+    symptoms,
+    feverDays: Number(el("feverDays").value),
+    ageGroup: el("ageGroup").value,
+    pregnant: el("pregnant").value === "yes",
+  };
+  const r = triage(input);
+  const box = el("result");
+  box.style.display = "block";
+  const noteMap = {
+    child_lower_threshold: lang === "bn" ? "শিশু: সন্দেহ হলেই দ্রুত পরীক্ষা করান" : "Child: test early at the slightest doubt",
+    pregnant_anc: lang === "bn" ? "গর্ভবতী: অবশ্যই চিকিৎসকের পরামর্শ নিন" : "Pregnant: must consult a physician",
+    critical_window: lang === "bn" ? "জ্বরের ৩–৭ দিন = সবচেয়ে ঝুঁকির সময়" : "Fever days 3–7 = highest-risk window",
+    early_monitor: lang === "bn" ? "প্রতিদিন অবস্থা দেখুন; ২ দিনে জ্বর না কমলে পরীক্ষা" : "Monitor daily; test if fever persists past 2 days",
+    recheck_if_worse: lang === "bn" ? "লক্ষণ বাড়লে আবার যাচাই করুন" : "Re-check if symptoms worsen",
+  };
+  box.innerHTML = `
+    <div class="result ${r.level}">${t(r.levelLabel, lang)}</div>
+    <div class="card">
+      <b data-i18n-x="why">${t("why_this", lang)}</b>
+      <div class="chips">${r.triggers.map((x) => `<span class="chip">${x.startsWith("fever_") ? x.replace("fever_", "fever ") + " d" : t("symptom_" + x, lang)}</span>`).join("") || "—"}</div>
+      <b>${t("advice_title", lang)}</b>
+      <ul style="margin:0.4rem 0 0.2rem 1.1rem; padding:0">
+        ${r.advice.map((a) => `<li>${t(a, lang)}</li>`).join("")}
+      </ul>
+      ${r.notes.map((n) => `<div class="note">• ${noteMap[n] || n}</div>`).join("")}
+      <p class="small">${t("disclaimer", lang)}</p>
+      <button id="saveBtn">${t("save_result", lang)}</button>
+    </div>`;
+  el("saveBtn").onclick = async () => {
+    await add("triages", { ...input, level: r.level, at: new Date().toISOString() });
+    if (r.level === "EMERGENCY" || r.level === "REFER" || r.level === "POSSIBLE") {
+      const when = new Date(Date.now() + 86400000).toISOString().slice(0, 10);
+      await add("followups", { kind: "triage", level: r.level, when, done: false, createdAt: new Date().toISOString() });
+      el("saveBtn").textContent = t("saved", lang) + " · " + t("followup_created", lang);
+    } else {
+      el("saveBtn").textContent = t("saved", lang);
+    }
+  };
+  box.scrollIntoView({ behavior: "smooth" });
+};
+</script>
+</body>
+</html>

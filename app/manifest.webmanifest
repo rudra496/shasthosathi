@@ -1,0 +1,15 @@
+{
+  "name": "ShasthoSathi — Offline AI Health Companion",
+  "short_name": "স্বাস্থ্যসাথী",
+  "description": "Offline-first AI companion for community health workers: symptom triage, patient registry, mother & child schedules, dengue early-warning dashboard.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f0fdfa",
+  "theme_color": "#0f766e",
+  "lang": "bn",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

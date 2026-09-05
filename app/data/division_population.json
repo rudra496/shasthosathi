@@ -1,0 +1,13 @@
+{
+ "source": "Bangladesh Bureau of Statistics, Population & Housing Census 2022 (PEC-adjusted totals; division figures via citypopulation.de/en/bangladesh/, credited to BBS). Verified 2026-09-06. Sums to 169,828,911.",
+ "divisions": {
+  "Dhaka": 45644586,
+  "Chattogram": 34178612,
+  "Rajshahi": 20794019,
+  "Rangpur": 18020071,
+  "Khulna": 17813218,
+  "Mymensingh": 12637472,
+  "Sylhet": 11415113,
+  "Barishal": 9325820
+ }
+}
