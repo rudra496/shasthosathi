@@ -1,41 +1,60 @@
 {
-  "policy": "Every number in ShasthoSathi traces to a named source. Nothing synthetic. Unavailable data is disclosed, never invented. Compiled 2026-09-06.",
-  "sources": {
-    "dengue_monthly_2023": {
-      "source": "Hossain M, Rakib MSI, Hasan MM, Powshi SN, Islam EI, Islam NN. The 2023 dengue outbreak in Bangladesh. Health Science Reports 2025;8(5):e70852. doi:10.1002/hsr2.70852 (Table 1)",
-      "verification": "Crossref-verified 2026-09-06; monthly values sum to the official DGHS total 321,179"
-    },
-    "dengue_annual": {
-      "source": "DGHS/IEDCR/WHO figures as reported by: IEDCR National Bulletin (nbph.iedcr.gov.bd/an-update-on-dengue/), WHO Disease Outbreak News 2023-DON481, PMC7535344 (2019: 101,354/179), Outbreak News Today + NewsOnAir (2024: 101,214/575), Xinhua/Beacon 28-Dec-2025 (2025: 102,562/412), Wikipedia 2023-outbreak article (2000: 5,551/93; 2022 deaths 281)",
-      "verification": "live web verification 2026-09-06, multi-source agreement"
-    },
-    "weather_dhaka_monthly": {
-      "source": "Open-Meteo archive API (archive-api.open-meteo.com), Dhaka 23.8103N 90.4125E, daily mean temperature / precipitation / relative humidity aggregated to months, 2022-01..2026-09",
-      "verification": "fetched programmatically 2026-09-06 (research/forecast_model.py)"
-    },
-    "divisions_geojson": {
-      "source": "geoBoundaries gbOpen BGD ADM1 (github.com/wmgeolab/geoBoundaries), 8 divisions, simplified",
-      "license": "CC-BY 4.0"
-    },
-    "division_population": {
-      "source": "Bangladesh Bureau of Statistics, Population & Housing Census 2022 (PEC-adjusted; division figures via citypopulation.de credited to BBS)",
-      "verification": "sums to 169,828,911; Wikipedia census article carries the enumerated variant (165,158,616; Dhaka 44,444,723) — adjustment noted"
-    },
-    "clinical_content": {
-      "who_warning_signs": "WHO 2009 Dengue guidelines (iris.who.int, ISBN 9789241547871); validation Hadinegoro 2012 doi:10.1179/2046904712z.00000000052 (Crossref-verified)",
-      "home_care": "WHO dengue fact sheet + CDC dengue clinical guidance (paracetamol only; avoid NSAIDs; days 3-7 critical)",
-      "anc": "WHO 2016 ANC recommendations (8 contacts: 12,20,26,30,34,36,38,40 weeks)",
-      "epi": "Bangladesh EPI via WHO IRIS BD document + PMC9984999"
-    },
-    "literature": {
-      "harvested": 152, "crossref_verified": 149, "curated": 49,
-      "dossier": "docs/EVIDENCE.md (with claim->source map)",
-      "cache": "E:/zcode-data/state/citations_cache.json"
-    }
+ "policy": "Every number in ShasthoSathi traces to a named source. Nothing synthetic. Unavailable data is disclosed, never invented. Compiled 2026-09-06.",
+ "sources": {
+  "dengue_monthly_2023": {
+   "source": "Hossain M, Rakib MSI, Hasan MM, Powshi SN, Islam EI, Islam NN. The 2023 dengue outbreak in Bangladesh. Health Science Reports 2025;8(5):e70852. doi:10.1002/hsr2.70852 (Table 1)",
+   "verification": "Crossref-verified 2026-09-06; monthly values sum to the official DGHS total 321,179"
   },
-  "disclosed_gaps": [
-    "DGHS dashboard monthly 2024/2025 series is JS-rendered (not machine-readable): the forecast model uses the peer-reviewed 2023 monthly series only; 2024/2025 appear as annual validation checks.",
-    "arXiv 2507.03264 fetched during research was a mathematics paper (wrong candidate) -> rejected, never cited.",
-    "Wikipedia-vs-citypopulation Dhaka division figure differs by PEC adjustment (44,444,723 enumerated vs 45,644,586 adjusted); the adjusted consistent set is used and stated."
-  ]
+  "dengue_annual": {
+   "source": "DGHS/IEDCR/WHO figures as reported by: IEDCR National Bulletin (nbph.iedcr.gov.bd/an-update-on-dengue/), WHO Disease Outbreak News 2023-DON481, PMC7535344 (2019: 101,354/179), Outbreak News Today + NewsOnAir (2024: 101,214/575), Xinhua/Beacon 28-Dec-2025 (2025: 102,562/412), Wikipedia 2023-outbreak article (2000: 5,551/93; 2022 deaths 281)",
+   "verification": "live web verification 2026-09-06, multi-source agreement"
+  },
+  "weather_dhaka_monthly": {
+   "source": "Open-Meteo archive API (archive-api.open-meteo.com), Dhaka 23.8103N 90.4125E, daily mean temperature / precipitation / relative humidity aggregated to months, 2022-01..2026-09",
+   "verification": "fetched programmatically 2026-09-06 (research/forecast_model.py)"
+  },
+  "divisions_geojson": {
+   "source": "geoBoundaries gbOpen BGD ADM1 (github.com/wmgeolab/geoBoundaries), 8 divisions, simplified",
+   "license": "CC-BY 4.0"
+  },
+  "division_population": {
+   "source": "Bangladesh Bureau of Statistics, Population & Housing Census 2022 (PEC-adjusted; division figures via citypopulation.de credited to BBS)",
+   "verification": "sums to 169,828,911; Wikipedia census article carries the enumerated variant (165,158,616; Dhaka 44,444,723) — adjustment noted"
+  },
+  "clinical_content": {
+   "who_warning_signs": "WHO 2009 Dengue guidelines (iris.who.int, ISBN 9789241547871); validation Hadinegoro 2012 doi:10.1179/2046904712z.00000000052 (Crossref-verified)",
+   "home_care": "WHO dengue fact sheet + CDC dengue clinical guidance (paracetamol only; avoid NSAIDs; days 3-7 critical)",
+   "anc": "WHO 2016 ANC recommendations (8 contacts: 12,20,26,30,34,36,38,40 weeks)",
+   "epi": "Bangladesh EPI via WHO IRIS BD document + PMC9984999"
+  },
+  "literature": {
+   "harvested": 152,
+   "crossref_verified": 149,
+   "curated": 49,
+   "dossier": "docs/EVIDENCE.md (with claim->source map)",
+   "cache": "E:/zcode-data/state/citations_cache.json"
+  },
+  "dengue_decade_2014_2023": {
+   "source": "Hossain et al. 2025 (doi:10.1002/hsr2.70852), Tables 1-2; 10-year totals stated by the paper: 535,970 cases / 2,300 deaths (both asserted in build_data_v2.py and tests)",
+   "note": "Small reporting-cutoff differences vs other DGHS compilations disclosed in-file"
+  },
+  "hotlines": {
+   "source": "999 (999.gov.bd, Bangladesh Police; free 24/7), 16263 Shastho Batayon (16263.dghs.gov.bd, DGHS telehealth, ~Tk0.60/min), 333 (333.gov.bd; free)",
+   "verification": "live web verification 2026-09-06; numbers locked by tests/v2.test.js"
+  },
+  "prevention_facts": {
+   "source": "WHO dengue fact sheet (who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue), fetched verbatim 2026-09-06"
+  },
+  "q1_spotlight": {
+   "source": "Venue-filtered OpenAlex harvest (11 target venues resolved via sources API); 274 Crossref-verified candidates; 15-paper curated spotlight",
+   "quartiles": "SJR quartiles verified via SCImago pages/snippets 2026-09-06; TRSTMH honestly listed Q2",
+   "revalidation": "64/64 dossier DOIs re-verified against Crossref 2026-09-06 (research/revalidation_report.json)"
+  }
+ },
+ "disclosed_gaps": [
+  "DGHS dashboard monthly 2024/2025 series is JS-rendered (not machine-readable): the forecast model uses the peer-reviewed 2023 monthly series only; 2024/2025 appear as annual validation checks.",
+  "arXiv 2507.03264 fetched during research was a mathematics paper (wrong candidate) -> rejected, never cited.",
+  "Wikipedia-vs-citypopulation Dhaka division figure differs by PEC adjustment (44,444,723 enumerated vs 45,644,586 adjusted); the adjusted consistent set is used and stated.",
+  "Forecast model trained on 12 monthly points (2023) only; annual overshoot vs 2024/25 (16.23x / 2.93x) disclosed in-app and in docs/MODEL_CARD.md"
+ ]
 }

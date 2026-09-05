@@ -20,10 +20,17 @@ Bangladesh had its **worst-ever dengue outbreak in 2023: 321,179 hospitalized ca
 | 💊 **Medicine label reader** | On-device OCR reads medicine text aloud for low-literacy patients (Tesseract, Bengali+English) | ⚠️ Experimental (first use needs internet) |
 | 🎓 **Learning quiz** | Warning-signs training quiz with WHO-sourced explanations | ✅ Core (offline) |
 | 🌐 **Bangla ⇄ English** | One-tap language switch, Bangla numerals in dashboard | ✅ Core |
+| ⛺ **Camp screening mode** | Rapidly screen many people (queue → results table → CSV export) — built for real field camps | ✅ v1.1 (offline) |
+| 📞 **Verified emergency hotlines** | One-tap call: 999 (emergency), 16263 (DGHS doctor advice), 333 (gov services) — numbers locked by tests | ✅ v1.1 |
+| 🌦 **Live weather nowcast** | Current Dhaka temperature/humidity/rain (Open-Meteo); cached values shown offline with timestamp | ✅ v1.1 |
+| 📈 **Decade view (2014–2023)** | Full peer-reviewed case+death series; totals (535,970/2,300) guarded by tests | ✅ v1.1 |
+| 🎚 **Risk calculator (what-if)** | Drag rainfall/humidity sliders → relative risk from the trained coefficients (clearly labeled teaching tool) | ✅ v1.1 |
+| 🔊 **Voice-read results** | Triage result + advice read aloud in Bangla/English for low-literacy users | ✅ v1.1 |
+| 🖨 **Print-ready bulletin** | One-tap print/PDF of the weekly situation bulletin | ✅ v1.1 |
 | ⚡ **Installable PWA** | Add to Android home screen; service worker keeps everything working offline (verified) | ✅ Core |
 
 ## Zero-invention data policy (our promise)
-Every number in the app traces to a named source: the 2023 monthly outbreak series is from a peer-reviewed paper (Hossain et al. 2025, *Health Science Reports*, doi:10.1002/hsr2.70852); annual figures are DGHS/IEDCR/WHO; weather is real Open-Meteo archive observations; map boundaries are geoBoundaries (gbOpen); populations are the BBS 2022 census. The evidence base is **49 Crossref-verified peer-reviewed papers** — see [docs/EVIDENCE.md](docs/EVIDENCE.md) with a claim→source table. We also publish what we could NOT get (e.g., machine-readable monthly 2024/25 data) instead of guessing.
+Every number in the app traces to a named source: the 2023 monthly outbreak series is from a peer-reviewed paper (Hossain et al. 2025, *Health Science Reports*, doi:10.1002/hsr2.70852); annual figures are DGHS/IEDCR/WHO; weather is real Open-Meteo archive observations; map boundaries are geoBoundaries (gbOpen); populations are the BBS 2022 census. The evidence base is **64 Crossref-verified peer-reviewed papers** — 49 across six themes plus a **Q1 Spotlight** (15 papers from venues with SCImago-verified quartiles: The Lancet Global Health, Nature Medicine, PLOS NTD, IJID… all Q1; TRSTMH honestly listed Q2) — see [docs/EVIDENCE.md](docs/EVIDENCE.md) with a claim→source table and the [Model Card](docs/MODEL_CARD.md). We also publish what we could NOT get (e.g., machine-readable monthly 2024/25 data) instead of guessing.
 
 ## Honesty about limits (what is real vs. not)
 - The triage engine is **deterministic clinical decision support** (rule-based, WHO 2009 list) — not a generative-AI diagnosis. Every screen says: *not a doctor*.
