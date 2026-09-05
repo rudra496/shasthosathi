@@ -20,7 +20,7 @@
 - ☐ Live demo link to include: https://rudra496.github.io/shasthosathi/
 
 ## 4. Upload the video (2 min)
-- ☐ File: `gp_submission/ShasthoSathi_GP_Video.mp4` — **1:40, MP4, 2.1 MB** (limits: ≤2:00, ≤300 MB ✓)
+- ☐ File: `gp_submission/ShasthoSathi_GP_Video.mp4` — **1:47, MP4, 2.27 MB** (limits: ≤2:00, ≤300 MB ✓) — ends with a scannable QR to the live demo
 - ☐ Bangla narration (bn-BD TTS voice) + Bangla captions. If you prefer YOUR OWN voice:
   read `video/NARRATION_BN.txt` (the script), re-record, and I'll rebuild the video in minutes.
 - ☐ One member may present — you are solo, so it's you (TTS is allowed by the rules:
