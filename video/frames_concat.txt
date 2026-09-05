@@ -1,0 +1,22 @@
+ffconcat version 1.0
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_00.png'
+duration 11.630
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_01.png'
+duration 11.240
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_02.png'
+duration 8.200
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_03.png'
+duration 12.180
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_04.png'
+duration 8.290
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_05.png'
+duration 12.250
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_06.png'
+duration 6.800
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_07.png'
+duration 6.370
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_08.png'
+duration 13.570
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_09.png'
+duration 8.990
+file 'E:\zcode-data\workspace\shasthosathi\video\slide_09.png'
