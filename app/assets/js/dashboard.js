@@ -69,7 +69,7 @@ el("kpis").innerHTML = [2023, 2024, 2025].map((y) => `
     el("rcH1v").textContent = bnNum(R("rcH1")) + " %";
     const idx = riskIndex(fc.model.coefficients,
       { rain_lag1: R("rcR1"), rain_lag2: R("rcR2"), rh_lag1: R("rcH1") }, ref);
-    el("rcOut").textContent = bnNum(idx) + " / 100";
+    el("rcOut").textContent = bnNum(idx) + " / " + bnNum(100);
   };
   ["rcR1", "rcR2", "rcH1"].forEach((id) => el(id).addEventListener("input", upd));
   upd();

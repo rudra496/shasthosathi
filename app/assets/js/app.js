@@ -72,9 +72,8 @@ export function initShell(active) {
   window.addEventListener("online", updateNetBanner);
   window.addEventListener("offline", updateNetBanner);
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("../sw.js").catch(() => {
-      navigator.serviceWorker.register("sw.js").catch(() => {});
-    });
+    const inSub = location.pathname.replace(/\\/g, "/").split("/").slice(-2, -1)[0] === "dashboard";
+    navigator.serviceWorker.register((inSub ? "../" : "./") + "sw.js").catch(() => {});
   }
 }
 
