@@ -1,5 +1,5 @@
 // ShasthoSathi service worker — offline-first app shell + data.
-const CACHE = "shasthosathi-v2";
+const CACHE = "shasthosathi-v3";
 const ASSETS = [
   "./", "./index.html", "./triage.html", "./register.html", "./followups.html",
   "./maternal.html", "./reader.html", "./camp.html", "./learn.html", "./dashboard/index.html",
@@ -29,15 +29,17 @@ self.addEventListener("activate", (e) => {
 
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
-  // app shell + data: cache-first (all static, versioned by CACHE name)
+  // app shell + data: NETWORK-FIRST (bypass HTTP cache), fall back to SW cache offline.
+  // (Cache-first let stale subresources survive deploys via the HTTP cache — v2 lesson.)
   if (url.origin === location.origin) {
     e.respondWith(
-      caches.match(e.request).then((hit) => hit ||
-        fetch(e.request).then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(e.request, copy));
-          return res;
-        }))
+      fetch(e.request, { cache: "no-cache" }).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(e.request, copy));
+        return res;
+      }).catch(() =>
+        caches.match(e.request, { ignoreSearch: true }).then((hit) => hit || Response.error())
+      )
     );
     return;
   }
